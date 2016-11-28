@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CookHelper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_launch">Launch</string>
+    <string name="title_activity_add">Add</string>
+    <string-array name="edit">
+        <item>Cancel</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="add">
+        <item>Cancel</item>
+        <item>Recipe</item>
+        <item>Ingredient</item>
+    </string-array>
+    <string name="CookHelper"></string>
+
+</resources>
