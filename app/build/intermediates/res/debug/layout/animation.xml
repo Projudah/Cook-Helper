@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@drawable/animatein"
-    android:id="@+id/lay">
-
-</LinearLayout>
-<!-- From: file:/C:/Users/wesma_000/Desktop/cookhelperforzip/CookHelper/app/src/main/res/layout/animation.xml -->

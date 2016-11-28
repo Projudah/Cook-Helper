@@ -145,7 +145,7 @@ public class Add extends ActionBarActivity {
             if (!((((AutoCompleteTextView) findViewById(R.id.type)).getText().toString().equals("")) || ((((AutoCompleteTextView) findViewById(R.id.category)).getText().toString().equals(""))))){
                 classdone =true;
                 ImageView done = (ImageView) findViewById(R.id.next);
-                done.setImageDrawable(getDrawable(R.drawable.done));
+                done.setImageDrawable(getResources().getDrawable(R.drawable.done));
             }else {
                 Toast.makeText(getBaseContext(), "No Category or Type", Toast.LENGTH_SHORT).show();
                 complete = false;
@@ -201,7 +201,7 @@ public class Add extends ActionBarActivity {
             if (stepid == checkid.length+1) {
                 EditText more = new EditText(this);
                 ImageView delete = new ImageView(this);
-                delete.setImageDrawable(getDrawable(R.drawable.delete));
+                delete.setImageDrawable(getResources().getDrawable(R.drawable.delete));
                 ImageView add = (ImageView) findViewById(R.id.add);
                 ViewGroup.LayoutParams params = add.getLayoutParams();
                 ViewGroup.LayoutParams params1 = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -209,7 +209,7 @@ public class Add extends ActionBarActivity {
                 delete.setClickable(true);
                 delete.setScaleX((float) 0.7);
                 delete.setScaleY((float) 0.7);
-                delete.setY(-50);
+                //delete.setY(-50);
                 Log.i("location", Float.toString(delete.getX()) + " " + Float.toString(delete.getY()));
                 delete.setOnClickListener( new View.OnClickListener() {
                     @Override
@@ -229,7 +229,7 @@ public class Add extends ActionBarActivity {
             }else if (!(((EditText) findViewById(stepidlist.get(stepidlist.size()-1))).getText().toString().equals(""))) {
                 EditText more = new EditText(this);
                 ImageView delete = new ImageView(this);
-                delete.setImageDrawable(getDrawable(R.drawable.delete));
+                delete.setImageDrawable(getResources().getDrawable(R.drawable.delete));
                 ImageView add = (ImageView) findViewById(R.id.add);
                 ViewGroup.LayoutParams params = add.getLayoutParams();
                 ViewGroup.LayoutParams params1 = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -237,7 +237,7 @@ public class Add extends ActionBarActivity {
                 delete.setClickable(true);
                 delete.setScaleX((float) 0.7);
                 delete.setScaleY((float) 0.7);
-                delete.setY(-50);
+                //delete.getResources().getDimension(-50);
                 Log.i("location", Float.toString(delete.getX()) + " " + Float.toString(delete.getY()));
                 delete.setOnClickListener( new View.OnClickListener() {
                     @Override

@@ -1,5 +1,0 @@
-C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\classes\debug
-C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-e370b4cc71315659bd4f76b2727aac72d4760790.jar
-C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d447b8ce2469de1aa7dd96cc9d549b7dc1371880.jar
-C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\classes-4eacf88edeb9b665c3aa09f575454ca04c9df1e6.jar
-C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\classes-954035b5424fcabe80c3cdf0c2bc5d49c428e75e.jar

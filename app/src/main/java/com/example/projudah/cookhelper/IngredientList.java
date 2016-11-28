@@ -1,3 +1,4 @@
+package com.example.projudah.cookhelper;
 
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonParseException;
@@ -21,7 +22,6 @@ public class IngredientList<String> extends ArrayList<String> {
         file.createNewFile();
       }catch(IOException e){}
     }
-    else this = readRecipe();
   }
   
    public void writeRecipe() throws JsonGenerationException, JsonMappingException, IOException{

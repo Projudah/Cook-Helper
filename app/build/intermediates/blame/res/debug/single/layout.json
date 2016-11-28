@@ -1,21 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customlist.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\customlist.xml"
-    },
-    {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\animationout.xml",
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\animationout.xml"
     },
@@ -26,6 +10,58 @@
     {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\launch.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\launch.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chooseadd.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\chooseadd.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customlist.xml",
+        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\customlist.xml"
     },
     {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recipe.xml",
@@ -48,10 +84,6 @@
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\launch.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\launch.xml"
-    },
-    {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_toolbar.xml"
     },
@@ -68,24 +100,8 @@
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -96,20 +112,8 @@
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view_include.xml"
     },
     {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -122,9 +126,5 @@
     {
         "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chooseadd.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\layout\\chooseadd.xml"
     }
 ]
