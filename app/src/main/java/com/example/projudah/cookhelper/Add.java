@@ -18,6 +18,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import org.codehaus.jackson.map.ObjectMapper;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -82,11 +84,13 @@ public class Add extends ActionBarActivity {
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);
         //getting variables
         ArrayList<String> ingedients = new ArrayList<String>();
+
         String Steps;
         String Category;
         String Type;
         String Name;
         //
+
         ingedients.add("works");
         ingedients.add("works2");
         ingedients.add("works3");
@@ -186,10 +190,17 @@ public class Add extends ActionBarActivity {
                 String Type = ((AutoCompleteTextView) findViewById(R.id.type)).getText().toString();
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
+                //////////////////////////////////////////////////////////Wes
                 Recipe rec = new Recipe(RecipeName,Category,Type);
 
-                String filename = rec.getName();
+                //Adds the on-screen ingredients into the recipe object
+                for(int i = 0; i < Ingredients.length; i++){
+                    rec.addIngredient(Ingredients[i]);
+                }
+                //creating the json file
+                String filename = rec.getName()+".json";
                 String string = "";
+
                 try {
                     string = rec.writeAsString();
                     finish();

@@ -94,25 +94,34 @@ public class Home extends ActionBarActivity {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }*/
+
+        /////////////////////////////////////////////////////////////////////////////////File IO
         ObjectMapper mapper = new ObjectMapper();
         File file = new File(Home.this.getFilesDir().getAbsolutePath());
         try {
             for (final File fileEntry : file.listFiles()) {
                 try {
-                    recipes.add(mapper.readValue(fileEntry, Recipe.class));
+                    if(fileEntry.getName().equalsIgnoreCase("ingredients.json"))
+                        Log.i("fileIO","found ingredients list, don't need that here");
+                    else
+                        recipes.add(mapper.readValue(fileEntry, Recipe.class));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
             }
         }catch(NullPointerException e){Toast.makeText(this, "Unable to find directory "+Home.this.getFilesDir().getAbsolutePath(),
-                Toast.LENGTH_LONG).show();}
+                Toast.LENGTH_LONG).show();
+                Log.wtf("fileIO","Unable to find directory "+Home.this.getFilesDir().getAbsolutePath());}
+
+        ////////////////////////////////////////////////////////////////////////////////////end File IO
 
         String[] hello2 = new String[recipes.size()];
         for(int i = 0; i < recipes.size();i++){
             hello2[i] = recipes.get(i).getName();
         }
-        String[] hello = new String[]{"Spaghetti","Tacos","Fried Rice","Ham Sandwich","Burger","Onion Salad","Recipe for disaster","Nachos","Greasy Nachos","Poutine"};
+
+        //Old string, used for testing
+        //String[] hello = new String[]{"Spaghetti","Tacos","Fried Rice","Ham Sandwich","Burger","Onion Salad","Recipe for disaster","Nachos","Greasy Nachos","Poutine"};
         Myadapter my = new Myadapter(this, R.layout.customlist, hello2);
         //Myadapter my2 = new Myadapter(this, android.R.layout.simple_list_item_1, hello);
         ListView list = (ListView) findViewById(R.id.listView);
