@@ -1,5 +1,8 @@
 package com.example.projudah.cookhelper;
 
+import android.content.Context;
+
+import java.io.FileOutputStream;
 import java.util.List;
 import java.util.ArrayList;
 import java.io.File;
@@ -20,12 +23,19 @@ public class Recipe {
     public String name;
     public String category;
     public ArrayList<String> ingredients;
+    public String type;
 
     public Recipe(){
         this.name="";
         this.category="";
         ingredients = new ArrayList<String>();
-        this.ingredients.add("Test ingredient");
+    }
+
+    public Recipe(String name, String category, String type){
+        this.name = name;
+        this.category = category;
+        ingredients = new ArrayList<String>();
+        this.type = type;
     }
 
     public String getName(){
@@ -36,12 +46,14 @@ public class Recipe {
         return("Name:"+this.getName()+" Category:"+this.category+ "Ingredients: "+ingredients.get(0));
     }
 
-    public void writeRecipe() throws JsonGenerationException, JsonMappingException, IOException{
+    public void writeRecipe(String dir) throws JsonGenerationException, JsonMappingException, IOException{
         ObjectMapper mapper = new ObjectMapper();
-        String recipeName = this.getName();
-        mapper.writeValue(new File(recipeName+".json"), this);
+        mapper.writeValue(new File(dir),this);
     }
-
+    public String writeAsString() throws IOException{
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.writeValueAsString(this);
+    }
     private Recipe readRecipe(File file) throws JsonParseException, JsonMappingException, IOException{
         ObjectMapper mapper = new ObjectMapper();
         Recipe returnRecipe = new Recipe();
@@ -52,7 +64,7 @@ public class Recipe {
     public void addIngredient(String ingredient){
         this.ingredients.add(ingredient);
     }
-    
+    /*
     public static void main (String[] args){
         ObjectMapper mapper = new ObjectMapper();
         Recipe test = new Recipe();
@@ -86,5 +98,6 @@ public class Recipe {
           testlist2.writeRecipe();
         }catch(Exception e){}
     }
+    */
 
 }

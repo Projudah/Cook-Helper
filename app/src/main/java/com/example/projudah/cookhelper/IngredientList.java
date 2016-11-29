@@ -31,9 +31,9 @@ public class IngredientList<String> extends ArrayList<String> {
    
    public IngredientList<String> readRecipe() throws JsonParseException, JsonMappingException, IOException{
      ObjectMapper mapper = new ObjectMapper();
-     IngredientList<String> fuckthis = new IngredientList<String>();
-     fuckthis = mapper.readValue(file, IngredientList.class);
-     return fuckthis;
+     IngredientList<String> ingredients = new IngredientList<String>();
+     ingredients = mapper.readValue(file, IngredientList.class);
+     return ingredients;
    }
    
 }

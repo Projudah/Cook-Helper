@@ -2,32 +2,49 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\classes-954035b5424fcabe80c3cdf0c2bc5d49c428e75e.jar" />
+        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_141cc425ece2f5eece6ccfe58203a50bf9a272a8.jar" />
     </item>
     <item
-        jar="C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\classes-4eacf88edeb9b665c3aa09f575454ca04c9df1e6.jar" />
+        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_2892d16e138345c30d1fe97e8c1209cc049a4b80.jar" />
     </item>
     <item
-        jar="C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        is-multidex="false"
+        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\libs\jackson-all-1.9.0.jar"
         jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b9c011c6e816af0eb462770d92a278b728071d31">
+        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\jackson-all-1.9.0_f90f7839c58a96b66110b40074e1a5f85ce53730.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d447b8ce2469de1aa7dd96cc9d549b7dc1371880.jar" />
+        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_8a8335f82cee9825f1a97a0cbb5b4ba51fb7d507.jar" />
     </item>
     <item
-        jar="C:\Users\Projudah\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        is-multidex="false"
+        jar="C:\Users\wesma_000\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Projudah\Desktop\lab3\CookHelper\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-e370b4cc71315659bd4f76b2727aac72d4760790.jar" />
+        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_517cb5d6813ab56263aeb15a0c5dab9f7e023ae4.jar" />
     </item>
 
 </items>

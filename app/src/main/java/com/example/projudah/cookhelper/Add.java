@@ -1,5 +1,6 @@
 package com.example.projudah.cookhelper;
 
+import android.content.Context;
 import android.media.Image;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -17,6 +18,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -181,10 +186,25 @@ public class Add extends ActionBarActivity {
                 String Type = ((AutoCompleteTextView) findViewById(R.id.type)).getText().toString();
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
-                //STORE RECIPE HERE//
-                //
+                Recipe rec = new Recipe(RecipeName,Category,Type);
 
-                finish();
+                String filename = rec.getName();
+                String string = "";
+                try {
+                    string = rec.writeAsString();
+                    finish();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                FileOutputStream outputStream;
+                try {
+                    outputStream = openFileOutput(filename,0);
+                    outputStream.write(string.getBytes());
+                    outputStream.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         }
 

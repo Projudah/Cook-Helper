@@ -1,6 +1,7 @@
 package com.example.projudah.cookhelper;
 
 import android.app.Activity;
+import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,8 +19,15 @@ import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.codehaus.jackson.map.ObjectMapper;
 import org.w3c.dom.Text;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 
@@ -78,8 +86,34 @@ public class Home extends ActionBarActivity {
             }
         });
 
+        ArrayList<Recipe> recipes = new ArrayList<Recipe>();
+        recipes.add(new Recipe("Test recipe","test category","test type"));
+        /*
+        try {
+            FileInputStream jsonReader = openFileInput(Home.this.getFilesDir().getAbsolutePath()+"json/");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }*/
+        ObjectMapper mapper = new ObjectMapper();
+        File file = new File(Home.this.getFilesDir().getAbsolutePath());
+        try {
+            for (final File fileEntry : file.listFiles()) {
+                try {
+                    recipes.add(mapper.readValue(fileEntry, Recipe.class));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }catch(NullPointerException e){Toast.makeText(this, "Unable to find directory "+Home.this.getFilesDir().getAbsolutePath(),
+                Toast.LENGTH_LONG).show();}
+
+        String[] hello2 = new String[recipes.size()];
+        for(int i = 0; i < recipes.size();i++){
+            hello2[i] = recipes.get(i).getName();
+        }
         String[] hello = new String[]{"Spaghetti","Tacos","Fried Rice","Ham Sandwich","Burger","Onion Salad","Recipe for disaster","Nachos","Greasy Nachos","Poutine"};
-        Myadapter my = new Myadapter(this, R.layout.customlist, hello);
+        Myadapter my = new Myadapter(this, R.layout.customlist, hello2);
         //Myadapter my2 = new Myadapter(this, android.R.layout.simple_list_item_1, hello);
         ListView list = (ListView) findViewById(R.id.listView);
         list.setAdapter(my);
