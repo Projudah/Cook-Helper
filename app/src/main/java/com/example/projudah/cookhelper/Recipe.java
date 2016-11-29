@@ -41,7 +41,7 @@ public class Recipe {
     public String getName(){
         return this.name;
     }
-    
+
     public String toString(){
         return("Name:"+this.getName()+" Category:"+this.category+ "Ingredients: "+ingredients.get(0));
     }
@@ -60,7 +60,7 @@ public class Recipe {
         returnRecipe = mapper.readValue(file, Recipe.class);
         return returnRecipe;
     }
-    
+
     public void addIngredient(String ingredient){
         this.ingredients.add(ingredient);
     }
@@ -83,7 +83,7 @@ public class Recipe {
             e.printStackTrace();
         }
         System.out.println(test2.toString());
-        
+
         IngredientList<String> testlist = new IngredientList<String>();
         testlist.add("ham");
         try{

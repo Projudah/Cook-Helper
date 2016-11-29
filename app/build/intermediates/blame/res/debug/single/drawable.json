@@ -8,12 +8,12 @@
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\drawable\\animateout.xml"
     },
     {
-        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_00004.png",
-        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\drawable\\bg_00004.png"
-    },
-    {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_00007.png",
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\drawable\\bg_00007.png"
+    },
+    {
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_00004.png",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\drawable\\bg_00004.png"
     },
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.png",
