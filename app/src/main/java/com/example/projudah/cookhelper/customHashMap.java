@@ -16,9 +16,7 @@ public class customHashMap<Recipe> {
      * It uses the last 4 characters (with only alphanumerics allowed) as the key for the item.
      */
     public customHashMap() {
-        map = new ExpandableArray<ExpandableArray<Recipe>>(
-                this.power(26,4)
-        );
+        map = new ExpandableArray<ExpandableArray<Recipe>>(this.power(26,4));
     }
 
     /**
