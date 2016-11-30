@@ -3,48 +3,48 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_141cc425ece2f5eece6ccfe58203a50bf9a272a8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_2892d16e138345c30d1fe97e8c1209cc049a4b80.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\libs\jackson-all-1.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="b9c011c6e816af0eb462770d92a278b728071d31">
-        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\jackson-all-1.9.0_f90f7839c58a96b66110b40074e1a5f85ce53730.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_8a8335f82cee9825f1a97a0cbb5b4ba51fb7d507.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\wesma_000\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\Users\Projudah\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\wesma_000\Desktop\cookhelperforzip\CookHelper\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_517cb5d6813ab56263aeb15a0c5dab9f7e023ae4.jar" />
+        <dex dex="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_e370b4cc71315659bd4f76b2727aac72d4760790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\libs\jackson-all-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b9c011c6e816af0eb462770d92a278b728071d31">
+        <dex dex="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\pre-dexed\debug\jackson-all-1.9.0_2137de56ae80f1e4ec97c36ee428ad84aad7ac3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_3206718b55139f032ca4c6dc966286569782f318.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_113ed6810acabbce563e0165de2138caa39179f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Projudah\Documents\GitHub\SEG-term-project\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_80d8880824a79187162e4028270a8a308e9c84c2.jar" />
     </item>
 
 </items>

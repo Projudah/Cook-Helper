@@ -50,10 +50,17 @@ public class Trans{
             public void run() {
                 thiss.startActivity(home);
                 thiss.overridePendingTransition(0, 0);
-                v.clearAnimation();
+
 
             }
         },500);
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                v.clearAnimation();
+
+            }
+        },2000);
     }
 
     public static void back(RelativeLayout v,final Activity thiss){
@@ -94,12 +101,13 @@ public class Trans{
         },540);
     }
 
-    public static void fadein(LinearLayout Root){
+    public static void fadein(LinearLayout Root) {
         Root.setVisibility(View.VISIBLE);
         //Root.setAlpha(0);
-        AlphaAnimation start = new AlphaAnimation(0.0f,1.0f);
+        AlphaAnimation start = new AlphaAnimation(0.0f, 1.0f);
         start.setDuration(500);
         start.setFillAfter(true);
         Root.startAnimation(start);
     }
+
 }

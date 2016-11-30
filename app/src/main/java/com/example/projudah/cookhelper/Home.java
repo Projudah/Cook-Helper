@@ -167,7 +167,7 @@ public class Home extends ActionBarActivity {
 
     @Override
     protected void onResume() {
-        //Trans.fadein(this, (RelativeLayout)findViewById(R.id.relativeLayout));
+
         home();
         super.onResume();
 
