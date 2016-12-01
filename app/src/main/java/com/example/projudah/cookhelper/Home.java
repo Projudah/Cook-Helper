@@ -1,7 +1,9 @@
 package com.example.projudah.cookhelper;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -112,7 +114,7 @@ public class Home extends ActionBarActivity {
         for(int i = 0; i < recipes.size();i++){
             hello2[i] = recipes.get(i).getName();
         }
-        String[] hello = new String[]{"Spaghetti","Tacos","Fried Rice","Ham Sandwich","Burger","Onion Salad","Recipe for disaster","Nachos","Greasy Nachos","Poutine"};
+        //String[] hello = new String[]{"Spaghetti","Tacos","Fried Rice","Ham Sandwich","Burger","Onion Salad","Recipe for disaster","Nachos","Greasy Nachos","Poutine"};
         Myadapter my = new Myadapter(this, R.layout.customlist, hello2);
         //Myadapter my2 = new Myadapter(this, android.R.layout.simple_list_item_1, hello);
         ListView list = (ListView) findViewById(R.id.listView);
@@ -171,5 +173,28 @@ public class Home extends ActionBarActivity {
         home();
         super.onResume();
 
+    }
+
+    public static void Delete(String recipe, Activity thishome){
+        AlertDialog alertDialog = new AlertDialog.Builder(thishome, R.style.dialog).create();
+        alertDialog.setTitle("Delete");
+        alertDialog.setCancelable(true);
+        alertDialog.setMessage("Are you sure you want to Delete "+recipe+" recipe?");
+        alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "YES",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        //delete code//
+
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.setButton(AlertDialog.BUTTON_NEGATIVE, "NO",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+        alertDialog.show();
     }
 }

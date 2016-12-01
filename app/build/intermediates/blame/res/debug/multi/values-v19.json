@@ -7,19 +7,56 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 10,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 46,
+                    "endOffset": 139
+                },
+                "from": {
+                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 144,
+                    "endLine": 11,
                     "endColumn": 12,
-                    "endOffset": 563
+                    "endOffset": 593
+                },
+                "from": {
+                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 598,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 854
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 59,
-                        "endLine": 11,
+                        "startOffset": 523,
+                        "endLine": 16,
                         "endColumn": 12,
-                        "endOffset": 575
+                        "endOffset": 783
                     }
                 }
             }
