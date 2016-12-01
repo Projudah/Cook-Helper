@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\menu\\menu_home.xml"
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_launch.xml",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_launch.xml"
     },
     {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_launch.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\menu\\menu_launch.xml"
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_add.xml",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_add.xml"
     },
     {
-        "merged": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_add.xml",
-        "source": "C:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\src\\main\\res\\menu\\menu_add.xml"
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_home.xml"
     }
 ]
