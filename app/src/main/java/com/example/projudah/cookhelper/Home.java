@@ -89,7 +89,7 @@ public class Home extends ActionBarActivity {
         });
 
         ArrayList<Recipe> recipes = new ArrayList<Recipe>();
-        recipes.add(new Recipe("Test recipe","test category","test type"));
+        //recipes.add(new Recipe("Test recipe","test category","test type"));
         /*
         try {
             FileInputStream jsonReader = openFileInput(Home.this.getFilesDir().getAbsolutePath()+"json/");

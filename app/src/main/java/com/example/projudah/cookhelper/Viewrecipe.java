@@ -1,11 +1,14 @@
 package com.example.projudah.cookhelper;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 
 public class Viewrecipe extends ActionBarActivity {
@@ -40,6 +43,9 @@ public class Viewrecipe extends ActionBarActivity {
     }
 
     public void populate(){
+        Intent home = getIntent();
+        String name = home.getStringExtra("recipe");
+        ArrayList<Recipe> recipes = home.getParcelableArrayListExtra("recipe list");
         TextView recipename = (TextView) findViewById(R.id.name);
         TextView Category = (TextView) findViewById(R.id.category);
         TextView Type = (TextView) findViewById(R.id.type);
