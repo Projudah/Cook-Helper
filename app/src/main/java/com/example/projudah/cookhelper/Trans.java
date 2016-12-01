@@ -110,4 +110,11 @@ public class Trans{
         Root.startAnimation(start);
     }
 
+    public static void refresh(final Activity thiss, Class next){
+        final Intent home = new Intent(thiss, next);
+        thiss.startActivity(home);
+        thiss.overridePendingTransition(0, 0);
+        thiss.finish();
+    }
+
 }
