@@ -14,6 +14,7 @@
         <item name="android:background">@color/themecolor</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:colorButtonNormal">@color/black</item>
     </style>
     <color name="themecolor">#ffffb540</color>
     <color name="black">#ff000000</color>

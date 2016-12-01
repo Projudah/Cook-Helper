@@ -35,13 +35,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78826b5a-fa6a-47df-a195-0373bdb74454" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Myadapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Myadapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/projudah/cookhelper/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/projudah/cookhelper/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/chooseadd.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chooseadd.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v19.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v19.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -108,11 +101,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Home.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Home.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="969">
-              <caret line="178" column="82" selection-start-line="178" selection-start-column="82" selection-end-line="178" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.62611806" vertical-offset="347" max-vertical-offset="969">
+              <caret line="190" column="19" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
               <folding>
                 <element signature="method#onCreate#0;class#Home#0" expanded="false" />
                 <element signature="method#onCreateOptionsMenu#0;class#Home#0" expanded="false" />
@@ -132,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48658317" vertical-offset="0" max-vertical-offset="559">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -1692,8 +1685,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/chooseadd.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Myadapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" />
       </list>
     </option>
   </component>
@@ -2317,7 +2310,11 @@
       <created>1480464165208</created>
       <updated>1480464165208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete working">
+      <created>1480621201468</created>
+      <updated>1480621201468</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2400,7 +2397,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Got the Scroll to current focus to work. not merged with master tho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got the Scroll to current focus to work. not merged with master tho" />
+    <MESSAGE value="delete working" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2797,10 +2795,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="969">
-          <caret line="178" column="82" selection-start-line="178" selection-start-column="82" selection-end-line="178" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.62611806" vertical-offset="347" max-vertical-offset="969">
+          <caret line="190" column="19" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
           <folding>
             <element signature="method#onCreate#0;class#Home#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#Home#0" expanded="false" />
@@ -2816,14 +2822,6 @@
             <element signature="e#7252#7449#0" expanded="true" />
             <element signature="e#7430#7431#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48658317" vertical-offset="0" max-vertical-offset="559">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -44,9 +44,9 @@
                     "startLine": 12,
                     "startColumn": 4,
                     "startOffset": 598,
-                    "endLine": 16,
+                    "endLine": 17,
                     "endColumn": 12,
-                    "endOffset": 854
+                    "endOffset": 921
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
@@ -54,9 +54,9 @@
                         "startLine": 12,
                         "startColumn": 4,
                         "startOffset": 523,
-                        "endLine": 16,
+                        "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 783
+                        "endOffset": 851
                     }
                 }
             }
