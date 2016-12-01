@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -90,12 +93,7 @@ public class Home extends ActionBarActivity {
 
         ArrayList<Recipe> recipes = new ArrayList<Recipe>();
         //recipes.add(new Recipe("Test recipe","test category","test type"));
-        /*
-        try {
-            FileInputStream jsonReader = openFileInput(Home.this.getFilesDir().getAbsolutePath()+"json/");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }*/
+
         ObjectMapper mapper = new ObjectMapper();
         File file = new File(Home.this.getFilesDir().getAbsolutePath());
         try {
@@ -175,7 +173,8 @@ public class Home extends ActionBarActivity {
 
     }
 
-    public static void Delete(String recipe, Activity thishome){
+    public static void Delete(final String recipe, final Activity thishome){
+        final Context context = thishome.getBaseContext();
         AlertDialog alertDialog = new AlertDialog.Builder(thishome, R.style.dialog).create();
         alertDialog.setTitle("Delete");
         alertDialog.setCancelable(true);
@@ -183,9 +182,21 @@ public class Home extends ActionBarActivity {
         alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "YES",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-
-                        //delete code//
-
+                        //Toast.makeText(thishome,thishome.getFilesDir().getAbsolutePath()+"/"+recipe+".json", Toast.LENGTH_LONG).show();
+                        File file = new File(thishome.getFilesDir().getAbsolutePath()+"/"+recipe+".json");
+                        boolean worked1 = false;
+                        if(file.exists()) {
+                            //Toast.makeText(thishome, "File exists.... attempting to delete:",Toast.LENGTH_LONG).show();
+                            worked1 = file.delete();
+                        }
+                        if(worked1) {
+                            Toast.makeText(thishome, "Successfully deleted", Toast.LENGTH_LONG).show();
+                            Trans.out((RelativeLayout)thishome.findViewById(R.id.relativeLayout),thishome,Home.class);
+                        }
+                        else {
+                            File file2 = new File(thishome.getFilesDir().getAbsolutePath()+"/"+recipe);
+                            file2.delete();
+                        }
                         dialog.dismiss();
                     }
                 });
@@ -197,4 +208,6 @@ public class Home extends ActionBarActivity {
                 });
         alertDialog.show();
     }
+
+
 }

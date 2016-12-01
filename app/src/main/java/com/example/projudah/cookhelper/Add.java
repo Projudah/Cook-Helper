@@ -193,7 +193,7 @@ public class Add extends ActionBarActivity {
 
                 Recipe rec = new Recipe(RecipeName,Category,Type);
 
-                String filename = rec.getName();
+                String filename = rec.getName()+".json";
                 String string = "";
                 try {
                     string = rec.writeAsString();
