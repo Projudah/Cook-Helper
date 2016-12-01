@@ -69,6 +69,8 @@ public class Home extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
+    ArrayList<Recipe> recipes = new ArrayList<Recipe>();
     public void home(){
         final Activity thiss =this;
         Spinner add = (Spinner) findViewById(R.id.button);
@@ -91,7 +93,7 @@ public class Home extends ActionBarActivity {
             }
         });
 
-        ArrayList<Recipe> recipes = new ArrayList<Recipe>();
+
         //recipes.add(new Recipe("Test recipe","test category","test type"));
 
         ObjectMapper mapper = new ObjectMapper();
@@ -132,14 +134,36 @@ public class Home extends ActionBarActivity {
         spinner2.setAdapter(spin2);
 
     }
+
     public void recipe(View v){
         TextView x =(TextView) ((RelativeLayout) v).getChildAt(0);
-        setContentView(R.layout.recipe);
-        TextView text;
-        TextView recipe = (TextView) findViewById(R.id.recipename);
-        text = (TextView) x;
-        recipe.setText(text.getText());
+        TextView text= (TextView) x;
+        Recipe chosenone = findrecipe(x.getText().toString());
+        if (chosenone!= null){
+            Intent next = new Intent(this, Viewrecipe.class);
+            next.putExtra("recipename", chosenone.getName());
+            next.putExtra("recipecat", chosenone.category);
+            next.putExtra("recipetype", chosenone.type);
+            next.putExtra("recipesteps", chosenone.steps);
+            next.putExtra("ing", chosenone.ingredients);
+            Trans.outpassback((RelativeLayout)findViewById(R.id.relativeLayout), this, next);
+        }
+
+
     }
+
+    public Recipe findrecipe(String name){
+        Recipe chosenone=null;
+        for (int i=0; i<recipes.size(); i++) {
+            if (recipes.get(i).getName().equals(name)) {
+                chosenone = recipes.get(i);
+                return chosenone;
+
+            }
+        }
+        return chosenone;
+    }
+
 
     public void add(View v){
         setContentView(R.layout.chooseadd);

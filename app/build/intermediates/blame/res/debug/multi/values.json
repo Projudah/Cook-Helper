@@ -14,12 +14,12 @@
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 464,
-                        "endLine": 17,
+                        "startOffset": 466,
+                        "endLine": 18,
                         "endColumn": 19,
-                        "endOffset": 601
+                        "endOffset": 603
                     }
                 }
             },
@@ -35,12 +35,12 @@
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 326,
-                        "endLine": 12,
+                        "startOffset": 328,
+                        "endLine": 13,
                         "endColumn": 19,
-                        "endOffset": 458
+                        "endOffset": 460
                     }
                 }
             },
@@ -2221,11 +2221,11 @@
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 607,
+                        "startOffset": 611,
                         "endColumn": 39,
-                        "endOffset": 642
+                        "endOffset": 646
                     }
                 }
             },
@@ -2633,9 +2633,28 @@
                     "startLine": 212,
                     "startColumn": 4,
                     "startOffset": 23032,
-                    "endLine": 214,
+                    "endColumn": 64,
+                    "endOffset": 23092
+                },
+                "from": {
+                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 64,
+                        "endOffset": 712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 23097,
+                    "endLine": 215,
                     "endColumn": 12,
-                    "endOffset": 23157
+                    "endOffset": 23222
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values\\styles.xml",
@@ -2651,12 +2670,12 @@
             },
             {
                 "to": {
-                    "startLine": 215,
+                    "startLine": 216,
                     "startColumn": 4,
-                    "startOffset": 23162,
-                    "endLine": 221,
+                    "startOffset": 23227,
+                    "endLine": 222,
                     "endColumn": 12,
-                    "endOffset": 23634
+                    "endOffset": 23699
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2672,12 +2691,12 @@
             },
             {
                 "to": {
-                    "startLine": 222,
+                    "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 23639,
-                    "endLine": 225,
+                    "startOffset": 23704,
+                    "endLine": 226,
                     "endColumn": 12,
-                    "endOffset": 23856
+                    "endOffset": 23921
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2693,12 +2712,12 @@
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 23861,
-                    "endLine": 229,
+                    "startOffset": 23926,
+                    "endLine": 230,
                     "endColumn": 12,
-                    "endOffset": 24078
+                    "endOffset": 24143
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2714,12 +2733,12 @@
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 24083,
-                    "endLine": 234,
+                    "startOffset": 24148,
+                    "endLine": 235,
                     "endColumn": 12,
-                    "endOffset": 24346
+                    "endOffset": 24411
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2735,12 +2754,12 @@
             },
             {
                 "to": {
-                    "startLine": 235,
+                    "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 24351,
-                    "endLine": 238,
+                    "startOffset": 24416,
+                    "endLine": 239,
                     "endColumn": 12,
-                    "endOffset": 24573
+                    "endOffset": 24638
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2756,12 +2775,12 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 24578,
-                    "endLine": 242,
+                    "startOffset": 24643,
+                    "endLine": 243,
                     "endColumn": 12,
-                    "endOffset": 24803
+                    "endOffset": 24868
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2777,12 +2796,12 @@
             },
             {
                 "to": {
-                    "startLine": 243,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 24808,
-                    "endLine": 246,
+                    "startOffset": 24873,
+                    "endLine": 247,
                     "endColumn": 12,
-                    "endOffset": 25033
+                    "endOffset": 25098
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2798,12 +2817,12 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 25038,
-                    "endLine": 250,
+                    "startOffset": 25103,
+                    "endLine": 251,
                     "endColumn": 12,
-                    "endOffset": 25263
+                    "endOffset": 25328
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2819,12 +2838,12 @@
             },
             {
                 "to": {
-                    "startLine": 251,
+                    "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 25268,
-                    "endLine": 254,
+                    "startOffset": 25333,
+                    "endLine": 255,
                     "endColumn": 12,
-                    "endOffset": 25493
+                    "endOffset": 25558
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2840,12 +2859,12 @@
             },
             {
                 "to": {
-                    "startLine": 255,
+                    "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 25498,
-                    "endLine": 258,
+                    "startOffset": 25563,
+                    "endLine": 259,
                     "endColumn": 12,
-                    "endOffset": 25720
+                    "endOffset": 25785
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2861,12 +2880,12 @@
             },
             {
                 "to": {
-                    "startLine": 259,
+                    "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 25725,
-                    "endLine": 262,
+                    "startOffset": 25790,
+                    "endLine": 263,
                     "endColumn": 12,
-                    "endOffset": 25959
+                    "endOffset": 26024
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2882,12 +2901,12 @@
             },
             {
                 "to": {
-                    "startLine": 263,
+                    "startLine": 264,
                     "startColumn": 4,
-                    "startOffset": 25964,
-                    "endLine": 266,
+                    "startOffset": 26029,
+                    "endLine": 267,
                     "endColumn": 12,
-                    "endOffset": 26185
+                    "endOffset": 26250
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2903,12 +2922,12 @@
             },
             {
                 "to": {
-                    "startLine": 267,
+                    "startLine": 268,
                     "startColumn": 4,
-                    "startOffset": 26190,
-                    "endLine": 270,
+                    "startOffset": 26255,
+                    "endLine": 271,
                     "endColumn": 12,
-                    "endOffset": 26430
+                    "endOffset": 26495
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2924,11 +2943,11 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 272,
                     "startColumn": 4,
-                    "startOffset": 26435,
+                    "startOffset": 26500,
                     "endColumn": 117,
-                    "endOffset": 26548
+                    "endOffset": 26613
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2943,11 +2962,11 @@
             },
             {
                 "to": {
-                    "startLine": 272,
+                    "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 26553,
+                    "startOffset": 26618,
                     "endColumn": 117,
-                    "endOffset": 26666
+                    "endOffset": 26731
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2962,12 +2981,12 @@
             },
             {
                 "to": {
-                    "startLine": 273,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 26671,
-                    "endLine": 276,
+                    "startOffset": 26736,
+                    "endLine": 277,
                     "endColumn": 12,
-                    "endOffset": 26896
+                    "endOffset": 26961
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2983,12 +3002,12 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 26901,
-                    "endLine": 280,
+                    "startOffset": 26966,
+                    "endLine": 281,
                     "endColumn": 12,
-                    "endOffset": 27144
+                    "endOffset": 27209
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3004,12 +3023,12 @@
             },
             {
                 "to": {
-                    "startLine": 281,
+                    "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 27149,
-                    "endLine": 284,
+                    "startOffset": 27214,
+                    "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 27363
+                    "endOffset": 27428
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3025,12 +3044,12 @@
             },
             {
                 "to": {
-                    "startLine": 285,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 27368,
-                    "endLine": 289,
+                    "startOffset": 27433,
+                    "endLine": 290,
                     "endColumn": 12,
-                    "endOffset": 27646
+                    "endOffset": 27711
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3046,12 +3065,12 @@
             },
             {
                 "to": {
-                    "startLine": 290,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 27651,
-                    "endLine": 293,
+                    "startOffset": 27716,
+                    "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 27854
+                    "endOffset": 27919
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3067,12 +3086,12 @@
             },
             {
                 "to": {
-                    "startLine": 294,
+                    "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 27859,
-                    "endLine": 296,
+                    "startOffset": 27924,
+                    "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 27985
+                    "endOffset": 28050
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3088,12 +3107,12 @@
             },
             {
                 "to": {
-                    "startLine": 297,
+                    "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 27990,
-                    "endLine": 300,
+                    "startOffset": 28055,
+                    "endLine": 301,
                     "endColumn": 12,
-                    "endOffset": 28212
+                    "endOffset": 28277
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3109,12 +3128,12 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 28217,
-                    "endLine": 304,
+                    "startOffset": 28282,
+                    "endLine": 305,
                     "endColumn": 12,
-                    "endOffset": 28458
+                    "endOffset": 28523
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3130,12 +3149,12 @@
             },
             {
                 "to": {
-                    "startLine": 305,
+                    "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 28463,
-                    "endLine": 308,
+                    "startOffset": 28528,
+                    "endLine": 309,
                     "endColumn": 12,
-                    "endOffset": 28683
+                    "endOffset": 28748
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3151,12 +3170,12 @@
             },
             {
                 "to": {
-                    "startLine": 309,
+                    "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 28688,
-                    "endLine": 312,
+                    "startOffset": 28753,
+                    "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 28932
+                    "endOffset": 28997
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3172,12 +3191,12 @@
             },
             {
                 "to": {
-                    "startLine": 313,
+                    "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 28937,
-                    "endLine": 316,
+                    "startOffset": 29002,
+                    "endLine": 317,
                     "endColumn": 12,
-                    "endOffset": 29153
+                    "endOffset": 29218
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3193,12 +3212,12 @@
             },
             {
                 "to": {
-                    "startLine": 317,
+                    "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 29158,
-                    "endLine": 320,
+                    "startOffset": 29223,
+                    "endLine": 321,
                     "endColumn": 12,
-                    "endOffset": 29398
+                    "endOffset": 29463
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3214,12 +3233,12 @@
             },
             {
                 "to": {
-                    "startLine": 321,
+                    "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 29403,
-                    "endLine": 325,
+                    "startOffset": 29468,
+                    "endLine": 326,
                     "endColumn": 12,
-                    "endOffset": 29693
+                    "endOffset": 29758
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3235,12 +3254,12 @@
             },
             {
                 "to": {
-                    "startLine": 326,
+                    "startLine": 327,
                     "startColumn": 4,
-                    "startOffset": 29698,
-                    "endLine": 328,
+                    "startOffset": 29763,
+                    "endLine": 329,
                     "endColumn": 12,
-                    "endOffset": 29915
+                    "endOffset": 29980
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3256,12 +3275,12 @@
             },
             {
                 "to": {
-                    "startLine": 329,
+                    "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 29920,
-                    "endLine": 331,
+                    "startOffset": 29985,
+                    "endLine": 332,
                     "endColumn": 12,
-                    "endOffset": 30153
+                    "endOffset": 30218
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3277,12 +3296,12 @@
             },
             {
                 "to": {
-                    "startLine": 332,
+                    "startLine": 333,
                     "startColumn": 4,
-                    "startOffset": 30158,
-                    "endLine": 334,
+                    "startOffset": 30223,
+                    "endLine": 335,
                     "endColumn": 12,
-                    "endOffset": 30367
+                    "endOffset": 30432
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3298,12 +3317,12 @@
             },
             {
                 "to": {
-                    "startLine": 335,
+                    "startLine": 336,
                     "startColumn": 4,
-                    "startOffset": 30372,
-                    "endLine": 337,
+                    "startOffset": 30437,
+                    "endLine": 338,
                     "endColumn": 12,
-                    "endOffset": 30597
+                    "endOffset": 30662
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3319,12 +3338,12 @@
             },
             {
                 "to": {
-                    "startLine": 338,
+                    "startLine": 339,
                     "startColumn": 4,
-                    "startOffset": 30602,
-                    "endLine": 340,
+                    "startOffset": 30667,
+                    "endLine": 341,
                     "endColumn": 12,
-                    "endOffset": 30820
+                    "endOffset": 30885
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3340,12 +3359,12 @@
             },
             {
                 "to": {
-                    "startLine": 341,
+                    "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 30825,
-                    "endLine": 343,
+                    "startOffset": 30890,
+                    "endLine": 344,
                     "endColumn": 12,
-                    "endOffset": 31035
+                    "endOffset": 31100
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3361,12 +3380,12 @@
             },
             {
                 "to": {
-                    "startLine": 344,
+                    "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 31040,
-                    "endLine": 346,
+                    "startOffset": 31105,
+                    "endLine": 347,
                     "endColumn": 12,
-                    "endOffset": 31243
+                    "endOffset": 31308
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3382,11 +3401,11 @@
             },
             {
                 "to": {
-                    "startLine": 347,
+                    "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 31248,
+                    "startOffset": 31313,
                     "endColumn": 111,
-                    "endOffset": 31355
+                    "endOffset": 31420
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3401,11 +3420,11 @@
             },
             {
                 "to": {
-                    "startLine": 348,
+                    "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 31360,
+                    "startOffset": 31425,
                     "endColumn": 111,
-                    "endOffset": 31467
+                    "endOffset": 31532
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3420,11 +3439,11 @@
             },
             {
                 "to": {
-                    "startLine": 349,
+                    "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 31472,
+                    "startOffset": 31537,
                     "endColumn": 104,
-                    "endOffset": 31572
+                    "endOffset": 31637
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3439,12 +3458,12 @@
             },
             {
                 "to": {
-                    "startLine": 350,
+                    "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 31577,
-                    "endLine": 352,
+                    "startOffset": 31642,
+                    "endLine": 353,
                     "endColumn": 12,
-                    "endOffset": 31786
+                    "endOffset": 31851
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3460,11 +3479,11 @@
             },
             {
                 "to": {
-                    "startLine": 353,
+                    "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 31791,
+                    "startOffset": 31856,
                     "endColumn": 133,
-                    "endOffset": 31920
+                    "endOffset": 31985
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3479,11 +3498,11 @@
             },
             {
                 "to": {
-                    "startLine": 354,
+                    "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 31925,
+                    "startOffset": 31990,
                     "endColumn": 127,
-                    "endOffset": 32048
+                    "endOffset": 32113
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3498,11 +3517,11 @@
             },
             {
                 "to": {
-                    "startLine": 355,
+                    "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 32053,
+                    "startOffset": 32118,
                     "endColumn": 73,
-                    "endOffset": 32122
+                    "endOffset": 32187
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3517,12 +3536,12 @@
             },
             {
                 "to": {
-                    "startLine": 356,
+                    "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 32127,
-                    "endLine": 359,
+                    "startOffset": 32192,
+                    "endLine": 360,
                     "endColumn": 12,
-                    "endOffset": 32375
+                    "endOffset": 32440
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3538,11 +3557,11 @@
             },
             {
                 "to": {
-                    "startLine": 360,
+                    "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 32380,
+                    "startOffset": 32445,
                     "endColumn": 87,
-                    "endOffset": 32463
+                    "endOffset": 32528
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3557,12 +3576,12 @@
             },
             {
                 "to": {
-                    "startLine": 361,
+                    "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 32468,
-                    "endLine": 366,
+                    "startOffset": 32533,
+                    "endLine": 367,
                     "endColumn": 12,
-                    "endOffset": 32865
+                    "endOffset": 32930
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3578,11 +3597,11 @@
             },
             {
                 "to": {
-                    "startLine": 367,
+                    "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 32870,
+                    "startOffset": 32935,
                     "endColumn": 81,
-                    "endOffset": 32947
+                    "endOffset": 33012
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3597,11 +3616,11 @@
             },
             {
                 "to": {
-                    "startLine": 368,
+                    "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 32952,
+                    "startOffset": 33017,
                     "endColumn": 85,
-                    "endOffset": 33033
+                    "endOffset": 33098
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3616,12 +3635,12 @@
             },
             {
                 "to": {
-                    "startLine": 369,
+                    "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 33038,
-                    "endLine": 378,
+                    "startOffset": 33103,
+                    "endLine": 379,
                     "endColumn": 12,
-                    "endOffset": 33649
+                    "endOffset": 33714
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3637,11 +3656,11 @@
             },
             {
                 "to": {
-                    "startLine": 379,
+                    "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 33654,
+                    "startOffset": 33719,
                     "endColumn": 90,
-                    "endOffset": 33740
+                    "endOffset": 33805
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3656,12 +3675,12 @@
             },
             {
                 "to": {
-                    "startLine": 380,
+                    "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 33745,
-                    "endLine": 385,
+                    "startOffset": 33810,
+                    "endLine": 386,
                     "endColumn": 12,
-                    "endOffset": 34148
+                    "endOffset": 34213
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3677,11 +3696,11 @@
             },
             {
                 "to": {
-                    "startLine": 386,
+                    "startLine": 387,
                     "startColumn": 4,
-                    "startOffset": 34153,
+                    "startOffset": 34218,
                     "endColumn": 93,
-                    "endOffset": 34242
+                    "endOffset": 34307
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3696,11 +3715,11 @@
             },
             {
                 "to": {
-                    "startLine": 387,
+                    "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 34247,
+                    "startOffset": 34312,
                     "endColumn": 57,
-                    "endOffset": 34300
+                    "endOffset": 34365
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3715,12 +3734,12 @@
             },
             {
                 "to": {
-                    "startLine": 388,
+                    "startLine": 389,
                     "startColumn": 4,
-                    "startOffset": 34305,
-                    "endLine": 390,
+                    "startOffset": 34370,
+                    "endLine": 391,
                     "endColumn": 12,
-                    "endOffset": 34448
+                    "endOffset": 34513
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3736,12 +3755,12 @@
             },
             {
                 "to": {
-                    "startLine": 391,
+                    "startLine": 392,
                     "startColumn": 4,
-                    "startOffset": 34453,
-                    "endLine": 423,
+                    "startOffset": 34518,
+                    "endLine": 424,
                     "endColumn": 12,
-                    "endOffset": 36941
+                    "endOffset": 37006
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3757,12 +3776,12 @@
             },
             {
                 "to": {
-                    "startLine": 424,
+                    "startLine": 425,
                     "startColumn": 4,
-                    "startOffset": 36946,
-                    "endLine": 426,
+                    "startOffset": 37011,
+                    "endLine": 427,
                     "endColumn": 12,
-                    "endOffset": 37094
+                    "endOffset": 37159
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3778,12 +3797,12 @@
             },
             {
                 "to": {
-                    "startLine": 427,
+                    "startLine": 428,
                     "startColumn": 4,
-                    "startOffset": 37099,
-                    "endLine": 458,
+                    "startOffset": 37164,
+                    "endLine": 459,
                     "endColumn": 12,
-                    "endOffset": 39699
+                    "endOffset": 39764
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3799,12 +3818,12 @@
             },
             {
                 "to": {
-                    "startLine": 459,
+                    "startLine": 460,
                     "startColumn": 4,
-                    "startOffset": 39704,
-                    "endLine": 557,
+                    "startOffset": 39769,
+                    "endLine": 558,
                     "endColumn": 12,
-                    "endOffset": 46442
+                    "endOffset": 46507
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3820,12 +3839,12 @@
             },
             {
                 "to": {
-                    "startLine": 558,
+                    "startLine": 559,
                     "startColumn": 4,
-                    "startOffset": 46447,
-                    "endLine": 653,
+                    "startOffset": 46512,
+                    "endLine": 654,
                     "endColumn": 12,
-                    "endOffset": 53064
+                    "endOffset": 53129
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3841,12 +3860,12 @@
             },
             {
                 "to": {
-                    "startLine": 654,
+                    "startLine": 655,
                     "startColumn": 4,
-                    "startOffset": 53069,
-                    "endLine": 752,
+                    "startOffset": 53134,
+                    "endLine": 753,
                     "endColumn": 12,
-                    "endOffset": 59903
+                    "endOffset": 59968
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3862,12 +3881,12 @@
             },
             {
                 "to": {
-                    "startLine": 753,
+                    "startLine": 754,
                     "startColumn": 4,
-                    "startOffset": 59908,
-                    "endLine": 767,
+                    "startOffset": 59973,
+                    "endLine": 768,
                     "endColumn": 12,
-                    "endOffset": 60842
+                    "endOffset": 60907
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3883,12 +3902,12 @@
             },
             {
                 "to": {
-                    "startLine": 768,
+                    "startLine": 769,
                     "startColumn": 4,
-                    "startOffset": 60847,
-                    "endLine": 772,
+                    "startOffset": 60912,
+                    "endLine": 773,
                     "endColumn": 12,
-                    "endOffset": 61098
+                    "endOffset": 61163
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3904,12 +3923,12 @@
             },
             {
                 "to": {
-                    "startLine": 773,
+                    "startLine": 774,
                     "startColumn": 4,
-                    "startOffset": 61103,
-                    "endLine": 777,
+                    "startOffset": 61168,
+                    "endLine": 778,
                     "endColumn": 12,
-                    "endOffset": 61334
+                    "endOffset": 61399
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3925,12 +3944,12 @@
             },
             {
                 "to": {
-                    "startLine": 778,
+                    "startLine": 779,
                     "startColumn": 4,
-                    "startOffset": 61339,
-                    "endLine": 787,
+                    "startOffset": 61404,
+                    "endLine": 788,
                     "endColumn": 12,
-                    "endOffset": 61881
+                    "endOffset": 61946
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3946,12 +3965,12 @@
             },
             {
                 "to": {
-                    "startLine": 788,
+                    "startLine": 789,
                     "startColumn": 4,
-                    "startOffset": 61886,
-                    "endLine": 796,
+                    "startOffset": 61951,
+                    "endLine": 797,
                     "endColumn": 12,
-                    "endOffset": 62375
+                    "endOffset": 62440
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3967,12 +3986,12 @@
             },
             {
                 "to": {
-                    "startLine": 797,
+                    "startLine": 798,
                     "startColumn": 4,
-                    "startOffset": 62380,
-                    "endLine": 807,
+                    "startOffset": 62445,
+                    "endLine": 808,
                     "endColumn": 12,
-                    "endOffset": 63048
+                    "endOffset": 63113
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3988,12 +4007,12 @@
             },
             {
                 "to": {
-                    "startLine": 808,
+                    "startLine": 809,
                     "startColumn": 4,
-                    "startOffset": 63053,
-                    "endLine": 810,
+                    "startOffset": 63118,
+                    "endLine": 811,
                     "endColumn": 12,
-                    "endOffset": 63213
+                    "endOffset": 63278
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4009,12 +4028,12 @@
             },
             {
                 "to": {
-                    "startLine": 811,
+                    "startLine": 812,
                     "startColumn": 4,
-                    "startOffset": 63218,
-                    "endLine": 817,
+                    "startOffset": 63283,
+                    "endLine": 818,
                     "endColumn": 12,
-                    "endOffset": 63741
+                    "endOffset": 63806
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4030,12 +4049,12 @@
             },
             {
                 "to": {
-                    "startLine": 818,
+                    "startLine": 819,
                     "startColumn": 4,
-                    "startOffset": 63746,
-                    "endLine": 825,
+                    "startOffset": 63811,
+                    "endLine": 826,
                     "endColumn": 12,
-                    "endOffset": 64305
+                    "endOffset": 64370
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4051,12 +4070,12 @@
             },
             {
                 "to": {
-                    "startLine": 826,
+                    "startLine": 827,
                     "startColumn": 4,
-                    "startOffset": 64310,
-                    "endLine": 832,
+                    "startOffset": 64375,
+                    "endLine": 833,
                     "endColumn": 12,
-                    "endOffset": 64679
+                    "endOffset": 64744
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4072,12 +4091,12 @@
             },
             {
                 "to": {
-                    "startLine": 833,
+                    "startLine": 834,
                     "startColumn": 4,
-                    "startOffset": 64684,
-                    "endLine": 837,
+                    "startOffset": 64749,
+                    "endLine": 838,
                     "endColumn": 12,
-                    "endOffset": 65049
+                    "endOffset": 65114
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4093,12 +4112,12 @@
             },
             {
                 "to": {
-                    "startLine": 838,
+                    "startLine": 839,
                     "startColumn": 4,
-                    "startOffset": 65054,
-                    "endLine": 844,
+                    "startOffset": 65119,
+                    "endLine": 845,
                     "endColumn": 12,
-                    "endOffset": 65540
+                    "endOffset": 65605
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4114,12 +4133,12 @@
             },
             {
                 "to": {
-                    "startLine": 845,
+                    "startLine": 846,
                     "startColumn": 4,
-                    "startOffset": 65545,
-                    "endLine": 854,
+                    "startOffset": 65610,
+                    "endLine": 855,
                     "endColumn": 12,
-                    "endOffset": 66017
+                    "endOffset": 66082
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4135,12 +4154,12 @@
             },
             {
                 "to": {
-                    "startLine": 855,
+                    "startLine": 856,
                     "startColumn": 4,
-                    "startOffset": 66022,
-                    "endLine": 860,
+                    "startOffset": 66087,
+                    "endLine": 861,
                     "endColumn": 12,
-                    "endOffset": 66370
+                    "endOffset": 66435
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4156,12 +4175,12 @@
             },
             {
                 "to": {
-                    "startLine": 861,
+                    "startLine": 862,
                     "startColumn": 4,
-                    "startOffset": 66375,
-                    "endLine": 865,
+                    "startOffset": 66440,
+                    "endLine": 866,
                     "endColumn": 12,
-                    "endOffset": 66697
+                    "endOffset": 66762
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4177,12 +4196,12 @@
             },
             {
                 "to": {
-                    "startLine": 866,
+                    "startLine": 867,
                     "startColumn": 4,
-                    "startOffset": 66702,
-                    "endLine": 869,
+                    "startOffset": 66767,
+                    "endLine": 870,
                     "endColumn": 12,
-                    "endOffset": 67003
+                    "endOffset": 67068
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4198,12 +4217,12 @@
             },
             {
                 "to": {
-                    "startLine": 870,
+                    "startLine": 871,
                     "startColumn": 4,
-                    "startOffset": 67008,
-                    "endLine": 874,
+                    "startOffset": 67073,
+                    "endLine": 875,
                     "endColumn": 12,
-                    "endOffset": 67265
+                    "endOffset": 67330
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4219,11 +4238,11 @@
             },
             {
                 "to": {
-                    "startLine": 875,
+                    "startLine": 876,
                     "startColumn": 4,
-                    "startOffset": 67270,
+                    "startOffset": 67335,
                     "endColumn": 112,
-                    "endOffset": 67378
+                    "endOffset": 67443
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4238,11 +4257,11 @@
             },
             {
                 "to": {
-                    "startLine": 876,
+                    "startLine": 877,
                     "startColumn": 4,
-                    "startOffset": 67383,
+                    "startOffset": 67448,
                     "endColumn": 114,
-                    "endOffset": 67493
+                    "endOffset": 67558
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4257,12 +4276,12 @@
             },
             {
                 "to": {
-                    "startLine": 877,
+                    "startLine": 878,
                     "startColumn": 4,
-                    "startOffset": 67498,
-                    "endLine": 879,
+                    "startOffset": 67563,
+                    "endLine": 880,
                     "endColumn": 12,
-                    "endOffset": 67732
+                    "endOffset": 67797
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4278,12 +4297,12 @@
             },
             {
                 "to": {
-                    "startLine": 880,
+                    "startLine": 881,
                     "startColumn": 4,
-                    "startOffset": 67737,
-                    "endLine": 882,
+                    "startOffset": 67802,
+                    "endLine": 883,
                     "endColumn": 12,
-                    "endOffset": 67943
+                    "endOffset": 68008
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4299,12 +4318,12 @@
             },
             {
                 "to": {
-                    "startLine": 883,
+                    "startLine": 884,
                     "startColumn": 4,
-                    "startOffset": 67948,
-                    "endLine": 885,
+                    "startOffset": 68013,
+                    "endLine": 886,
                     "endColumn": 12,
-                    "endOffset": 68160
+                    "endOffset": 68225
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4320,12 +4339,12 @@
             },
             {
                 "to": {
-                    "startLine": 886,
+                    "startLine": 887,
                     "startColumn": 4,
-                    "startOffset": 68165,
-                    "endLine": 888,
+                    "startOffset": 68230,
+                    "endLine": 889,
                     "endColumn": 12,
-                    "endOffset": 68378
+                    "endOffset": 68443
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4341,11 +4360,11 @@
             },
             {
                 "to": {
-                    "startLine": 889,
+                    "startLine": 890,
                     "startColumn": 4,
-                    "startOffset": 68383,
+                    "startOffset": 68448,
                     "endColumn": 106,
-                    "endOffset": 68485
+                    "endOffset": 68550
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4360,12 +4379,12 @@
             },
             {
                 "to": {
-                    "startLine": 890,
+                    "startLine": 891,
                     "startColumn": 4,
-                    "startOffset": 68490,
-                    "endLine": 893,
+                    "startOffset": 68555,
+                    "endLine": 894,
                     "endColumn": 12,
-                    "endOffset": 68678
+                    "endOffset": 68743
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4381,12 +4400,12 @@
             },
             {
                 "to": {
-                    "startLine": 894,
+                    "startLine": 895,
                     "startColumn": 4,
-                    "startOffset": 68683,
-                    "endLine": 900,
+                    "startOffset": 68748,
+                    "endLine": 901,
                     "endColumn": 12,
-                    "endOffset": 69133
+                    "endOffset": 69198
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4402,12 +4421,12 @@
             },
             {
                 "to": {
-                    "startLine": 901,
+                    "startLine": 902,
                     "startColumn": 4,
-                    "startOffset": 69138,
-                    "endLine": 904,
+                    "startOffset": 69203,
+                    "endLine": 905,
                     "endColumn": 12,
-                    "endOffset": 69373
+                    "endOffset": 69438
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4423,12 +4442,12 @@
             },
             {
                 "to": {
-                    "startLine": 905,
+                    "startLine": 906,
                     "startColumn": 4,
-                    "startOffset": 69378,
-                    "endLine": 908,
+                    "startOffset": 69443,
+                    "endLine": 909,
                     "endColumn": 12,
-                    "endOffset": 69632
+                    "endOffset": 69697
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4444,11 +4463,11 @@
             },
             {
                 "to": {
-                    "startLine": 909,
+                    "startLine": 910,
                     "startColumn": 4,
-                    "startOffset": 69637,
+                    "startOffset": 69702,
                     "endColumn": 100,
-                    "endOffset": 69733
+                    "endOffset": 69798
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4463,12 +4482,12 @@
             },
             {
                 "to": {
-                    "startLine": 910,
+                    "startLine": 911,
                     "startColumn": 4,
-                    "startOffset": 69738,
-                    "endLine": 913,
+                    "startOffset": 69803,
+                    "endLine": 914,
                     "endColumn": 12,
-                    "endOffset": 69920
+                    "endOffset": 69985
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4484,11 +4503,11 @@
             },
             {
                 "to": {
-                    "startLine": 914,
+                    "startLine": 915,
                     "startColumn": 4,
-                    "startOffset": 69925,
+                    "startOffset": 69990,
                     "endColumn": 89,
-                    "endOffset": 70010
+                    "endOffset": 70075
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4503,12 +4522,12 @@
             },
             {
                 "to": {
-                    "startLine": 915,
+                    "startLine": 916,
                     "startColumn": 4,
-                    "startOffset": 70015,
-                    "endLine": 920,
+                    "startOffset": 70080,
+                    "endLine": 921,
                     "endColumn": 12,
-                    "endOffset": 70454
+                    "endOffset": 70519
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4524,11 +4543,11 @@
             },
             {
                 "to": {
-                    "startLine": 921,
+                    "startLine": 922,
                     "startColumn": 4,
-                    "startOffset": 70459,
+                    "startOffset": 70524,
                     "endColumn": 111,
-                    "endOffset": 70566
+                    "endOffset": 70631
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4543,12 +4562,12 @@
             },
             {
                 "to": {
-                    "startLine": 922,
+                    "startLine": 923,
                     "startColumn": 4,
-                    "startOffset": 70571,
-                    "endLine": 932,
+                    "startOffset": 70636,
+                    "endLine": 933,
                     "endColumn": 12,
-                    "endOffset": 71371
+                    "endOffset": 71436
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4564,12 +4583,12 @@
             },
             {
                 "to": {
-                    "startLine": 933,
+                    "startLine": 934,
                     "startColumn": 4,
-                    "startOffset": 71376,
-                    "endLine": 937,
+                    "startOffset": 71441,
+                    "endLine": 938,
                     "endColumn": 12,
-                    "endOffset": 71701
+                    "endOffset": 71766
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4585,12 +4604,12 @@
             },
             {
                 "to": {
-                    "startLine": 938,
+                    "startLine": 939,
                     "startColumn": 4,
-                    "startOffset": 71706,
-                    "endLine": 951,
+                    "startOffset": 71771,
+                    "endLine": 952,
                     "endColumn": 12,
-                    "endOffset": 72620
+                    "endOffset": 72685
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4606,12 +4625,12 @@
             },
             {
                 "to": {
-                    "startLine": 952,
+                    "startLine": 953,
                     "startColumn": 4,
-                    "startOffset": 72625,
-                    "endLine": 961,
+                    "startOffset": 72690,
+                    "endLine": 962,
                     "endColumn": 12,
-                    "endOffset": 73286
+                    "endOffset": 73351
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4627,12 +4646,12 @@
             },
             {
                 "to": {
-                    "startLine": 962,
+                    "startLine": 963,
                     "startColumn": 4,
-                    "startOffset": 73291,
-                    "endLine": 966,
+                    "startOffset": 73356,
+                    "endLine": 967,
                     "endColumn": 12,
-                    "endOffset": 73571
+                    "endOffset": 73636
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4648,12 +4667,12 @@
             },
             {
                 "to": {
-                    "startLine": 967,
+                    "startLine": 968,
                     "startColumn": 4,
-                    "startOffset": 73576,
-                    "endLine": 1007,
+                    "startOffset": 73641,
+                    "endLine": 1008,
                     "endColumn": 12,
-                    "endOffset": 76750
+                    "endOffset": 76815
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4669,12 +4688,12 @@
             },
             {
                 "to": {
-                    "startLine": 1008,
+                    "startLine": 1009,
                     "startColumn": 4,
-                    "startOffset": 76755,
-                    "endLine": 1048,
+                    "startOffset": 76820,
+                    "endLine": 1049,
                     "endColumn": 12,
-                    "endOffset": 79943
+                    "endOffset": 80008
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4690,12 +4709,12 @@
             },
             {
                 "to": {
-                    "startLine": 1049,
+                    "startLine": 1050,
                     "startColumn": 4,
-                    "startOffset": 79948,
-                    "endLine": 1090,
+                    "startOffset": 80013,
+                    "endLine": 1091,
                     "endColumn": 12,
-                    "endOffset": 83262
+                    "endOffset": 83327
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4711,11 +4730,11 @@
             },
             {
                 "to": {
-                    "startLine": 1091,
+                    "startLine": 1092,
                     "startColumn": 4,
-                    "startOffset": 83267,
+                    "startOffset": 83332,
                     "endColumn": 86,
-                    "endOffset": 83349
+                    "endOffset": 83414
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4730,12 +4749,12 @@
             },
             {
                 "to": {
-                    "startLine": 1092,
+                    "startLine": 1093,
                     "startColumn": 4,
-                    "startOffset": 83354,
-                    "endLine": 1095,
+                    "startOffset": 83419,
+                    "endLine": 1096,
                     "endColumn": 12,
-                    "endOffset": 83578
+                    "endOffset": 83643
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4751,12 +4770,12 @@
             },
             {
                 "to": {
-                    "startLine": 1096,
+                    "startLine": 1097,
                     "startColumn": 4,
-                    "startOffset": 83583,
-                    "endLine": 1099,
+                    "startOffset": 83648,
+                    "endLine": 1100,
                     "endColumn": 12,
-                    "endOffset": 83827
+                    "endOffset": 83892
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4772,12 +4791,12 @@
             },
             {
                 "to": {
-                    "startLine": 1100,
+                    "startLine": 1101,
                     "startColumn": 4,
-                    "startOffset": 83832,
-                    "endLine": 1103,
+                    "startOffset": 83897,
+                    "endLine": 1104,
                     "endColumn": 12,
-                    "endOffset": 84068
+                    "endOffset": 84133
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4793,12 +4812,12 @@
             },
             {
                 "to": {
-                    "startLine": 1104,
+                    "startLine": 1105,
                     "startColumn": 4,
-                    "startOffset": 84073,
-                    "endLine": 1106,
+                    "startOffset": 84138,
+                    "endLine": 1107,
                     "endColumn": 12,
-                    "endOffset": 84220
+                    "endOffset": 84285
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4814,12 +4833,12 @@
             },
             {
                 "to": {
-                    "startLine": 1107,
+                    "startLine": 1108,
                     "startColumn": 4,
-                    "startOffset": 84225,
-                    "endLine": 1109,
+                    "startOffset": 84290,
+                    "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 84391
+                    "endOffset": 84456
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4835,12 +4854,12 @@
             },
             {
                 "to": {
-                    "startLine": 1110,
+                    "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 84396,
-                    "endLine": 1112,
+                    "startOffset": 84461,
+                    "endLine": 1113,
                     "endColumn": 12,
-                    "endOffset": 84558
+                    "endOffset": 84623
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4856,12 +4875,12 @@
             },
             {
                 "to": {
-                    "startLine": 1113,
+                    "startLine": 1114,
                     "startColumn": 4,
-                    "startOffset": 84563,
-                    "endLine": 1116,
+                    "startOffset": 84628,
+                    "endLine": 1117,
                     "endColumn": 12,
-                    "endOffset": 84801
+                    "endOffset": 84866
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4877,12 +4896,12 @@
             },
             {
                 "to": {
-                    "startLine": 1117,
+                    "startLine": 1118,
                     "startColumn": 4,
-                    "startOffset": 84806,
-                    "endLine": 1119,
+                    "startOffset": 84871,
+                    "endLine": 1120,
                     "endColumn": 12,
-                    "endOffset": 84971
+                    "endOffset": 85036
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4898,12 +4917,12 @@
             },
             {
                 "to": {
-                    "startLine": 1120,
+                    "startLine": 1121,
                     "startColumn": 4,
-                    "startOffset": 84976,
-                    "endLine": 1122,
+                    "startOffset": 85041,
+                    "endLine": 1123,
                     "endColumn": 12,
-                    "endOffset": 85144
+                    "endOffset": 85209
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4919,12 +4938,12 @@
             },
             {
                 "to": {
-                    "startLine": 1123,
+                    "startLine": 1124,
                     "startColumn": 4,
-                    "startOffset": 85149,
-                    "endLine": 1125,
+                    "startOffset": 85214,
+                    "endLine": 1126,
                     "endColumn": 12,
-                    "endOffset": 85315
+                    "endOffset": 85380
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4940,12 +4959,12 @@
             },
             {
                 "to": {
-                    "startLine": 1126,
+                    "startLine": 1127,
                     "startColumn": 4,
-                    "startOffset": 85320,
-                    "endLine": 1129,
+                    "startOffset": 85385,
+                    "endLine": 1130,
                     "endColumn": 12,
-                    "endOffset": 85589
+                    "endOffset": 85654
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4961,12 +4980,12 @@
             },
             {
                 "to": {
-                    "startLine": 1130,
+                    "startLine": 1131,
                     "startColumn": 4,
-                    "startOffset": 85594,
-                    "endLine": 1132,
+                    "startOffset": 85659,
+                    "endLine": 1133,
                     "endColumn": 12,
-                    "endOffset": 85788
+                    "endOffset": 85853
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4982,11 +5001,11 @@
             },
             {
                 "to": {
-                    "startLine": 1133,
+                    "startLine": 1134,
                     "startColumn": 4,
-                    "startOffset": 85793,
+                    "startOffset": 85858,
                     "endColumn": 83,
-                    "endOffset": 85872
+                    "endOffset": 85937
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5001,11 +5020,11 @@
             },
             {
                 "to": {
-                    "startLine": 1134,
+                    "startLine": 1135,
                     "startColumn": 4,
-                    "startOffset": 85877,
+                    "startOffset": 85942,
                     "endColumn": 95,
-                    "endOffset": 85968
+                    "endOffset": 86033
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5020,11 +5039,11 @@
             },
             {
                 "to": {
-                    "startLine": 1135,
+                    "startLine": 1136,
                     "startColumn": 4,
-                    "startOffset": 85973,
+                    "startOffset": 86038,
                     "endColumn": 95,
-                    "endOffset": 86064
+                    "endOffset": 86129
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5039,11 +5058,11 @@
             },
             {
                 "to": {
-                    "startLine": 1136,
+                    "startLine": 1137,
                     "startColumn": 4,
-                    "startOffset": 86069,
+                    "startOffset": 86134,
                     "endColumn": 97,
-                    "endOffset": 86162
+                    "endOffset": 86227
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5058,11 +5077,11 @@
             },
             {
                 "to": {
-                    "startLine": 1137,
+                    "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 86167,
+                    "startOffset": 86232,
                     "endColumn": 99,
-                    "endOffset": 86262
+                    "endOffset": 86327
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5077,11 +5096,11 @@
             },
             {
                 "to": {
-                    "startLine": 1138,
+                    "startLine": 1139,
                     "startColumn": 4,
-                    "startOffset": 86267,
+                    "startOffset": 86332,
                     "endColumn": 101,
-                    "endOffset": 86364
+                    "endOffset": 86429
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5096,11 +5115,11 @@
             },
             {
                 "to": {
-                    "startLine": 1139,
+                    "startLine": 1140,
                     "startColumn": 4,
-                    "startOffset": 86369,
+                    "startOffset": 86434,
                     "endColumn": 101,
-                    "endOffset": 86466
+                    "endOffset": 86531
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5115,11 +5134,11 @@
             },
             {
                 "to": {
-                    "startLine": 1140,
+                    "startLine": 1141,
                     "startColumn": 4,
-                    "startOffset": 86471,
+                    "startOffset": 86536,
                     "endColumn": 101,
-                    "endOffset": 86568
+                    "endOffset": 86633
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5134,11 +5153,11 @@
             },
             {
                 "to": {
-                    "startLine": 1141,
+                    "startLine": 1142,
                     "startColumn": 4,
-                    "startOffset": 86573,
+                    "startOffset": 86638,
                     "endColumn": 101,
-                    "endOffset": 86670
+                    "endOffset": 86735
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5153,11 +5172,11 @@
             },
             {
                 "to": {
-                    "startLine": 1142,
+                    "startLine": 1143,
                     "startColumn": 4,
-                    "startOffset": 86675,
+                    "startOffset": 86740,
                     "endColumn": 101,
-                    "endOffset": 86772
+                    "endOffset": 86837
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5172,11 +5191,11 @@
             },
             {
                 "to": {
-                    "startLine": 1143,
+                    "startLine": 1144,
                     "startColumn": 4,
-                    "startOffset": 86777,
+                    "startOffset": 86842,
                     "endColumn": 99,
-                    "endOffset": 86872
+                    "endOffset": 86937
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5191,11 +5210,11 @@
             },
             {
                 "to": {
-                    "startLine": 1144,
+                    "startLine": 1145,
                     "startColumn": 4,
-                    "startOffset": 86877,
+                    "startOffset": 86942,
                     "endColumn": 95,
-                    "endOffset": 86968
+                    "endOffset": 87033
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5210,11 +5229,11 @@
             },
             {
                 "to": {
-                    "startLine": 1145,
+                    "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 86973,
+                    "startOffset": 87038,
                     "endColumn": 111,
-                    "endOffset": 87080
+                    "endOffset": 87145
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5229,11 +5248,11 @@
             },
             {
                 "to": {
-                    "startLine": 1146,
+                    "startLine": 1147,
                     "startColumn": 4,
-                    "startOffset": 87085,
+                    "startOffset": 87150,
                     "endColumn": 128,
-                    "endOffset": 87209
+                    "endOffset": 87274
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5248,11 +5267,11 @@
             },
             {
                 "to": {
-                    "startLine": 1147,
+                    "startLine": 1148,
                     "startColumn": 4,
-                    "startOffset": 87214,
+                    "startOffset": 87279,
                     "endColumn": 122,
-                    "endOffset": 87332
+                    "endOffset": 87397
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5267,11 +5286,11 @@
             },
             {
                 "to": {
-                    "startLine": 1148,
+                    "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 87337,
+                    "startOffset": 87402,
                     "endColumn": 141,
-                    "endOffset": 87474
+                    "endOffset": 87539
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5286,11 +5305,11 @@
             },
             {
                 "to": {
-                    "startLine": 1149,
+                    "startLine": 1150,
                     "startColumn": 4,
-                    "startOffset": 87479,
+                    "startOffset": 87544,
                     "endColumn": 141,
-                    "endOffset": 87616
+                    "endOffset": 87681
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5305,11 +5324,11 @@
             },
             {
                 "to": {
-                    "startLine": 1150,
+                    "startLine": 1151,
                     "startColumn": 4,
-                    "startOffset": 87621,
+                    "startOffset": 87686,
                     "endColumn": 97,
-                    "endOffset": 87714
+                    "endOffset": 87779
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5324,11 +5343,11 @@
             },
             {
                 "to": {
-                    "startLine": 1151,
+                    "startLine": 1152,
                     "startColumn": 4,
-                    "startOffset": 87719,
+                    "startOffset": 87784,
                     "endColumn": 113,
-                    "endOffset": 87828
+                    "endOffset": 87893
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5343,11 +5362,11 @@
             },
             {
                 "to": {
-                    "startLine": 1152,
+                    "startLine": 1153,
                     "startColumn": 4,
-                    "startOffset": 87833,
+                    "startOffset": 87898,
                     "endColumn": 93,
-                    "endOffset": 87922
+                    "endOffset": 87987
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5362,11 +5381,11 @@
             },
             {
                 "to": {
-                    "startLine": 1153,
+                    "startLine": 1154,
                     "startColumn": 4,
-                    "startOffset": 87927,
+                    "startOffset": 87992,
                     "endColumn": 127,
-                    "endOffset": 88050
+                    "endOffset": 88115
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5381,11 +5400,11 @@
             },
             {
                 "to": {
-                    "startLine": 1154,
+                    "startLine": 1155,
                     "startColumn": 4,
-                    "startOffset": 88055,
+                    "startOffset": 88120,
                     "endColumn": 121,
-                    "endOffset": 88172
+                    "endOffset": 88237
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5400,11 +5419,11 @@
             },
             {
                 "to": {
-                    "startLine": 1155,
+                    "startLine": 1156,
                     "startColumn": 4,
-                    "startOffset": 88177,
+                    "startOffset": 88242,
                     "endColumn": 95,
-                    "endOffset": 88268
+                    "endOffset": 88333
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5419,11 +5438,11 @@
             },
             {
                 "to": {
-                    "startLine": 1156,
+                    "startLine": 1157,
                     "startColumn": 4,
-                    "startOffset": 88273,
+                    "startOffset": 88338,
                     "endColumn": 111,
-                    "endOffset": 88380
+                    "endOffset": 88445
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5438,11 +5457,11 @@
             },
             {
                 "to": {
-                    "startLine": 1157,
+                    "startLine": 1158,
                     "startColumn": 4,
-                    "startOffset": 88385,
+                    "startOffset": 88450,
                     "endColumn": 99,
-                    "endOffset": 88480
+                    "endOffset": 88545
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5457,11 +5476,11 @@
             },
             {
                 "to": {
-                    "startLine": 1158,
+                    "startLine": 1159,
                     "startColumn": 4,
-                    "startOffset": 88485,
+                    "startOffset": 88550,
                     "endColumn": 115,
-                    "endOffset": 88596
+                    "endOffset": 88661
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5476,11 +5495,11 @@
             },
             {
                 "to": {
-                    "startLine": 1159,
+                    "startLine": 1160,
                     "startColumn": 4,
-                    "startOffset": 88601,
+                    "startOffset": 88666,
                     "endColumn": 95,
-                    "endOffset": 88692
+                    "endOffset": 88757
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5495,11 +5514,11 @@
             },
             {
                 "to": {
-                    "startLine": 1160,
+                    "startLine": 1161,
                     "startColumn": 4,
-                    "startOffset": 88697,
+                    "startOffset": 88762,
                     "endColumn": 111,
-                    "endOffset": 88804
+                    "endOffset": 88869
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5514,11 +5533,11 @@
             },
             {
                 "to": {
-                    "startLine": 1161,
+                    "startLine": 1162,
                     "startColumn": 4,
-                    "startOffset": 88809,
+                    "startOffset": 88874,
                     "endColumn": 127,
-                    "endOffset": 88932
+                    "endOffset": 88997
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5533,11 +5552,11 @@
             },
             {
                 "to": {
-                    "startLine": 1162,
+                    "startLine": 1163,
                     "startColumn": 4,
-                    "startOffset": 88937,
+                    "startOffset": 89002,
                     "endColumn": 135,
-                    "endOffset": 89068
+                    "endOffset": 89133
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5552,11 +5571,11 @@
             },
             {
                 "to": {
-                    "startLine": 1163,
+                    "startLine": 1164,
                     "startColumn": 4,
-                    "startOffset": 89073,
+                    "startOffset": 89138,
                     "endColumn": 151,
-                    "endOffset": 89220
+                    "endOffset": 89285
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5571,11 +5590,11 @@
             },
             {
                 "to": {
-                    "startLine": 1164,
+                    "startLine": 1165,
                     "startColumn": 4,
-                    "startOffset": 89225,
+                    "startOffset": 89290,
                     "endColumn": 129,
-                    "endOffset": 89350
+                    "endOffset": 89415
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5590,11 +5609,11 @@
             },
             {
                 "to": {
-                    "startLine": 1165,
+                    "startLine": 1166,
                     "startColumn": 4,
-                    "startOffset": 89355,
+                    "startOffset": 89420,
                     "endColumn": 145,
-                    "endOffset": 89496
+                    "endOffset": 89561
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5609,11 +5628,11 @@
             },
             {
                 "to": {
-                    "startLine": 1166,
+                    "startLine": 1167,
                     "startColumn": 4,
-                    "startOffset": 89501,
+                    "startOffset": 89566,
                     "endColumn": 137,
-                    "endOffset": 89634
+                    "endOffset": 89699
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5628,11 +5647,11 @@
             },
             {
                 "to": {
-                    "startLine": 1167,
+                    "startLine": 1168,
                     "startColumn": 4,
-                    "startOffset": 89639,
+                    "startOffset": 89704,
                     "endColumn": 140,
-                    "endOffset": 89775
+                    "endOffset": 89840
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5647,11 +5666,11 @@
             },
             {
                 "to": {
-                    "startLine": 1168,
+                    "startLine": 1169,
                     "startColumn": 4,
-                    "startOffset": 89780,
+                    "startOffset": 89845,
                     "endColumn": 131,
-                    "endOffset": 89907
+                    "endOffset": 89972
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5666,11 +5685,11 @@
             },
             {
                 "to": {
-                    "startLine": 1169,
+                    "startLine": 1170,
                     "startColumn": 4,
-                    "startOffset": 89912,
+                    "startOffset": 89977,
                     "endColumn": 134,
-                    "endOffset": 90042
+                    "endOffset": 90107
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5685,11 +5704,11 @@
             },
             {
                 "to": {
-                    "startLine": 1170,
+                    "startLine": 1171,
                     "startColumn": 4,
-                    "startOffset": 90047,
+                    "startOffset": 90112,
                     "endColumn": 123,
-                    "endOffset": 90166
+                    "endOffset": 90231
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5704,11 +5723,11 @@
             },
             {
                 "to": {
-                    "startLine": 1171,
+                    "startLine": 1172,
                     "startColumn": 4,
-                    "startOffset": 90171,
+                    "startOffset": 90236,
                     "endColumn": 129,
-                    "endOffset": 90296
+                    "endOffset": 90361
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5723,11 +5742,11 @@
             },
             {
                 "to": {
-                    "startLine": 1172,
+                    "startLine": 1173,
                     "startColumn": 4,
-                    "startOffset": 90301,
+                    "startOffset": 90366,
                     "endColumn": 129,
-                    "endOffset": 90426
+                    "endOffset": 90491
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5742,11 +5761,11 @@
             },
             {
                 "to": {
-                    "startLine": 1173,
+                    "startLine": 1174,
                     "startColumn": 4,
-                    "startOffset": 90431,
+                    "startOffset": 90496,
                     "endColumn": 111,
-                    "endOffset": 90538
+                    "endOffset": 90603
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5761,11 +5780,11 @@
             },
             {
                 "to": {
-                    "startLine": 1174,
+                    "startLine": 1175,
                     "startColumn": 4,
-                    "startOffset": 90543,
+                    "startOffset": 90608,
                     "endColumn": 133,
-                    "endOffset": 90672
+                    "endOffset": 90737
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5780,11 +5799,11 @@
             },
             {
                 "to": {
-                    "startLine": 1175,
+                    "startLine": 1176,
                     "startColumn": 4,
-                    "startOffset": 90677,
+                    "startOffset": 90742,
                     "endColumn": 131,
-                    "endOffset": 90804
+                    "endOffset": 90869
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5799,11 +5818,11 @@
             },
             {
                 "to": {
-                    "startLine": 1176,
+                    "startLine": 1177,
                     "startColumn": 4,
-                    "startOffset": 90809,
+                    "startOffset": 90874,
                     "endColumn": 125,
-                    "endOffset": 90930
+                    "endOffset": 90995
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5818,11 +5837,11 @@
             },
             {
                 "to": {
-                    "startLine": 1177,
+                    "startLine": 1178,
                     "startColumn": 4,
-                    "startOffset": 90935,
+                    "startOffset": 91000,
                     "endColumn": 65,
-                    "endOffset": 90996
+                    "endOffset": 91061
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5837,11 +5856,11 @@
             },
             {
                 "to": {
-                    "startLine": 1178,
+                    "startLine": 1179,
                     "startColumn": 4,
-                    "startOffset": 91001,
+                    "startOffset": 91066,
                     "endColumn": 89,
-                    "endOffset": 91086
+                    "endOffset": 91151
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5856,11 +5875,11 @@
             },
             {
                 "to": {
-                    "startLine": 1179,
+                    "startLine": 1180,
                     "startColumn": 4,
-                    "startOffset": 91091,
+                    "startOffset": 91156,
                     "endColumn": 79,
-                    "endOffset": 91166
+                    "endOffset": 91231
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5875,11 +5894,11 @@
             },
             {
                 "to": {
-                    "startLine": 1180,
+                    "startLine": 1181,
                     "startColumn": 4,
-                    "startOffset": 91171,
+                    "startOffset": 91236,
                     "endColumn": 97,
-                    "endOffset": 91264
+                    "endOffset": 91329
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5894,11 +5913,11 @@
             },
             {
                 "to": {
-                    "startLine": 1181,
+                    "startLine": 1182,
                     "startColumn": 4,
-                    "startOffset": 91269,
+                    "startOffset": 91334,
                     "endColumn": 77,
-                    "endOffset": 91342
+                    "endOffset": 91407
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5913,11 +5932,11 @@
             },
             {
                 "to": {
-                    "startLine": 1182,
+                    "startLine": 1183,
                     "startColumn": 4,
-                    "startOffset": 91347,
+                    "startOffset": 91412,
                     "endColumn": 105,
-                    "endOffset": 91448
+                    "endOffset": 91513
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5932,11 +5951,11 @@
             },
             {
                 "to": {
-                    "startLine": 1183,
+                    "startLine": 1184,
                     "startColumn": 4,
-                    "startOffset": 91453,
+                    "startOffset": 91518,
                     "endColumn": 91,
-                    "endOffset": 91540
+                    "endOffset": 91605
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5951,11 +5970,11 @@
             },
             {
                 "to": {
-                    "startLine": 1184,
+                    "startLine": 1185,
                     "startColumn": 4,
-                    "startOffset": 91545,
+                    "startOffset": 91610,
                     "endColumn": 109,
-                    "endOffset": 91650
+                    "endOffset": 91715
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5970,12 +5989,12 @@
             },
             {
                 "to": {
-                    "startLine": 1185,
+                    "startLine": 1186,
                     "startColumn": 4,
-                    "startOffset": 91655,
-                    "endLine": 1188,
+                    "startOffset": 91720,
+                    "endLine": 1189,
                     "endColumn": 12,
-                    "endOffset": 91821
+                    "endOffset": 91886
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5991,12 +6010,12 @@
             },
             {
                 "to": {
-                    "startLine": 1189,
+                    "startLine": 1190,
                     "startColumn": 4,
-                    "startOffset": 91826,
-                    "endLine": 1192,
+                    "startOffset": 91891,
+                    "endLine": 1193,
                     "endColumn": 12,
-                    "endOffset": 91986
+                    "endOffset": 92051
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6012,12 +6031,12 @@
             },
             {
                 "to": {
-                    "startLine": 1193,
+                    "startLine": 1194,
                     "startColumn": 4,
-                    "startOffset": 91991,
-                    "endLine": 1199,
+                    "startOffset": 92056,
+                    "endLine": 1200,
                     "endColumn": 12,
-                    "endOffset": 92375
+                    "endOffset": 92440
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values\\styles.xml",
@@ -6033,11 +6052,11 @@
             },
             {
                 "to": {
-                    "startLine": 1200,
+                    "startLine": 1201,
                     "startColumn": 4,
-                    "startOffset": 92380,
+                    "startOffset": 92445,
                     "endColumn": 79,
-                    "endOffset": 92455
+                    "endOffset": 92520
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6052,11 +6071,11 @@
             },
             {
                 "to": {
-                    "startLine": 1201,
+                    "startLine": 1202,
                     "startColumn": 4,
-                    "startOffset": 92460,
+                    "startOffset": 92525,
                     "endColumn": 99,
-                    "endOffset": 92555
+                    "endOffset": 92620
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6071,11 +6090,11 @@
             },
             {
                 "to": {
-                    "startLine": 1202,
+                    "startLine": 1203,
                     "startColumn": 4,
-                    "startOffset": 92560,
+                    "startOffset": 92625,
                     "endColumn": 89,
-                    "endOffset": 92645
+                    "endOffset": 92710
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6090,11 +6109,11 @@
             },
             {
                 "to": {
-                    "startLine": 1203,
+                    "startLine": 1204,
                     "startColumn": 4,
-                    "startOffset": 92650,
+                    "startOffset": 92715,
                     "endColumn": 109,
-                    "endOffset": 92755
+                    "endOffset": 92820
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6109,11 +6128,11 @@
             },
             {
                 "to": {
-                    "startLine": 1204,
+                    "startLine": 1205,
                     "startColumn": 4,
-                    "startOffset": 92760,
+                    "startOffset": 92825,
                     "endColumn": 91,
-                    "endOffset": 92847
+                    "endOffset": 92912
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6128,11 +6147,11 @@
             },
             {
                 "to": {
-                    "startLine": 1205,
+                    "startLine": 1206,
                     "startColumn": 4,
-                    "startOffset": 92852,
+                    "startOffset": 92917,
                     "endColumn": 87,
-                    "endOffset": 92935
+                    "endOffset": 93000
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6147,11 +6166,11 @@
             },
             {
                 "to": {
-                    "startLine": 1206,
+                    "startLine": 1207,
                     "startColumn": 4,
-                    "startOffset": 92940,
+                    "startOffset": 93005,
                     "endColumn": 99,
-                    "endOffset": 93035
+                    "endOffset": 93100
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6166,11 +6185,11 @@
             },
             {
                 "to": {
-                    "startLine": 1207,
+                    "startLine": 1208,
                     "startColumn": 4,
-                    "startOffset": 93040,
+                    "startOffset": 93105,
                     "endColumn": 101,
-                    "endOffset": 93137
+                    "endOffset": 93202
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6185,11 +6204,11 @@
             },
             {
                 "to": {
-                    "startLine": 1208,
+                    "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 93142,
+                    "startOffset": 93207,
                     "endColumn": 103,
-                    "endOffset": 93241
+                    "endOffset": 93306
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6204,11 +6223,11 @@
             },
             {
                 "to": {
-                    "startLine": 1209,
+                    "startLine": 1210,
                     "startColumn": 4,
-                    "startOffset": 93246,
+                    "startOffset": 93311,
                     "endColumn": 103,
-                    "endOffset": 93345
+                    "endOffset": 93410
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6223,11 +6242,11 @@
             },
             {
                 "to": {
-                    "startLine": 1210,
+                    "startLine": 1211,
                     "startColumn": 4,
-                    "startOffset": 93350,
+                    "startOffset": 93415,
                     "endColumn": 93,
-                    "endOffset": 93439
+                    "endOffset": 93504
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6242,11 +6261,11 @@
             },
             {
                 "to": {
-                    "startLine": 1211,
+                    "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 93444,
+                    "startOffset": 93509,
                     "endColumn": 119,
-                    "endOffset": 93559
+                    "endOffset": 93624
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6261,11 +6280,11 @@
             },
             {
                 "to": {
-                    "startLine": 1212,
+                    "startLine": 1213,
                     "startColumn": 4,
-                    "startOffset": 93564,
+                    "startOffset": 93629,
                     "endColumn": 117,
-                    "endOffset": 93677
+                    "endOffset": 93742
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6280,11 +6299,11 @@
             },
             {
                 "to": {
-                    "startLine": 1213,
+                    "startLine": 1214,
                     "startColumn": 4,
-                    "startOffset": 93682,
+                    "startOffset": 93747,
                     "endColumn": 89,
-                    "endOffset": 93767
+                    "endOffset": 93832
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6299,11 +6318,11 @@
             },
             {
                 "to": {
-                    "startLine": 1214,
+                    "startLine": 1215,
                     "startColumn": 4,
-                    "startOffset": 93772,
+                    "startOffset": 93837,
                     "endColumn": 107,
-                    "endOffset": 93875
+                    "endOffset": 93940
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6318,11 +6337,11 @@
             },
             {
                 "to": {
-                    "startLine": 1215,
+                    "startLine": 1216,
                     "startColumn": 4,
-                    "startOffset": 93880,
+                    "startOffset": 93945,
                     "endColumn": 109,
-                    "endOffset": 93985
+                    "endOffset": 94050
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6337,11 +6356,11 @@
             },
             {
                 "to": {
-                    "startLine": 1216,
+                    "startLine": 1217,
                     "startColumn": 4,
-                    "startOffset": 93990,
+                    "startOffset": 94055,
                     "endColumn": 111,
-                    "endOffset": 94097
+                    "endOffset": 94162
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6356,12 +6375,12 @@
             },
             {
                 "to": {
-                    "startLine": 1217,
+                    "startLine": 1218,
                     "startColumn": 4,
-                    "startOffset": 94102,
-                    "endLine": 1219,
+                    "startOffset": 94167,
+                    "endLine": 1220,
                     "endColumn": 12,
-                    "endOffset": 94272
+                    "endOffset": 94337
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6377,11 +6396,11 @@
             },
             {
                 "to": {
-                    "startLine": 1220,
+                    "startLine": 1221,
                     "startColumn": 4,
-                    "startOffset": 94277,
+                    "startOffset": 94342,
                     "endColumn": 115,
-                    "endOffset": 94388
+                    "endOffset": 94453
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6396,11 +6415,11 @@
             },
             {
                 "to": {
-                    "startLine": 1221,
+                    "startLine": 1222,
                     "startColumn": 4,
-                    "startOffset": 94393,
+                    "startOffset": 94458,
                     "endColumn": 85,
-                    "endOffset": 94474
+                    "endOffset": 94539
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6415,11 +6434,11 @@
             },
             {
                 "to": {
-                    "startLine": 1222,
+                    "startLine": 1223,
                     "startColumn": 4,
-                    "startOffset": 94479,
+                    "startOffset": 94544,
                     "endColumn": 99,
-                    "endOffset": 94574
+                    "endOffset": 94639
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6434,11 +6453,11 @@
             },
             {
                 "to": {
-                    "startLine": 1223,
+                    "startLine": 1224,
                     "startColumn": 4,
-                    "startOffset": 94579,
+                    "startOffset": 94644,
                     "endColumn": 111,
-                    "endOffset": 94686
+                    "endOffset": 94751
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6453,11 +6472,11 @@
             },
             {
                 "to": {
-                    "startLine": 1224,
+                    "startLine": 1225,
                     "startColumn": 4,
-                    "startOffset": 94691,
+                    "startOffset": 94756,
                     "endColumn": 66,
-                    "endOffset": 94753
+                    "endOffset": 94818
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6472,11 +6491,11 @@
             },
             {
                 "to": {
-                    "startLine": 1225,
+                    "startLine": 1226,
                     "startColumn": 4,
-                    "startOffset": 94758,
+                    "startOffset": 94823,
                     "endColumn": 113,
-                    "endOffset": 94867
+                    "endOffset": 94932
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6491,11 +6510,11 @@
             },
             {
                 "to": {
-                    "startLine": 1226,
+                    "startLine": 1227,
                     "startColumn": 4,
-                    "startOffset": 94872,
+                    "startOffset": 94937,
                     "endColumn": 67,
-                    "endOffset": 94935
+                    "endOffset": 95000
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6510,11 +6529,11 @@
             },
             {
                 "to": {
-                    "startLine": 1227,
+                    "startLine": 1228,
                     "startColumn": 4,
-                    "startOffset": 94940,
+                    "startOffset": 95005,
                     "endColumn": 115,
-                    "endOffset": 95051
+                    "endOffset": 95116
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6529,11 +6548,11 @@
             },
             {
                 "to": {
-                    "startLine": 1228,
+                    "startLine": 1229,
                     "startColumn": 4,
-                    "startOffset": 95056,
+                    "startOffset": 95121,
                     "endColumn": 131,
-                    "endOffset": 95183
+                    "endOffset": 95248
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6548,11 +6567,11 @@
             },
             {
                 "to": {
-                    "startLine": 1229,
+                    "startLine": 1230,
                     "startColumn": 4,
-                    "startOffset": 95188,
+                    "startOffset": 95253,
                     "endColumn": 115,
-                    "endOffset": 95299
+                    "endOffset": 95364
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6567,11 +6586,11 @@
             },
             {
                 "to": {
-                    "startLine": 1230,
+                    "startLine": 1231,
                     "startColumn": 4,
-                    "startOffset": 95304,
+                    "startOffset": 95369,
                     "endColumn": 68,
-                    "endOffset": 95368
+                    "endOffset": 95433
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6586,11 +6605,11 @@
             },
             {
                 "to": {
-                    "startLine": 1231,
+                    "startLine": 1232,
                     "startColumn": 4,
-                    "startOffset": 95373,
+                    "startOffset": 95438,
                     "endColumn": 94,
-                    "endOffset": 95463
+                    "endOffset": 95528
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6605,11 +6624,11 @@
             },
             {
                 "to": {
-                    "startLine": 1232,
+                    "startLine": 1233,
                     "startColumn": 4,
-                    "startOffset": 95468,
+                    "startOffset": 95533,
                     "endColumn": 114,
-                    "endOffset": 95578
+                    "endOffset": 95643
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6624,11 +6643,11 @@
             },
             {
                 "to": {
-                    "startLine": 1233,
+                    "startLine": 1234,
                     "startColumn": 4,
-                    "startOffset": 95583,
+                    "startOffset": 95648,
                     "endColumn": 112,
-                    "endOffset": 95691
+                    "endOffset": 95756
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6643,11 +6662,11 @@
             },
             {
                 "to": {
-                    "startLine": 1234,
+                    "startLine": 1235,
                     "startColumn": 4,
-                    "startOffset": 95696,
+                    "startOffset": 95761,
                     "endColumn": 98,
-                    "endOffset": 95790
+                    "endOffset": 95855
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6662,11 +6681,11 @@
             },
             {
                 "to": {
-                    "startLine": 1235,
+                    "startLine": 1236,
                     "startColumn": 4,
-                    "startOffset": 95795,
+                    "startOffset": 95860,
                     "endColumn": 119,
-                    "endOffset": 95910
+                    "endOffset": 95975
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6681,11 +6700,11 @@
             },
             {
                 "to": {
-                    "startLine": 1236,
+                    "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 95915,
+                    "startOffset": 95980,
                     "endColumn": 121,
-                    "endOffset": 96032
+                    "endOffset": 96097
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6700,11 +6719,11 @@
             },
             {
                 "to": {
-                    "startLine": 1237,
+                    "startLine": 1238,
                     "startColumn": 4,
-                    "startOffset": 96037,
+                    "startOffset": 96102,
                     "endColumn": 110,
-                    "endOffset": 96143
+                    "endOffset": 96208
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6719,11 +6738,11 @@
             },
             {
                 "to": {
-                    "startLine": 1238,
+                    "startLine": 1239,
                     "startColumn": 4,
-                    "startOffset": 96148,
+                    "startOffset": 96213,
                     "endColumn": 100,
-                    "endOffset": 96244
+                    "endOffset": 96309
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6738,11 +6757,11 @@
             },
             {
                 "to": {
-                    "startLine": 1239,
+                    "startLine": 1240,
                     "startColumn": 4,
-                    "startOffset": 96249,
+                    "startOffset": 96314,
                     "endColumn": 104,
-                    "endOffset": 96349
+                    "endOffset": 96414
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6757,11 +6776,11 @@
             },
             {
                 "to": {
-                    "startLine": 1240,
+                    "startLine": 1241,
                     "startColumn": 4,
-                    "startOffset": 96354,
+                    "startOffset": 96419,
                     "endColumn": 99,
-                    "endOffset": 96449
+                    "endOffset": 96514
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6776,11 +6795,11 @@
             },
             {
                 "to": {
-                    "startLine": 1241,
+                    "startLine": 1242,
                     "startColumn": 4,
-                    "startOffset": 96454,
+                    "startOffset": 96519,
                     "endColumn": 117,
-                    "endOffset": 96567
+                    "endOffset": 96632
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6795,11 +6814,11 @@
             },
             {
                 "to": {
-                    "startLine": 1242,
+                    "startLine": 1243,
                     "startColumn": 4,
-                    "startOffset": 96572,
+                    "startOffset": 96637,
                     "endColumn": 90,
-                    "endOffset": 96658
+                    "endOffset": 96723
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6814,11 +6833,11 @@
             },
             {
                 "to": {
-                    "startLine": 1243,
+                    "startLine": 1244,
                     "startColumn": 4,
-                    "startOffset": 96663,
+                    "startOffset": 96728,
                     "endColumn": 122,
-                    "endOffset": 96781
+                    "endOffset": 96846
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6833,11 +6852,11 @@
             },
             {
                 "to": {
-                    "startLine": 1244,
+                    "startLine": 1245,
                     "startColumn": 4,
-                    "startOffset": 96786,
+                    "startOffset": 96851,
                     "endColumn": 99,
-                    "endOffset": 96881
+                    "endOffset": 96946
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6852,11 +6871,11 @@
             },
             {
                 "to": {
-                    "startLine": 1245,
+                    "startLine": 1246,
                     "startColumn": 4,
-                    "startOffset": 96886,
+                    "startOffset": 96951,
                     "endColumn": 103,
-                    "endOffset": 96985
+                    "endOffset": 97050
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6871,11 +6890,11 @@
             },
             {
                 "to": {
-                    "startLine": 1246,
+                    "startLine": 1247,
                     "startColumn": 4,
-                    "startOffset": 96990,
+                    "startOffset": 97055,
                     "endColumn": 95,
-                    "endOffset": 97081
+                    "endOffset": 97146
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6890,11 +6909,11 @@
             },
             {
                 "to": {
-                    "startLine": 1247,
+                    "startLine": 1248,
                     "startColumn": 4,
-                    "startOffset": 97086,
+                    "startOffset": 97151,
                     "endColumn": 87,
-                    "endOffset": 97169
+                    "endOffset": 97234
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6909,11 +6928,11 @@
             },
             {
                 "to": {
-                    "startLine": 1248,
+                    "startLine": 1249,
                     "startColumn": 4,
-                    "startOffset": 97174,
+                    "startOffset": 97239,
                     "endColumn": 105,
-                    "endOffset": 97275
+                    "endOffset": 97340
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6928,11 +6947,11 @@
             },
             {
                 "to": {
-                    "startLine": 1249,
+                    "startLine": 1250,
                     "startColumn": 4,
-                    "startOffset": 97280,
+                    "startOffset": 97345,
                     "endColumn": 91,
-                    "endOffset": 97367
+                    "endOffset": 97432
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6947,11 +6966,11 @@
             },
             {
                 "to": {
-                    "startLine": 1250,
+                    "startLine": 1251,
                     "startColumn": 4,
-                    "startOffset": 97372,
+                    "startOffset": 97437,
                     "endColumn": 91,
-                    "endOffset": 97459
+                    "endOffset": 97524
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6966,11 +6985,11 @@
             },
             {
                 "to": {
-                    "startLine": 1251,
+                    "startLine": 1252,
                     "startColumn": 4,
-                    "startOffset": 97464,
+                    "startOffset": 97529,
                     "endColumn": 113,
-                    "endOffset": 97573
+                    "endOffset": 97638
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6985,11 +7004,11 @@
             },
             {
                 "to": {
-                    "startLine": 1252,
+                    "startLine": 1253,
                     "startColumn": 4,
-                    "startOffset": 97578,
+                    "startOffset": 97643,
                     "endColumn": 89,
-                    "endOffset": 97663
+                    "endOffset": 97728
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7004,11 +7023,11 @@
             },
             {
                 "to": {
-                    "startLine": 1253,
+                    "startLine": 1254,
                     "startColumn": 4,
-                    "startOffset": 97668,
+                    "startOffset": 97733,
                     "endColumn": 83,
-                    "endOffset": 97747
+                    "endOffset": 97812
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7023,11 +7042,11 @@
             },
             {
                 "to": {
-                    "startLine": 1254,
+                    "startLine": 1255,
                     "startColumn": 4,
-                    "startOffset": 97752,
+                    "startOffset": 97817,
                     "endColumn": 53,
-                    "endOffset": 97801
+                    "endOffset": 97866
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7042,11 +7061,11 @@
             },
             {
                 "to": {
-                    "startLine": 1255,
+                    "startLine": 1256,
                     "startColumn": 4,
-                    "startOffset": 97806,
+                    "startOffset": 97871,
                     "endColumn": 121,
-                    "endOffset": 97923
+                    "endOffset": 97988
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7061,11 +7080,11 @@
             },
             {
                 "to": {
-                    "startLine": 1256,
+                    "startLine": 1257,
                     "startColumn": 4,
-                    "startOffset": 97928,
+                    "startOffset": 97993,
                     "endColumn": 83,
-                    "endOffset": 98007
+                    "endOffset": 98072
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7080,11 +7099,11 @@
             },
             {
                 "to": {
-                    "startLine": 1257,
+                    "startLine": 1258,
                     "startColumn": 4,
-                    "startOffset": 98012,
+                    "startOffset": 98077,
                     "endColumn": 119,
-                    "endOffset": 98127
+                    "endOffset": 98192
                 },
                 "from": {
                     "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",

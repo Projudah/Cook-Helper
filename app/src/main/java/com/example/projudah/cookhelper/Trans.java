@@ -63,6 +63,29 @@ public class Trans{
         },2000);
     }
 
+    public static void outpassback(final RelativeLayout v,final Activity thiss,final Intent pass){
+        android.os.Handler h = new android.os.Handler();
+        AlphaAnimation start = new AlphaAnimation(1.0f,0.0f);
+        start.setDuration(500);
+        start.setFillAfter(true);
+        v.startAnimation(start);
+
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                thiss.startActivity(pass);
+                thiss.overridePendingTransition(0, 0);
+            }
+        },500);
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                v.clearAnimation();
+
+            }
+        },2000);
+    }
+
     public static void back(RelativeLayout v,final Activity thiss){
         android.os.Handler h = new android.os.Handler();
         AlphaAnimation start = new AlphaAnimation(1.0f,0.0f);

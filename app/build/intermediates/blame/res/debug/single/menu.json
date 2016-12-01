@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_home.xml"
     },
     {
+        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_viewrecipe.xml",
+        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_viewrecipe.xml"
+    },
+    {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_launch.xml",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_launch.xml"
     }

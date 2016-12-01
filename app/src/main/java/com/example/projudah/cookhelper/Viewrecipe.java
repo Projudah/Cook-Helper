@@ -17,6 +17,7 @@ public class Viewrecipe extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.viewrecipe);
+        populate();
     }
 
 
@@ -44,16 +45,41 @@ public class Viewrecipe extends ActionBarActivity {
 
     public void populate(){
         Intent home = getIntent();
-        String name = home.getStringExtra("recipe");
-        ArrayList<Recipe> recipes = home.getParcelableArrayListExtra("recipe list");
+        String name = home.getStringExtra("recipename");
+        String type = home.getStringExtra("recipetype");
+        String cat = home.getStringExtra("recipecat");
+        String steps = home.getStringExtra("recipesteps");
+        ArrayList<String> ing = home.getStringArrayListExtra("ing");
+
         TextView recipename = (TextView) findViewById(R.id.name);
         TextView Category = (TextView) findViewById(R.id.category);
         TextView Type = (TextView) findViewById(R.id.type);
         LinearLayout ingredients =(LinearLayout) findViewById(R.id.ingslay);
-        LinearLayout steps = (LinearLayout) findViewById(R.id.steps);
+        LinearLayout step = (LinearLayout) findViewById(R.id.steps);
+
+        recipename.setText(name);
+        Category.setText(cat);
+        Type.setText(type);
+
+        for (int i = 0 ; i<ing.size();i++){
+            TextView oneing = new TextView(this);
+            oneing.setText("- "+ing.get(i));
+            oneing.setTextAppearance(this, R.style.Base_TextAppearance_AppCompat_Large);
+            ingredients.addView(oneing);
+        }
+
+        String[] sepsteps = separate(steps);
+        for (int i= 0 ;i < sepsteps.length; i++){
+            TextView oneing = new TextView(this);
+            oneing.setText(Integer.toString(i+1)+". "+ sepsteps[i]);
+            oneing.setTextAppearance(this, R.style.Base_TextAppearance_AppCompat_Large);
+            step.addView(oneing);
+        }
 
 
+    }
 
-
+    public String[] separate(String steps){
+        return (steps.split(" ;; "));
     }
 }

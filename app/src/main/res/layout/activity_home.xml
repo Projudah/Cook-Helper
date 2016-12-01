@@ -6,8 +6,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Home"
     android:id="@+id/root"
     android:fitsSystemWindows="true"
-    android:background="#ffb540"
-    android:backgroundTint="@drawable/lbg">
+    android:background="#ffb540">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -69,8 +68,8 @@
             android:dropDownWidth="200dp"
             android:layout_alignWithParentIfMissing="false"
             android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/spinner"
-            android:layout_alignEnd="@+id/spinner" />
+            android:layout_alignEnd="@+id/spinner"
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 

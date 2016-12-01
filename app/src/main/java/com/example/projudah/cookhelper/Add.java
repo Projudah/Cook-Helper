@@ -191,7 +191,7 @@ public class Add extends ActionBarActivity {
                 String Type = ((AutoCompleteTextView) findViewById(R.id.type)).getText().toString();
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
-                Recipe rec = new Recipe(RecipeName,Category,Type);
+                Recipe rec = new Recipe(RecipeName,Category,Type,Steps);
 
                 String filename = rec.getName()+".json";
                 String string = "";
