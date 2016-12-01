@@ -1,5 +1,7 @@
 package com.example.projudah.cookhelper;
 
+import java.io.IOException;
+
 public class customHashMap {
     private int maxChar;
     ExpandableArray<ExpandableArray<Recipe>> map;
@@ -15,25 +17,29 @@ public class customHashMap {
      * Recipe's name must be at least maxChar long;
      * @param item -- the Recipe item that is pushed into the hashMap
      */
-    public void push(Recipe item){
+    public void push(Recipe item) throws IOException{
 
         /**
          * turn the Recipe's name into a key. toLowerCase() is required to reduce the
          * size of the hashMap;
          */
-        int itemKey = this.translateString(item.getName().toLowerCase());
-        if (this.map.get(itemKey) == null){
-
-            //if there are no ExpArray at location == itemKey, then create a new
-            //ExpArray at the location.
-            ExpandableArray<Recipe> newItem = new ExpandableArray<Recipe>();
-            newItem.add(item);;
-            map.add(newItem, itemKey);
-
+        if (item.getName().length() < maxChar){
+            throw new IOException("push:item name is too short.");
         } else {
+            int itemKey = this.translateString(item.getName().toLowerCase());
+            if (this.map.get(itemKey) == null){
 
-            //add item into the ExpArray at location == itemKey;
-            this.map.get(itemKey).add(item);
+                //if there are no ExpArray at location == itemKey, then create a new
+                //ExpArray at the location.
+                ExpandableArray<Recipe> newItem = new ExpandableArray<Recipe>();
+                newItem.add(item);;
+                map.add(newItem, itemKey);
+
+            } else {
+
+                //add item into the ExpArray at location == itemKey;
+                this.map.get(itemKey).add(item);
+            }
         }
     }
     /////////////////PULL//////////////////////////////////
@@ -53,9 +59,9 @@ public class customHashMap {
      * @param inputString -- search input
      * @return -- recipes that satisfy the search input
      */
-    public ExpandableArray<Recipe> getAllRecipeChildren(String inputString){
+    public ExpandableArray<Recipe> getAllRecipeChildren(String inputString) throws IOException{
 
-        if (checkString(inputString)) {
+        if (checkStringLength(inputString)) {
             inputString = limitString(inputString, maxChar);
             //Call getAllRecipeParent to get the parent array;
             ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
@@ -69,7 +75,7 @@ public class customHashMap {
             }
             return arrayOfChildren;
         } else {
-            return null;
+            throw new IOException("getAllRecipeChildren:input is empty");
         }
     }
 
@@ -78,9 +84,9 @@ public class customHashMap {
      * @param inputString
      * @return
      */
-    public ExpandableArray<ExpandableArray<Recipe>> getAllRecipeParent(String inputString){
+    public ExpandableArray<ExpandableArray<Recipe>> getAllRecipeParent(String inputString) throws IOException{
 
-        if (checkString(inputString)) {
+        if (checkStringLength(inputString)) {
             inputString = limitString(inputString, maxChar);
             //Get all the parent array;
             ExpandableArray<ExpandableArray<Recipe>> arrayOfParent = new
@@ -93,20 +99,27 @@ public class customHashMap {
             }
             return arrayOfParent;
         } else {
-            return null;
+            throw new IOException("getAllRecipeParent:input is empty");
         }
     }
 
-    public Recipe searchSpecificRecipe(String input){
-        ExpandableArray<Recipe> arrayOfRecipe = this.getAllRecipeChildren(input);
-        for (int a = 0; a < arrayOfRecipe.arraySize(); a++){
-            if (arrayOfRecipe.get(a) != null){
-                if (arrayOfRecipe.get(a).getName().equals(input)){
-                    return arrayOfRecipe.get(a);
+    public Recipe searchSpecificRecipe(String inputString) throws IOException{
+        String checkString = this.limitString(inputString, maxChar);
+        System.out.println("checkString:" + checkString + "--");
+        if (checkString.length() != 0){
+                    ExpandableArray<Recipe> arrayOfRecipe =
+                            this.getAllRecipeChildren(checkString);
+            for (int a = 0; a < arrayOfRecipe.arraySize(); a++){
+                if (arrayOfRecipe.get(a) != null){
+                    if (arrayOfRecipe.get(a).getName().equals(inputString)){
+                        return arrayOfRecipe.get(a);
+                    }
                 }
             }
+        } else {
+            throw new IOException("searchSpecificRecipe:input string is empty.");
         }
-        return null;
+        throw new IOException("searchSpecificRecipe:input string is empty.");
     }
 
     ////////////////BACKEND METHODS////////////////////////
@@ -172,17 +185,25 @@ public class customHashMap {
      * @return -- inputString[0...4]
      */
     public String limitString(String inputString, int limit){
+        inputString = inputString.replaceAll("[^a-zA-Z\\s]", "");
         String newString = "";
         char[] charArray = inputString.toCharArray();
-        for (int a = 0; a < limit; a++){
-            newString += charArray[a];
+        if (charArray.length == 0){
+            return "";
+        } else {
+
+            if (charArray.length < limit){
+                limit = charArray.length;
+            }
+            for (int a = 0; a < limit; a++){
+                newString += charArray[a];
+            }
+            System.out.println("limitedString:" + newString);
+            return newString;
         }
-        System.out.println("limitedString:" + newString);
-        return newString;
     }
 
-    private boolean checkString(String inputString){
-        inputString = inputString.replaceAll("[^A-Za-z0-9]", "");
+    private boolean checkStringLength(String inputString){
         if (inputString.length() == 0){
             return false;
         } else {
@@ -190,4 +211,3 @@ public class customHashMap {
         }
     }
 }
-
