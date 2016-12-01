@@ -55,18 +55,22 @@ public class customHashMap {
      */
     public ExpandableArray<Recipe> getAllRecipeChildren(String inputString){
 
-        inputString = limitString(inputString, maxChar);
-        //Call getAllRecipeParent to get the parent array;
-        ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
-                this.getAllRecipeParent(inputString);
-        ExpandableArray<Recipe> arrayOfChildren =
-                new ExpandableArray<Recipe>();
-        for (int a = 0; a < arrayOfParent.itemSize(); a++){
-            for (int b = 0; b < arrayOfParent.get(a).itemSize(); b++){
-                arrayOfChildren.add(arrayOfParent.get(a).get(b));
+        if (checkString(inputString)) {
+            inputString = limitString(inputString, maxChar);
+            //Call getAllRecipeParent to get the parent array;
+            ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
+                    this.getAllRecipeParent(inputString);
+            ExpandableArray<Recipe> arrayOfChildren =
+                    new ExpandableArray<Recipe>();
+            for (int a = 0; a < arrayOfParent.itemSize(); a++) {
+                for (int b = 0; b < arrayOfParent.get(a).itemSize(); b++) {
+                    arrayOfChildren.add(arrayOfParent.get(a).get(b));
+                }
             }
+            return arrayOfChildren;
+        } else {
+            return null;
         }
-        return arrayOfChildren;
     }
 
     /**
@@ -76,17 +80,21 @@ public class customHashMap {
      */
     public ExpandableArray<ExpandableArray<Recipe>> getAllRecipeParent(String inputString){
 
-        inputString = limitString(inputString, maxChar);
-        //Get all the parent array;
-        ExpandableArray<ExpandableArray<Recipe>> arrayOfParent = new
-                ExpandableArray<ExpandableArray<Recipe>>();
+        if (checkString(inputString)) {
+            inputString = limitString(inputString, maxChar);
+            //Get all the parent array;
+            ExpandableArray<ExpandableArray<Recipe>> arrayOfParent = new
+                    ExpandableArray<ExpandableArray<Recipe>>();
 
-        int count = this.power(26, (maxChar - inputString.length()));
-        int start = this.translateString(inputString);
-        for (int a = 0; a < count; a++){
-            arrayOfParent.add(this.get(start + a));
+            int count = this.power(26, (maxChar - inputString.length()));
+            int start = this.translateString(inputString);
+            for (int a = 0; a < count; a++) {
+                arrayOfParent.add(this.get(start + a));
+            }
+            return arrayOfParent;
+        } else {
+            return null;
         }
-        return arrayOfParent;
     }
 
     public Recipe searchSpecificRecipe(String input){
@@ -171,6 +179,15 @@ public class customHashMap {
         }
         System.out.println("limitedString:" + newString);
         return newString;
+    }
+
+    private boolean checkString(String inputString){
+        inputString = inputString.replaceAll("[^A-Za-z0-9]", "");
+        if (inputString.length() == 0){
+            return false;
+        } else {
+            return true;
+        }
     }
 }
 
