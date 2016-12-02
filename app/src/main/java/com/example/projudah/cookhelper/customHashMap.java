@@ -8,69 +8,136 @@ package com.example.projudah.cookhelper;
 import java.io.IOException;
 
 public class customHashMap {
-    private int maxChar;
     ExpandableArray<ExpandableArray<Recipe>> map;
+    private final static int lettersCount = 26;
+
     public customHashMap(int maxChar){
         map =
                 new ExpandableArray<ExpandableArray<Recipe>>((this.powerSum(26, maxChar)));
-        this.maxChar = maxChar;
     }
 
     //////////////////PUSH//////////////////////////////////
-    /**
-     * Recipe will provide the name that will be used as the key for the recipe;
-     * Recipe's name must be at least maxChar long;
-     * @param item -- the Recipe item that is pushed into the hashMap
-     */
+
     public void push(Recipe item) throws IOException{
 
-        /**
-         * turn the Recipe's name into a key. toLowerCase() is required to reduce the
-         * size of the hashMap;
-         */
-        if (item.getName().length() < maxChar){
-            throw new IOException("push:item name is too short.");
+        String string = "" +
+                item.name.charAt(0) +
+                item.category.charAt(0) +
+                item.type.charAt(0);
+
+
+        int a = alphabetCharToInt(item.name.toLowerCase().charAt(0));
+        int b = alphabetCharToInt(item.category.toLowerCase().charAt(0));
+        int c = alphabetCharToInt(item.type.toLowerCase().charAt(0));
+        int location = (
+                (a*(this.power(lettersCount, 2))) +
+                        (b*(this.power(lettersCount, 1))) +
+                        (c*(this.power(lettersCount, 0)))
+        );
+
+        System.out.println("push:location:" + location);
+        if (string.length()  != 3){
+            throw new IOException(
+                    "insufficient string length. Either name, category or type is empty."
+            );
         } else {
-            int itemKey = this.translateString(item.getName().toLowerCase());
-            if (this.map.get(itemKey) == null){
-
-                //if there are no ExpArray at location == itemKey, then create a new
-                //ExpArray at the location.
-                ExpandableArray<Recipe> newItem = new ExpandableArray<Recipe>();
-                newItem.add(item);;
-                map.add(newItem, itemKey);
-
+            if (map.get(location) == null){
+                ExpandableArray<Recipe> newRecipeArray =
+                        new ExpandableArray<Recipe>();
+                newRecipeArray.add(item);
+                map.add(
+                        newRecipeArray,
+                        location
+                );
             } else {
-
-                //add item into the ExpArray at location == itemKey;
-                this.map.get(itemKey).add(item);
+                map.get(location).add(item);
             }
         }
     }
     /////////////////PULL//////////////////////////////////
 
-    /**
-     * Get a list of Recipe based on the given index
-     * @param index
-     * @return
-     */
     public ExpandableArray<Recipe> get(int index){
         //This is used if the index is given;
         return this.map.get(index);
     }
 
-    /**
-     * Get all the Recipe that satisfy the given string
-     * @param inputString -- search input
-     * @return -- recipes that satisfy the search input
-     */
-    public ExpandableArray<Recipe> getAllRecipeChildren(String inputString) throws IOException{
+    public ExpandableArray<ExpandableArray<Recipe>> getAllRecipeParent(
+            String inputString, int num
+    ) throws IOException{
 
-        if (checkStringLength(inputString)) {
-            inputString = limitString(inputString, maxChar);
-            //Call getAllRecipeParent to get the parent array;
-            ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
-                    this.getAllRecipeParent(inputString);
+        //Get all the parent array;
+        char theChar;
+
+        if (num == 0){
+            theChar = inputString.toLowerCase().charAt(0);
+        } else if (num == 1){
+            theChar = inputString.toLowerCase().charAt(1);
+        } else if (num == 2){
+            theChar = inputString.toLowerCase().charAt(2);
+        } else {
+            throw new IOException("num must be 1, 2 or 3.");
+        }
+        ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
+                new ExpandableArray<ExpandableArray<Recipe>>();
+
+        for (int a = 1; a <= lettersCount; a++){
+            for (int b = 1; b < lettersCount; b++){
+                int location =
+                        this.translateLetter(theChar, num) +
+                                this.translateNumber(a, b, num);
+                arrayOfParent.add(map.get(
+                        location
+                ));
+
+                /**
+                 System.out.println(
+                 "get:location:" + location +
+                 ":value:" + map.get(location)
+                 );
+                 **/
+            }
+        }
+        return arrayOfParent;
+    }
+
+    public Recipe searchSpecificRecipe(
+            String inputString, int num
+    ) throws IOException{
+        ExpandableArray<Recipe> arrayOfRecipe =
+                this.getAllRecipeChildren(inputString, num);
+        if (arrayOfRecipe == null){
+            throw new IOException("arrayOfRecipe is null");
+        } else {
+            for (int a = 0; a < arrayOfRecipe.itemSize(); a++){
+                if (num == 0){
+                    if (inputString == arrayOfRecipe.get(a).name){
+                        return arrayOfRecipe.get(a);
+                    }
+                } else if (num == 1){
+                    if (inputString == arrayOfRecipe.get(a).category){
+                        return arrayOfRecipe.get(a);
+                    }
+                } else if (num == 2){
+                    if (inputString == arrayOfRecipe.get(a).type){
+                        return arrayOfRecipe.get(a);
+                    }
+                } else {
+                    throw new IOException("num must be 1, 2 or 3.");
+                }
+            }
+            return null;
+        }
+    }
+
+    public ExpandableArray<Recipe> getAllRecipeChildren(
+            String inputString, int num
+    ) throws IOException{
+        //Call getAllRecipeParent to get the parent array;
+        ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
+                this.getAllRecipeParent(inputString, num);
+        if (arrayOfParent == null){
+            return null;
+        } else {
             ExpandableArray<Recipe> arrayOfChildren =
                     new ExpandableArray<Recipe>();
             for (int a = 0; a < arrayOfParent.itemSize(); a++) {
@@ -79,101 +146,59 @@ public class customHashMap {
                 }
             }
             return arrayOfChildren;
-        } else {
-            throw new IOException("getAllRecipeChildren:input is empty");
         }
-    }
-
-    /**
-     * Returns a list of arrays of recipes that satisfies the given input
-     * @param inputString
-     * @return
-     */
-    public ExpandableArray<ExpandableArray<Recipe>> getAllRecipeParent(String inputString) throws IOException{
-
-        if (checkStringLength(inputString)) {
-            inputString = limitString(inputString, maxChar);
-            //Get all the parent array;
-            ExpandableArray<ExpandableArray<Recipe>> arrayOfParent = new
-                    ExpandableArray<ExpandableArray<Recipe>>();
-
-            int count = this.power(26, (maxChar - inputString.length()));
-            int start = this.translateString(inputString);
-            for (int a = 0; a < count; a++) {
-                arrayOfParent.add(this.get(start + a));
-            }
-            return arrayOfParent;
-        } else {
-            throw new IOException("getAllRecipeParent:input is empty");
-        }
-    }
-
-    public Recipe searchSpecificRecipe(String inputString) throws IOException{
-        String checkString = this.limitString(inputString, maxChar);
-        System.out.println("checkString:" + checkString + "--");
-        if (checkString.length() != 0){
-                    ExpandableArray<Recipe> arrayOfRecipe =
-                            this.getAllRecipeChildren(checkString);
-            for (int a = 0; a < arrayOfRecipe.arraySize(); a++){
-                if (arrayOfRecipe.get(a) != null){
-                    if (arrayOfRecipe.get(a).getName().equals(inputString)){
-                        return arrayOfRecipe.get(a);
-                    }
-                }
-            }
-        } else {
-            throw new IOException("searchSpecificRecipe:input string is empty.");
-        }
-        throw new IOException("searchSpecificRecipe:input string is empty.");
     }
 
     ////////////////BACKEND METHODS////////////////////////
 
-    /**
-     * Returns the integer representation of a string;
-     * @param string -- given string to be interpreted
-     * @return -- integer representation of the string
-     */
-    public int translateString(String string){
-        System.out.println("translating:" + string);
-        int someInt = 0;
-        for (int a = 1; a <= string.length(); a++){
-            someInt +=
-                    alphabetCharToInt(string.charAt(a - 1)) * (this.power(26, maxChar - a));
+    public int translateLetter(
+            char a, int num
+    ) throws IOException{
+        int b;
+
+        if (num == 0){
+            b = 2;
+        } else if (num == 1){
+            b = 1;
+        } else if (num == 2){
+            b = 0;
+        } else {
+            throw new IOException("num must be 1, 2 or 3.");
         }
-        for (int b = 0; b < (maxChar - string.length()); b++){
-            someInt += this.power(26, b);
-        }
-        return someInt;
+
+        return (
+                this.alphabetCharToInt(a)*this.power(lettersCount, b)
+        );
     }
 
+    public int translateNumber(
+            int d, int e, int num
+    ) throws IOException{
 
-    /**
-     * Lower the number representation of char in JAVA by 96 for
-     * the purpose of hashing;
-     * @param a
-     * @return
-     */
+        int a, b;
+
+        if (num == 0){
+            a = 1;b = 0;
+        } else if (num == 1){
+            a = 2; b = 0;
+        } else if (num == 2){
+            a = 2; b = 1;
+        } else {
+            throw new IOException("num must be 1, 2 or 3.");
+        }
+        return (
+                (d*this.power(lettersCount,  a)) + (e*this.power(lettersCount, b))
+        );
+    }
+
     public int alphabetCharToInt(char a){
         return ((int) a - 96);
     }
 
-    /**
-     * Return a^b;
-     * @param a -- number to be power-ed
-     * @param b -- magnitude of power
-     * @return -- result of a^b
-     */
     public int power(int a, int b){
         return ((int) (Math.pow((double) a, (double) b)));
     }
 
-    /**
-     * Return the sum of the sequence a^n + a^(n-1) + ... + a^(0);
-     * @param num -- value of a
-     * @param count -- value of n
-     * @return -- the sum of the sequence a^n + a^(n-1) + ... + a^(0)
-     */
     public int powerSum(int num, int count){
         int sum = 0;
         for (int a = 0; a <= count; a++){
@@ -182,37 +207,11 @@ public class customHashMap {
         return sum;
     }
 
-    /**
-     * Given a string of length larger than the limit, will return a string that limited
-     * to 4 characters from the left;
-     * @param inputString -- string to be limited at length of limit
-     * @param limit -- the length limit of inputString
-     * @return -- inputString[0...4]
-     */
-    public String limitString(String inputString, int limit){
-        inputString = inputString.replaceAll("[^a-zA-Z\\s]", "");
-        String newString = "";
-        char[] charArray = inputString.toCharArray();
-        if (charArray.length == 0){
-            return "";
-        } else {
+    public String combineString(Recipe recipe){
 
-            if (charArray.length < limit){
-                limit = charArray.length;
-            }
-            for (int a = 0; a < limit; a++){
-                newString += charArray[a];
-            }
-            System.out.println("limitedString:" + newString);
-            return newString;
-        }
-    }
-
-    private boolean checkStringLength(String inputString){
-        if (inputString.length() == 0){
-            return false;
-        } else {
-            return true;
-        }
+        return "" +
+                recipe.name.charAt(0) +
+                recipe.category.charAt(0) +
+                recipe.type.charAt(0);
     }
 }

@@ -42,17 +42,19 @@ public class ExpandableArray<E> {
          * no error if location is outside of index, the array will simply expand
          */
 
-        //check if the location is outside of index
-        if (location < (this.array.length)){
-            itemCount++;
-            if (this.array[location] != null){
-                System.out.println("replacing old item with new one");
+        if (item != null){
+            //check if the location is outside of index
+            if (location < (this.array.length)){
+                itemCount++;
+                if (this.array[location] != null){
+                    System.out.println("replacing old item with new one");
+                }
+                array[location] = item;
+            } else {
+                this.expandArray();
+                //copy the item into its location by recursively call the method
+                this.add(item,  location);
             }
-            array[location] = item;
-        } else {
-            this.expandArray();
-            //copy the item into its location by recursively call the method
-            this.add(item,  location);
         }
     }
 
@@ -70,16 +72,18 @@ public class ExpandableArray<E> {
      * @param item
      */
     public void add(E item){
-        if (endLocation < array.length){
-            if (this.array[endLocation] != null){
-                endLocation++;
-                this.add(item, endLocation);
+        if (item != null){
+            if (endLocation < array.length){
+                if (this.array[endLocation] != null){
+                    endLocation++;
+                    this.add(item, endLocation);
+                } else {
+                    this.add(item, endLocation);
+                }
             } else {
-                this.add(item, endLocation);
+                this.expandArray();
+                this.add(item);
             }
-        } else {
-            this.expandArray();
-            this.add(item);
         }
     }
 
