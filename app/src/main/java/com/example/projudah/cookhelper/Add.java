@@ -184,7 +184,8 @@ public class Add extends ActionBarActivity {
                     if (((CheckBox) findViewById(checkid[i])).isChecked())
                         Ingredients[i] = ((CheckBox) findViewById(checkid[i])).getText().toString();
                 }
-                String Steps ="";
+                String Steps;
+                Steps = ((EditText) findViewById(R.id.stepone)).getText().toString();
                 for (int i = 0; i < stepidlist.size(); i++) {
                     Steps = Steps+" ;; "+((EditText) findViewById(stepidlist.get(i))).getText().toString();
                 }
@@ -192,6 +193,8 @@ public class Add extends ActionBarActivity {
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
                 Recipe rec = new Recipe(RecipeName,Category,Type,Steps);
+                for (int i = 0; i < Ingredients.length; i++)
+                    rec.addIngredient(Ingredients[i]);
 
                 String filename = rec.getName()+".json";
                 String string = "";

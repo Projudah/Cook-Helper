@@ -72,6 +72,7 @@ public class Home extends ActionBarActivity {
 
     ArrayList<Recipe> recipes = new ArrayList<Recipe>();
     public void home(){
+        recipes.clear();
         final Activity thiss =this;
         Spinner add = (Spinner) findViewById(R.id.button);
         add.setSelection(0);
@@ -93,9 +94,6 @@ public class Home extends ActionBarActivity {
             }
         });
 
-
-        //recipes.add(new Recipe("Test recipe","test category","test type"));
-
         ObjectMapper mapper = new ObjectMapper();
         File file = new File(Home.this.getFilesDir().getAbsolutePath());
         try {
@@ -114,9 +112,7 @@ public class Home extends ActionBarActivity {
         for(int i = 0; i < recipes.size();i++){
             hello2[i] = recipes.get(i).getName();
         }
-        //String[] hello = new String[]{"Spaghetti","Tacos","Fried Rice","Ham Sandwich","Burger","Onion Salad","Recipe for disaster","Nachos","Greasy Nachos","Poutine"};
         Myadapter my = new Myadapter(this, R.layout.customlist, hello2);
-        //Myadapter my2 = new Myadapter(this, android.R.layout.simple_list_item_1, hello);
         ListView list = (ListView) findViewById(R.id.listView);
         list.setAdapter(my);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -137,7 +133,6 @@ public class Home extends ActionBarActivity {
 
     public void recipe(View v){
         TextView x =(TextView) ((RelativeLayout) v).getChildAt(0);
-        TextView text= (TextView) x;
         Recipe chosenone = findrecipe(x.getText().toString());
         if (chosenone!= null){
             Intent next = new Intent(this, Viewrecipe.class);
@@ -164,36 +159,10 @@ public class Home extends ActionBarActivity {
         return chosenone;
     }
 
-
-    public void add(View v){
-        setContentView(R.layout.chooseadd);
-        String[] hello = new String[]{"These","should","be","ingredients","and","stuff","so","full","marks","please"};
-        ArrayAdapter<String> ad = new ArrayAdapter<String>(this, R.layout.customlist, hello);
-        /*GridView list = (GridView) findViewById(R.id.gridView);
-        list.setAdapter(ad);
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                Toast.makeText(getBaseContext(),"K", Toast.LENGTH_SHORT).show();
-            }
-        });*/
-    }
-    public void cat(View v){
-        setContentView(R.layout.cat);
-    }
-    public void steps(View v){
-        setContentView(R.layout.steps);
-    }
-    public void fin(View v){
-        setContentView(R.layout.activity_home);
-        home();
-    }
-
     @Override
     protected void onResume() {
-
-        home();
         super.onResume();
+        home();
 
     }
 

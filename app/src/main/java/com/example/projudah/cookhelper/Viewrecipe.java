@@ -3,9 +3,11 @@ package com.example.projudah.cookhelper;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -17,6 +19,7 @@ public class Viewrecipe extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.viewrecipe);
+        Trans.animatein(this, (RelativeLayout)findViewById(R.id.root));
         populate();
     }
 
@@ -60,8 +63,9 @@ public class Viewrecipe extends ActionBarActivity {
         recipename.setText(name);
         Category.setText(cat);
         Type.setText(type);
-
+        Log.i("ingredients", ing.size()+"");
         for (int i = 0 ; i<ing.size();i++){
+            Log.i("ing", ing.get(i));
             TextView oneing = new TextView(this);
             oneing.setText("- "+ing.get(i));
             oneing.setTextAppearance(this, R.style.Base_TextAppearance_AppCompat_Large);
@@ -69,7 +73,9 @@ public class Viewrecipe extends ActionBarActivity {
         }
 
         String[] sepsteps = separate(steps);
+        Log.i("steps", steps);
         for (int i= 0 ;i < sepsteps.length; i++){
+            Log.i("seperate", sepsteps[i]);
             TextView oneing = new TextView(this);
             oneing.setText(Integer.toString(i+1)+". "+ sepsteps[i]);
             oneing.setTextAppearance(this, R.style.Base_TextAppearance_AppCompat_Large);
