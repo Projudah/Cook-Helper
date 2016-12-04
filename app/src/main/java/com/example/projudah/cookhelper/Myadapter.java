@@ -1,6 +1,7 @@
 package com.example.projudah.cookhelper;
 
 import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -52,6 +54,9 @@ public class Myadapter extends ArrayAdapter<String> {
                 String choice = (String) (parent.getItemAtPosition(position));
                 if (choice.equals("Edit")) {
                     parent.setSelection(0);
+                    ViewGroup roots = (ViewGroup)((Activity)contexts).findViewById(android.R.id.content);
+                    RelativeLayout root =(RelativeLayout) ((RelativeLayout) roots.getChildAt(0)).getChildAt(0);
+                    Home.edit(name,Home.recipes, (Activity)contexts, root);
                 }
                 if (choice.equals("Delete")) {
                     parent.setSelection(0);
