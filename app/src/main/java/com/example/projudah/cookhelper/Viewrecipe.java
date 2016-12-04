@@ -63,9 +63,7 @@ public class Viewrecipe extends ActionBarActivity {
         recipename.setText(name);
         Category.setText(cat);
         Type.setText(type);
-        Log.i("ingredients", ing.size()+"");
         for (int i = 0 ; i<ing.size();i++){
-            Log.i("ing", ing.get(i));
             TextView oneing = new TextView(this);
             oneing.setText("- "+ing.get(i));
             oneing.setTextAppearance(this, R.style.Base_TextAppearance_AppCompat_Large);
@@ -73,9 +71,7 @@ public class Viewrecipe extends ActionBarActivity {
         }
 
         String[] sepsteps = separate(steps);
-        Log.i("steps", steps);
         for (int i= 0 ;i < sepsteps.length; i++){
-            Log.i("seperate", sepsteps[i]);
             TextView oneing = new TextView(this);
             oneing.setText(Integer.toString(i+1)+". "+ sepsteps[i]);
             oneing.setTextAppearance(this, R.style.Base_TextAppearance_AppCompat_Large);

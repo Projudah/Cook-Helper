@@ -4,10 +4,6 @@
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\layout\\customlist.xml"
     },
     {
-        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\steps.xml",
-        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\layout\\steps.xml"
-    },
-    {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
@@ -64,14 +60,6 @@
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\layout\\viewrecipe.xml"
     },
     {
-        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recipe.xml",
-        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\layout\\recipe.xml"
-    },
-    {
-        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cat.xml",
-        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\layout\\cat.xml"
-    },
-    {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_simple_dropdown_hint.xml"
     },
@@ -90,6 +78,10 @@
     {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit.xml",
+        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\layout\\edit.xml"
     },
     {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",

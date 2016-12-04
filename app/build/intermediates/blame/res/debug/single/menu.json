@@ -14,5 +14,9 @@
     {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_launch.xml",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_launch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_edit.xml",
+        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\menu\\menu_edit.xml"
     }
 ]

@@ -85,11 +85,7 @@ public class Add extends ActionBarActivity {
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);
         //getting variables
         ArrayList<String> ingedients = new ArrayList<String>();
-        String Steps;
-        String Category;
-        String Type;
-        String Name;
-        //
+
         ingedients.add("works");
         ingedients.add("works2");
         ingedients.add("works3");
@@ -179,10 +175,10 @@ public class Add extends ActionBarActivity {
             }else {
 
                 String RecipeName = ((EditText) findViewById(R.id.nametext)).getText().toString();
-                String[] Ingredients = new String[checkid.length];
+                ArrayList<String> Ingredients = new ArrayList<>();
                 for (int i=0; i< checkid.length ; i++ ) {
                     if (((CheckBox) findViewById(checkid[i])).isChecked())
-                        Ingredients[i] = ((CheckBox) findViewById(checkid[i])).getText().toString();
+                        Ingredients.add(((CheckBox) findViewById(checkid[i])).getText().toString());
                 }
                 String Steps;
                 Steps = ((EditText) findViewById(R.id.stepone)).getText().toString();
@@ -193,8 +189,8 @@ public class Add extends ActionBarActivity {
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
                 Recipe rec = new Recipe(RecipeName,Category,Type,Steps);
-                for (int i = 0; i < Ingredients.length; i++)
-                    rec.addIngredient(Ingredients[i]);
+                for (int i = 0; i < Ingredients.size(); i++)
+                    rec.addIngredient(Ingredients.get(i));
 
                 String filename = rec.getName()+".json";
                 String string = "";

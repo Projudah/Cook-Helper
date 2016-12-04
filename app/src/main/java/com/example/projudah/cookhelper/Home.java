@@ -13,6 +13,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
@@ -70,7 +71,7 @@ public class Home extends ActionBarActivity {
     }
 
 
-    ArrayList<Recipe> recipes = new ArrayList<Recipe>();
+    static ArrayList<Recipe> recipes = new ArrayList<Recipe>();
     public void home(){
         recipes.clear();
         final Activity thiss =this;
@@ -133,7 +134,7 @@ public class Home extends ActionBarActivity {
 
     public void recipe(View v){
         TextView x =(TextView) ((RelativeLayout) v).getChildAt(0);
-        Recipe chosenone = findrecipe(x.getText().toString());
+        Recipe chosenone = findrecipe(x.getText().toString(), recipes);
         if (chosenone!= null){
             Intent next = new Intent(this, Viewrecipe.class);
             next.putExtra("recipename", chosenone.getName());
@@ -147,7 +148,22 @@ public class Home extends ActionBarActivity {
 
     }
 
-    public Recipe findrecipe(String name){
+    public static void edit(String name, ArrayList<Recipe> recipes, Activity thiss, RelativeLayout root){
+        Recipe chosenone = findrecipe(name, recipes);
+        if (chosenone!= null){
+            Intent next = new Intent(thiss, Edit.class);
+            next.putExtra("recipename", chosenone.getName());
+            next.putExtra("recipecat", chosenone.category);
+            next.putExtra("recipetype", chosenone.type);
+            next.putExtra("recipesteps", chosenone.steps);
+            next.putExtra("ing", chosenone.ingredients);
+            Trans.outpassback(root, thiss, next);
+        }
+
+
+    }
+
+    public static Recipe findrecipe(String name ,ArrayList<Recipe> recipes){
         Recipe chosenone=null;
         for (int i=0; i<recipes.size(); i++) {
             if (recipes.get(i).getName().equals(name)) {
@@ -201,6 +217,5 @@ public class Home extends ActionBarActivity {
                 });
         alertDialog.show();
     }
-
 
 }
