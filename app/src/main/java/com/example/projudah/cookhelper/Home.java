@@ -177,9 +177,8 @@ public class Home extends ActionBarActivity {
 
     @Override
     protected void onResume() {
-        super.onResume();
         home();
-
+        super.onResume();
     }
 
     public static void Delete(final String recipe, final Activity thishome){

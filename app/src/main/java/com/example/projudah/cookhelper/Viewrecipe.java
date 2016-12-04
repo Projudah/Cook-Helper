@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -45,10 +47,10 @@ public class Viewrecipe extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
+    String name;
     public void populate(){
         Intent home = getIntent();
-        String name = home.getStringExtra("recipename");
+        name = home.getStringExtra("recipename");
         String type = home.getStringExtra("recipetype");
         String cat = home.getStringExtra("recipecat");
         String steps = home.getStringExtra("recipesteps");
@@ -59,6 +61,8 @@ public class Viewrecipe extends ActionBarActivity {
         TextView Type = (TextView) findViewById(R.id.type);
         LinearLayout ingredients =(LinearLayout) findViewById(R.id.ingslay);
         LinearLayout step = (LinearLayout) findViewById(R.id.steps);
+        refresh(ingredients);
+        refresh(step);
 
         recipename.setText(name);
         Category.setText(cat);
@@ -81,7 +85,29 @@ public class Viewrecipe extends ActionBarActivity {
 
     }
 
+    public void onBackPressed() {
+        Trans.back(this,(RelativeLayout)findViewById(R.id.root));
+    }
+
     public String[] separate(String steps){
         return (steps.split(" ;; "));
+    }
+
+    public void delete(View v){
+        Home.Delete(name,this);
+    }
+
+    public void edit(View v){
+        Home.edit(name, Home.recipes,this, (RelativeLayout)findViewById(R.id.relativeLayout));
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        populate();
+    }
+
+    public void refresh(ViewGroup x){
+        x.removeAllViews();
     }
 }

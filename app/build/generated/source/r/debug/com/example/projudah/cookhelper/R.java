@@ -1511,6 +1511,8 @@ containing a value of this type.
         public static final int title_activity_viewrecipe=0x7f050017;
     }
     public static final class style {
+        /**  Customize your theme here. 
+         */
         public static final int AppTheme=0x7f090067;
         public static final int Base_TextAppearance_AppCompat=0x7f090029;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f09002a;

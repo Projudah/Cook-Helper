@@ -22,23 +22,27 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.projudah.cookhelper" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78826b5a-fa6a-47df-a195-0373bdb74454" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/edit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_edit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/projudah/cookhelper/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/projudah/cookhelper/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Trans.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Trans.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/viewrecipe.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/viewrecipe.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CookHelper.iws" />
@@ -103,89 +107,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Home.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Home.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1139">
-              <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.72629696" vertical-offset="104" max-vertical-offset="663">
+              <caret line="183" column="69" selection-start-line="183" selection-start-column="69" selection-end-line="183" selection-end-column="69" />
               <folding>
+                <element signature="method#onCreate#0;class#Home#0" expanded="false" />
                 <element signature="method#onCreateOptionsMenu#0;class#Home#0" expanded="false" />
                 <element signature="method#onOptionsItemSelected#0;class#Home#0" expanded="false" />
                 <element signature="e#2225#2233#0" expanded="true" />
                 <element signature="method#home#0;class#Home#0" expanded="false" />
                 <element signature="class#2452:3140" expanded="false" />
                 <element signature="method#recipe#0;class#Home#0" expanded="false" />
+                <element signature="method#edit#0;class#Home#0" expanded="false" />
+                <element signature="method#findrecipe#0;class#Home#0" expanded="false" />
                 <element signature="method#onResume#0;class#Home#0" expanded="false" />
                 <element signature="method#Delete#0;class#Home#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Myadapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Myadapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1156">
-              <caret line="57" column="109" selection-start-line="57" selection-start-column="109" selection-end-line="57" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Edit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="2822">
-              <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-              <folding>
-                <element signature="method#onCreate#0;class#Edit#0" expanded="false" />
-                <element signature="method#onCreateOptionsMenu#0;class#Edit#0" expanded="false" />
-                <element signature="method#onOptionsItemSelected#0;class#Edit#0" expanded="false" />
-                <element signature="e#7095#7292#0" expanded="true" />
-                <element signature="e#7277#7278#0" expanded="true" />
-                <element signature="e#7401#7410#0" expanded="true" />
-                <element signature="method#addstep#0;class#Edit#0" expanded="false" />
-                <element signature="e#8571#8758#0" expanded="true" />
-                <element signature="e#8739#8740#0" expanded="true" />
-                <element signature="e#10099#10286#0" expanded="true" />
-                <element signature="e#10267#10268#0" expanded="true" />
-                <element signature="method#deletestep#0;class#Edit#0" expanded="false" />
-                <element signature="method#emptystep#0;class#Edit#0" expanded="false" />
-                <element signature="method#populate#0;class#Edit#0" expanded="false" />
-                <element signature="e#12001#12009#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19172932" vertical-offset="0" max-vertical-offset="3043">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-              <folding>
-                <element signature="e#221#256#0" expanded="true" />
-                <element signature="e#282#317#0" expanded="true" />
-                <element signature="e#341#374#0" expanded="true" />
-                <element signature="e#401#434#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Viewrecipe.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1139">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-              <folding>
-                <element signature="method#onCreateOptionsMenu#0;class#Viewrecipe#0" expanded="false" />
-                <element signature="method#onOptionsItemSelected#0;class#Viewrecipe#0" expanded="false" />
-                <element signature="e#2887#2888#0" expanded="true" />
-                <element signature="e#2931#2932#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,10 +132,13 @@
       <file leaf-file-name="Add.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2092" max-vertical-offset="3247">
-              <caret line="192" column="58" selection-start-line="192" selection-start-column="58" selection-end-line="192" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="886" max-vertical-offset="1445">
+              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding>
                 <element signature="method#start#0;class#Add#0" expanded="false" />
+                <element signature="e#3326#3327#0" expanded="true" />
+                <element signature="e#3398#3399#0" expanded="true" />
+                <element signature="method#check#0;class#Add#0" expanded="false" />
                 <element signature="method#addstep#0;class#Add#0" expanded="false" />
                 <element signature="method#deletestep#0;class#Add#0" expanded="false" />
                 <element signature="method#emptystep#0;class#Add#0" expanded="false" />
@@ -206,44 +147,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_home.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1394">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chooseadd.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/chooseadd.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Recipe.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Recipe.java">
+      <file leaf-file-name="Trans.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Trans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="816">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="136" column="64" selection-start-line="136" selection-start-column="64" selection-end-line="136" selection-end-column="64" />
               <folding>
-                <element signature="method#toString#0;class#Recipe#0" expanded="false" />
-                <element signature="method#writeRecipe#0;class#Recipe#0" expanded="false" />
-                <element signature="method#writeAsString#0;class#Recipe#0" expanded="false" />
-                <element signature="method#readRecipe#0;class#Recipe#0" expanded="false" />
+                <element signature="method#out#0;class#Trans#0" expanded="false" />
+                <element signature="method#outback#0;class#Trans#0" expanded="false" />
+                <element signature="method#outpassback#0;class#Trans#0" expanded="false" />
+                <element signature="method#back#0;class#Trans#0" expanded="false" />
+                <element signature="method#animatein#0;class#Trans#0" expanded="false" />
+                <element signature="method#fadein#0;class#Trans#0" expanded="false" />
+                <element signature="method#refresh#0;class#Trans#0" expanded="false" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Edit.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="901">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+              <folding>
+                <element signature="method#onCreate#0;class#Edit#0" expanded="false" />
+                <element signature="method#onCreateOptionsMenu#0;class#Edit#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#Edit#0" expanded="false" />
+                <element signature="method#check#0;class#Edit#0" expanded="false" />
+                <element signature="e#7436#7445#0" expanded="true" />
+                <element signature="method#addstep#0;class#Edit#0" expanded="false" />
+                <element signature="method#deletestep#0;class#Edit#0" expanded="false" />
+                <element signature="method#emptystep#0;class#Edit#0" expanded="false" />
+                <element signature="method#populate#0;class#Edit#0" expanded="false" />
+                <element signature="e#12036#12044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Viewrecipe.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="748">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+              <folding>
+                <element signature="method#onCreate#0;class#Viewrecipe#0" expanded="false" />
+                <element signature="method#onCreateOptionsMenu#0;class#Viewrecipe#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#Viewrecipe#0" expanded="false" />
+                <element signature="method#populate#0;class#Viewrecipe#0" expanded="false" />
+                <element signature="e#3190#3191#0" expanded="true" />
+                <element signature="e#3228#3229#0" expanded="true" />
+                <element signature="method#onResume#0;class#Viewrecipe#0" expanded="false" />
+                <element signature="e#3498#3499#0" expanded="true" />
+                <element signature="e#3532#3533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewrecipe.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/viewrecipe.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="3451">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1782,16 +1754,16 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/chooseadd.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Recipe.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Trans.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/viewrecipe.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Myadapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/edit.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Trans.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/viewrecipe.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java" />
       </list>
     </option>
   </component>
@@ -2417,7 +2389,11 @@
       <created>1480866964634</created>
       <updated>1480866964634</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="EDIT -implemented&#10;RECIPE DUPLICATION - fixed&#10;VIEW RECIPE NULLS -fixed&#10;&#10;BACK ANIMATION -not implemented&#10;INGREDIENTS TAB - not freaking implemented&#10;HELP AND ABOUT- oh for christs sake!">
+      <created>1480867026825</created>
+      <updated>1480867026825</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2518,12 +2494,15 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
+            <element signature="method#onCreate#0;class#Home#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#Home#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#Home#0" expanded="false" />
             <element signature="e#2225#2233#0" expanded="true" />
             <element signature="method#home#0;class#Home#0" expanded="false" />
             <element signature="class#2452:3140" expanded="false" />
             <element signature="method#recipe#0;class#Home#0" expanded="false" />
+            <element signature="method#edit#0;class#Home#0" expanded="false" />
+            <element signature="method#findrecipe#0;class#Home#0" expanded="false" />
             <element signature="method#onResume#0;class#Home#0" expanded="false" />
             <element signature="method#Delete#0;class#Home#0" expanded="false" />
           </folding>
@@ -2551,12 +2530,15 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
           <folding>
+            <element signature="method#onCreate#0;class#Home#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#Home#0" expanded="false" />
             <element signature="method#onOptionsItemSelected#0;class#Home#0" expanded="false" />
             <element signature="e#2225#2233#0" expanded="true" />
             <element signature="method#home#0;class#Home#0" expanded="false" />
             <element signature="class#2452:3140" expanded="false" />
             <element signature="method#recipe#0;class#Home#0" expanded="false" />
+            <element signature="method#edit#0;class#Home#0" expanded="false" />
+            <element signature="method#findrecipe#0;class#Home#0" expanded="false" />
             <element signature="method#onResume#0;class#Home#0" expanded="false" />
             <element signature="method#Delete#0;class#Home#0" expanded="false" />
           </folding>
@@ -2595,13 +2577,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/h.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/animateout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/animation.xml">
@@ -2766,50 +2741,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/viewrecipe.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Trans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="731">
-          <caret line="65" column="97" selection-start-line="65" selection-start-column="97" selection-end-line="65" selection-end-column="97" />
-          <folding>
-            <element signature="method#out#0;class#Trans#0" expanded="false" />
-            <element signature="method#outback#0;class#Trans#0" expanded="false" />
-            <element signature="method#outpassback#0;class#Trans#0" expanded="false" />
-            <element signature="method#back#0;class#Trans#0" expanded="false" />
-            <element signature="method#animatein#0;class#Trans#0" expanded="false" />
-            <element signature="method#fadein#0;class#Trans#0" expanded="false" />
-            <element signature="method#refresh#0;class#Trans#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1139">
-          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding>
-            <element signature="method#onCreateOptionsMenu#0;class#Home#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#Home#0" expanded="false" />
-            <element signature="e#2225#2233#0" expanded="true" />
-            <element signature="method#home#0;class#Home#0" expanded="false" />
-            <element signature="class#2452:3140" expanded="false" />
-            <element signature="method#recipe#0;class#Home#0" expanded="false" />
-            <element signature="method#onResume#0;class#Home#0" expanded="false" />
-            <element signature="method#Delete#0;class#Home#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/customlist.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="544">
@@ -2829,19 +2760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1139">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-          <folding>
-            <element signature="method#onCreateOptionsMenu#0;class#Viewrecipe#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#Viewrecipe#0" expanded="false" />
-            <element signature="e#2887#2888#0" expanded="true" />
-            <element signature="e#2931#2932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="816">
@@ -2852,38 +2770,6 @@
             <element signature="method#writeAsString#0;class#Recipe#0" expanded="false" />
             <element signature="method#readRecipe#0;class#Recipe#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2092" max-vertical-offset="3247">
-          <caret line="192" column="58" selection-start-line="192" selection-start-column="58" selection-end-line="192" selection-end-column="58" />
-          <folding>
-            <element signature="method#start#0;class#Add#0" expanded="false" />
-            <element signature="method#addstep#0;class#Add#0" expanded="false" />
-            <element signature="method#deletestep#0;class#Add#0" expanded="false" />
-            <element signature="method#emptystep#0;class#Add#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1394">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Myadapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1156">
-          <caret line="57" column="109" selection-start-line="57" selection-start-column="109" selection-end-line="57" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2898,44 +2784,150 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Myadapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="2822">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.66547406" vertical-offset="342" max-vertical-offset="1156">
+          <caret line="57" column="109" selection-start-line="57" selection-start-column="109" selection-end-line="57" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/animateout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78711987" vertical-offset="121" max-vertical-offset="680">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/android/os/Binder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="8765" max-vertical-offset="9027">
+          <caret line="557" column="0" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1394">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3043">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="886" max-vertical-offset="1445">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding>
-            <element signature="method#onCreate#0;class#Edit#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#Edit#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#Edit#0" expanded="false" />
-            <element signature="e#7095#7292#0" expanded="true" />
-            <element signature="e#7277#7278#0" expanded="true" />
-            <element signature="e#7401#7410#0" expanded="true" />
-            <element signature="method#addstep#0;class#Edit#0" expanded="false" />
-            <element signature="e#8571#8758#0" expanded="true" />
-            <element signature="e#8739#8740#0" expanded="true" />
-            <element signature="e#10099#10286#0" expanded="true" />
-            <element signature="e#10267#10268#0" expanded="true" />
-            <element signature="method#deletestep#0;class#Edit#0" expanded="false" />
-            <element signature="method#emptystep#0;class#Edit#0" expanded="false" />
-            <element signature="method#populate#0;class#Edit#0" expanded="false" />
-            <element signature="e#12001#12009#0" expanded="true" />
+            <element signature="method#start#0;class#Add#0" expanded="false" />
+            <element signature="e#3326#3327#0" expanded="true" />
+            <element signature="e#3398#3399#0" expanded="true" />
+            <element signature="method#check#0;class#Add#0" expanded="false" />
+            <element signature="method#addstep#0;class#Add#0" expanded="false" />
+            <element signature="method#deletestep#0;class#Add#0" expanded="false" />
+            <element signature="method#emptystep#0;class#Add#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/edit.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19172932" vertical-offset="0" max-vertical-offset="3043">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="935">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding>
-            <element signature="e#221#256#0" expanded="true" />
-            <element signature="e#282#317#0" expanded="true" />
-            <element signature="e#341#374#0" expanded="true" />
-            <element signature="e#401#434#0" expanded="true" />
+            <element signature="method#onCreate#0;class#Edit#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#Edit#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#Edit#0" expanded="false" />
+            <element signature="method#check#0;class#Edit#0" expanded="false" />
+            <element signature="e#7436#7445#0" expanded="true" />
+            <element signature="method#addstep#0;class#Edit#0" expanded="false" />
+            <element signature="method#deletestep#0;class#Edit#0" expanded="false" />
+            <element signature="method#emptystep#0;class#Edit#0" expanded="false" />
+            <element signature="method#populate#0;class#Edit#0" expanded="false" />
+            <element signature="e#12036#12044#0" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/viewrecipe.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Trans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="136" column="64" selection-start-line="136" selection-start-column="64" selection-end-line="136" selection-end-column="64" />
+          <folding>
+            <element signature="method#out#0;class#Trans#0" expanded="false" />
+            <element signature="method#outback#0;class#Trans#0" expanded="false" />
+            <element signature="method#outpassback#0;class#Trans#0" expanded="false" />
+            <element signature="method#back#0;class#Trans#0" expanded="false" />
+            <element signature="method#animatein#0;class#Trans#0" expanded="false" />
+            <element signature="method#fadein#0;class#Trans#0" expanded="false" />
+            <element signature="method#refresh#0;class#Trans#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Viewrecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="748">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="method#onCreate#0;class#Viewrecipe#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#Viewrecipe#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#Viewrecipe#0" expanded="false" />
+            <element signature="method#populate#0;class#Viewrecipe#0" expanded="false" />
+            <element signature="e#3190#3191#0" expanded="true" />
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="method#onResume#0;class#Viewrecipe#0" expanded="false" />
+            <element signature="e#3498#3499#0" expanded="true" />
+            <element signature="e#3532#3533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72629696" vertical-offset="104" max-vertical-offset="663">
+          <caret line="183" column="69" selection-start-line="183" selection-start-column="69" selection-end-line="183" selection-end-column="69" />
+          <folding>
+            <element signature="method#onCreate#0;class#Home#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#Home#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#Home#0" expanded="false" />
+            <element signature="e#2225#2233#0" expanded="true" />
+            <element signature="method#home#0;class#Home#0" expanded="false" />
+            <element signature="class#2452:3140" expanded="false" />
+            <element signature="method#recipe#0;class#Home#0" expanded="false" />
+            <element signature="method#edit#0;class#Home#0" expanded="false" />
+            <element signature="method#findrecipe#0;class#Home#0" expanded="false" />
+            <element signature="method#onResume#0;class#Home#0" expanded="false" />
+            <element signature="method#Delete#0;class#Home#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

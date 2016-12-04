@@ -108,7 +108,7 @@ public class Add extends ActionBarActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Trans.back(this,(RelativeLayout)findViewById(R.id.root));
     }
     boolean done = false;
     public void check (View v){

@@ -64,12 +64,12 @@
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\bg_00007.png"
     },
     {
-        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lbg.jpg",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\lbg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -112,20 +112,20 @@
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\h.jpg"
     },
     {
-        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
-        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\icon.png"
-    },
-    {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_00008.png",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\bg_00008.png"
     },
     {
-        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editbutton.png",
-        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\editbutton.png"
+        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_00002.png",
         "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\bg_00002.png"
+    },
+    {
+        "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editbutton.png",
+        "source": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\drawable\\editbutton.png"
     },
     {
         "merged": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
