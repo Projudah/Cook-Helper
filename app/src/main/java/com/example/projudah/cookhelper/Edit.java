@@ -138,9 +138,7 @@ public class Edit extends ActionBarActivity {
                 namedone = false;
                 complete = true;
                 for (int i = 0; i<5 ; i++){
-                    Log.i("loop", "loop "+ Integer.toString(i));
                     if (!complete) {
-                        Log.i("loop", "incomplete");
                         choosedone =stepsdone = classdone = namedone =true;
                         break;
                     }
@@ -164,6 +162,9 @@ public class Edit extends ActionBarActivity {
                 String Type = ((AutoCompleteTextView) findViewById(R.id.type)).getText().toString();
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
+
+                //saving the recipe
+                Viewrecipe.setname(RecipeName);
                 Recipe rec = new Recipe(RecipeName,Category,Type,Steps);
                 for (int i = 0; i < Ingredients.size(); i++)
                     rec.addIngredient(Ingredients.get(i));
@@ -297,6 +298,20 @@ public class Edit extends ActionBarActivity {
         String type = home.getStringExtra("recipetype");
         String cat = home.getStringExtra("recipecat");
         String steps = home.getStringExtra("recipesteps");
+
+        // delete previous version
+        File file = new File(this.getFilesDir().getAbsolutePath()+"/"+name+".json");
+        boolean worked1 = false;
+        if(file.exists()) {
+            worked1 = file.delete();
+        }
+        if(!worked1) {
+            File file2 = new File(this.getFilesDir().getAbsolutePath()+"/"+name);
+            file2.delete();
+        }
+
+        // end delete
+
         ArrayList<String> checkedings = home.getStringArrayListExtra("ing"); // from recipe
 
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);

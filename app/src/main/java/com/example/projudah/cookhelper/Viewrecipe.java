@@ -51,10 +51,16 @@ public class Viewrecipe extends ActionBarActivity {
     public void populate(){
         Intent home = getIntent();
         name = home.getStringExtra("recipename");
-        String type = home.getStringExtra("recipetype");
-        String cat = home.getStringExtra("recipecat");
-        String steps = home.getStringExtra("recipesteps");
-        ArrayList<String> ing = home.getStringArrayListExtra("ing");
+        Home.refreshrecipe(this);
+        Recipe recipe = Home.findrecipe(name, Home.recipes);
+        if (recipe == null) {
+            recipe = Home.findrecipe(newname, Home.recipes);
+            name = recipe.name;
+        }
+        String type = recipe.type;
+        String cat = recipe.category;
+        String steps = recipe.steps;
+        ArrayList<String> ing = recipe.ingredients;
 
         TextView recipename = (TextView) findViewById(R.id.name);
         TextView Category = (TextView) findViewById(R.id.category);
@@ -85,6 +91,11 @@ public class Viewrecipe extends ActionBarActivity {
 
     }
 
+    static String newname;
+    public static void setname(String nname){
+        newname = nname;
+    }
+
     public void onBackPressed() {
         Trans.back(this,(RelativeLayout)findViewById(R.id.root));
     }
@@ -103,9 +114,18 @@ public class Viewrecipe extends ActionBarActivity {
 
     @Override
     protected void onResume() {
-        super.onResume();
         populate();
+        super.onResume();
+
     }
+
+    @Override
+    protected void onRestart() {
+        populate();
+        super.onRestart();
+    }
+
+
 
     public void refresh(ViewGroup x){
         x.removeAllViews();

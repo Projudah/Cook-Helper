@@ -95,19 +95,7 @@ public class Home extends ActionBarActivity {
             }
         });
 
-        ObjectMapper mapper = new ObjectMapper();
-        File file = new File(Home.this.getFilesDir().getAbsolutePath());
-        try {
-            for (final File fileEntry : file.listFiles()) {
-                try {
-                    recipes.add(mapper.readValue(fileEntry, Recipe.class));
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-
-            }
-        }catch(NullPointerException e){Toast.makeText(this, "Unable to find directory "+Home.this.getFilesDir().getAbsolutePath(),
-                Toast.LENGTH_LONG).show();}
+        refreshrecipe(this);
 
         String[] hello2 = new String[recipes.size()];
         for(int i = 0; i < recipes.size();i++){
@@ -138,10 +126,6 @@ public class Home extends ActionBarActivity {
         if (chosenone!= null){
             Intent next = new Intent(this, Viewrecipe.class);
             next.putExtra("recipename", chosenone.getName());
-            next.putExtra("recipecat", chosenone.category);
-            next.putExtra("recipetype", chosenone.type);
-            next.putExtra("recipesteps", chosenone.steps);
-            next.putExtra("ing", chosenone.ingredients);
             Trans.outpassback((RelativeLayout)findViewById(R.id.relativeLayout), this, next);
         }
 
@@ -217,4 +201,21 @@ public class Home extends ActionBarActivity {
         alertDialog.show();
     }
 
+
+    public static void refreshrecipe(Activity thiss){
+        recipes.clear();
+        ObjectMapper mapper = new ObjectMapper();
+        File file = new File(thiss.getFilesDir().getAbsolutePath());
+        try {
+            for (final File fileEntry : file.listFiles()) {
+                try {
+                    recipes.add(mapper.readValue(fileEntry, Recipe.class));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }catch(NullPointerException e){Toast.makeText(thiss, "Unable to find directory "+thiss.getFilesDir().getAbsolutePath(),
+                Toast.LENGTH_LONG).show();}
+    }
 }
