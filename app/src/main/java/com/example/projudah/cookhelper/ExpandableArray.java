@@ -2,7 +2,6 @@ package com.example.projudah.cookhelper;
 
 /**
  * Created by r3xas on 11/29/2016.
- * updated as of 1/12/2016
  */
 
 public class ExpandableArray<E> {
@@ -18,7 +17,7 @@ public class ExpandableArray<E> {
 
     @SuppressWarnings("unchecked")
     public ExpandableArray(){
-        array = (E[]) new Object[26];
+        array = (E[]) new Object[13];
         endLocation = 0;
         itemCount = 0;
     }
@@ -111,7 +110,7 @@ public class ExpandableArray<E> {
     }
 
     public String toString(){
-        String someString = "";
+        String someString = "\n";
         for (int a = 0; a < array.length; a++){
             someString += a + " " + array[a] + '\n';
         }

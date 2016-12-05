@@ -31,8 +31,8 @@ public class customHashMap {
         int c = alphabetCharToInt(item.type.toLowerCase().charAt(0));
         int location = (
                 (a*(this.power(lettersCount, 2))) +
-                        (b*(this.power(lettersCount, 1))) +
-                        (c*(this.power(lettersCount, 0)))
+                (b*(this.power(lettersCount, 1))) +
+                (c*(this.power(lettersCount, 0)))
         );
 
         System.out.println("push:location:" + location);
@@ -61,45 +61,6 @@ public class customHashMap {
         return this.map.get(index);
     }
 
-    public ExpandableArray<ExpandableArray<Recipe>> getAllRecipeParent(
-            String inputString, int num
-    ) throws IOException{
-
-        //Get all the parent array;
-        char theChar;
-
-        if (num == 0){
-            theChar = inputString.toLowerCase().charAt(0);
-        } else if (num == 1){
-            theChar = inputString.toLowerCase().charAt(1);
-        } else if (num == 2){
-            theChar = inputString.toLowerCase().charAt(2);
-        } else {
-            throw new IOException("num must be 1, 2 or 3.");
-        }
-        ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
-                new ExpandableArray<ExpandableArray<Recipe>>();
-
-        for (int a = 1; a <= lettersCount; a++){
-            for (int b = 1; b < lettersCount; b++){
-                int location =
-                        this.translateLetter(theChar, num) +
-                                this.translateNumber(a, b, num);
-                arrayOfParent.add(map.get(
-                        location
-                ));
-
-                /**
-                 System.out.println(
-                 "get:location:" + location +
-                 ":value:" + map.get(location)
-                 );
-                 **/
-            }
-        }
-        return arrayOfParent;
-    }
-
     public Recipe searchSpecificRecipe(
             String inputString, int num
     ) throws IOException{
@@ -108,6 +69,7 @@ public class customHashMap {
         if (arrayOfRecipe == null){
             throw new IOException("arrayOfRecipe is null");
         } else {
+            System.out.println("size:" + arrayOfRecipe.itemSize());
             for (int a = 0; a < arrayOfRecipe.itemSize(); a++){
                 if (num == 0){
                     if (inputString == arrayOfRecipe.get(a).name){
@@ -147,6 +109,34 @@ public class customHashMap {
             }
             return arrayOfChildren;
         }
+    }
+
+    private ExpandableArray<ExpandableArray<Recipe>> getAllRecipeParent(
+            String inputString, int num
+    ) throws IOException{
+
+        //Get all the parent array;
+        char theChar = inputString.toLowerCase().charAt(0);
+        ExpandableArray<ExpandableArray<Recipe>> arrayOfParent =
+                new ExpandableArray<ExpandableArray<Recipe>>();
+
+        for (int a = 1; a <= lettersCount; a++){
+            for (int b = 1; b < lettersCount; b++){
+                int location =
+                        this.translateLetter(theChar, num) +
+                                this.translateNumber(a, b, num);
+                arrayOfParent.add(map.get(
+                        location
+                ));
+                /**
+                System.out.println(
+                        "get:location:" + location +
+                                ":value:" + map.get(location)
+                );
+                 **/
+            }
+        }
+        return arrayOfParent;
     }
 
     ////////////////BACKEND METHODS////////////////////////
