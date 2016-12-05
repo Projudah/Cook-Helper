@@ -173,7 +173,7 @@ public class Edit extends ActionBarActivity {
                 String string = "";
                 try {
                     string = rec.writeAsString();
-                    finish();
+                    Trans.back(this,(RelativeLayout)findViewById(R.id.root));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

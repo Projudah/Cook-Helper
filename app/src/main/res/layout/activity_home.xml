@@ -52,7 +52,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/listView"
-            android:paddingLeft="10dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_below="@+id/spinner" />
@@ -61,14 +60,10 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:id="@+id/button"
-            android:layout_row="26"
-            android:layout_column="0"
             android:background="@drawable/add"
             android:entries="@array/add"
             android:dropDownWidth="200dp"
-            android:layout_alignWithParentIfMissing="false"
             android:layout_alignParentBottom="true"
-            android:layout_alignEnd="@+id/spinner"
             android:layout_centerHorizontal="true" />
 
     </RelativeLayout>

@@ -1,4 +1,7 @@
-#Mon Nov 28 21:21:49 EST 2016
-base.0=C\:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\wesma_000\\Desktop\\cookhelperforzip\\CookHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Mon Dec 05 16:39:50 EST 2016
+base.0=C\:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d49ada4f178363f16726c76e31e0809a0b2f3df0
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6a3e07b94af595b9bb755da14944825c7954b314\\classes.dex
+base.1=C\:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6a3e07b94af595b9bb755da14944825c7954b314
+file.0=C\:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d49ada4f178363f16726c76e31e0809a0b2f3df0\\classes.dex

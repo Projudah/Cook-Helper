@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+        "outputFile": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 92
                 },
                 "from": {
-                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 139
                 },
                 "from": {
-                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 921
                 },
                 "from": {
-                    "file": "C:\\Users\\Projudah\\Documents\\GitHub\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,

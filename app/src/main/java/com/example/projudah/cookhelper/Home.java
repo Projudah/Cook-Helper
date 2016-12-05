@@ -86,7 +86,8 @@ public class Home extends ActionBarActivity {
                 if (choice.equals("Recipe")) {
                     Trans.outback(bg, thiss, Add.class);
                 }
-                if (choice == "Ingredient") {
+                if (choice.equals("Ingredient")) {
+                    Trans.outback(bg, thiss, Ingredients.class);
                 }
             }
 
