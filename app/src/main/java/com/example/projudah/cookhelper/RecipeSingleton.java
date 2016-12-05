@@ -5,14 +5,9 @@ package com.example.projudah.cookhelper;
  */
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class RecipeSingleton {
-
-    private static customHashMap theSearchMap = new customHashMap(3);
-
-    public customHashMap getRecipeSearchInstance(){
-        return theSearchMap;
-    }
 
     /**
      *
@@ -20,16 +15,90 @@ public class RecipeSingleton {
      * @param type - signifies the type of search you want to conduct. 1 - name, 2 - category and 3 - type.
      * @return Returns the Recipe that satisfies the condition.
      */
-    public Recipe getRecipeFromSearchMap(String searchString, int type) throws IOException {
-        return theSearchMap.searchSpecificRecipe(searchString, type);
+    public static Recipe getRecipeFromSearchMap(
+            ArrayList<Recipe> arrayOfRecipe, String searchString, int type
+    ) throws IOException {
+
+        if (type == 0){
+            for (Recipe rec : arrayOfRecipe){
+                if (rec.name.equals("searchString")){
+                    return rec;
+                }
+            }
+        } else if (type == 1){
+            for (Recipe rec : arrayOfRecipe){
+                if (rec.category.equals("searchString")){
+                    return rec;
+                }
+            }
+        } else if (type == 2){
+            for (Recipe rec : arrayOfRecipe){
+                if (rec.type.equals("searchString")){
+                    return rec;
+                }
+            }
+        } else {
+            throw new IOException("type must either be 1, 2 or 3.");
+        }
+
+        System.out.println("mno such recipe found.");
+        return null;
     }
 
-    public void addRecipetoSearchMap(String name, String category, String type, IngredientList ingredient) throws IOException{
-        Recipe newRecipe = new Recipe(name, category, type);
-        theSearchMap.push(newRecipe);
+    public static void addRecipeToSearchMap(
+            ArrayList<Recipe> arrayOfRecipe, String name, String category, String type
+    ) throws IOException{
+        arrayOfRecipe.add(new Recipe(name, category, type));
     }
 
-    public ExpandableArray<Recipe> getRecipesThatSatisfyString(String searchString, int type) throws IOException{
-        return theSearchMap.getAllRecipeChildren(searchString, type);
+    public static ArrayList<Recipe> getRecipesThatSatisfyString(
+            ArrayList<Recipe> arrayOfRecipe, String searchString, int type
+    ) throws IOException{
+
+        ArrayList<Recipe> newArray = new ArrayList<Recipe>();
+        for (int a = 0; a < arrayOfRecipe.size(); a++){
+            boolean match = true;
+            if (type == 0) {
+                if (arrayOfRecipe.get(a).name.length() <= searchString.length()) {
+                    for (int b = 0; b < searchString.length(); b++) {
+                        if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
+                            match = false;
+                        }
+                    }
+
+                    if (match) {
+                        newArray.add(arrayOfRecipe.get(a));
+                    }
+                }
+            } else if (type == 1){
+                if (arrayOfRecipe.get(a).name.length() <= searchString.length()) {
+                    for (int b = 0; b < searchString.length(); b++) {
+                        if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
+                            match = false;
+                        }
+                    }
+
+                    if (match) {
+                        newArray.add(arrayOfRecipe.get(a));
+                    }
+                }
+            } else if (type == 2){
+                if (arrayOfRecipe.get(a).name.length() <= searchString.length()) {
+                    for (int b = 0; b < searchString.length(); b++) {
+                        if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
+                            match = false;
+                        }
+                    }
+
+                    if (match) {
+                        newArray.add(arrayOfRecipe.get(a));
+                    }
+                }
+            } else {
+                throw new IOException("type must be 1, 2, or 3.");
+            }
+        }
+
+        return newArray;
     }
 }
