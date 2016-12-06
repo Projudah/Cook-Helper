@@ -134,6 +134,9 @@ public class Home extends ActionBarActivity {
 
     }
 
+    boolean searched = false;
+    ArrayList<Recipe> name;
+
     public void search(View v){
         EditText search = (EditText) findViewById(R.id.searchtext);
         String x = search.getText().toString();
@@ -141,7 +144,7 @@ public class Home extends ActionBarActivity {
         ArrayList<Recipe> recipeSearch = null;
 
         try {
-            recipeSearch = RecipeSingleton.getRecipesThatSatisfyString(recipes, x, 0);
+            recipeSearch = Search.getRecipesThatSatisfyString(recipes, x, 0);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -149,8 +152,6 @@ public class Home extends ActionBarActivity {
         name = recipeSearch;
         home();
     }
-    boolean searched = false;
-    ArrayList<Recipe> name;
 
     public void recipe(View v){
         TextView x =(TextView) ((RelativeLayout) v).getChildAt(0);
