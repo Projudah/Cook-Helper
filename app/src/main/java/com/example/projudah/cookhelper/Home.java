@@ -108,7 +108,7 @@ public class Home extends ActionBarActivity {
         ListView list = (ListView) findViewById(R.id.listView);
         if (!searched) {
             list.setAdapter(my);
-        }else{
+        } else {
             String[] Hello3 = new String[name.size()];
             for (int i =0; i< Hello3.length; i++)
                 Hello3[i]= name.get(i).name;
@@ -138,19 +138,16 @@ public class Home extends ActionBarActivity {
         EditText search = (EditText) findViewById(R.id.searchtext);
         String x = search.getText().toString();
 
-        if (!(x.equals(""))) {
+        ArrayList<Recipe> recipeSearch = null;
 
-            ArrayList<Recipe> recipeSearch = null;
-
-            try {
-                recipeSearch = RecipeSingleton.getRecipesThatSatisfyString(recipes, x, 0);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            searched = true;
-            name = recipeSearch;
-            home();
+        try {
+            recipeSearch = RecipeSingleton.getRecipesThatSatisfyString(recipes, x, 0);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+        searched = true;
+        name = recipeSearch;
+        home();
     }
     boolean searched = false;
     ArrayList<Recipe> name;
