@@ -49,10 +49,6 @@ public class Recipe {
         return("Name:"+this.getName()+" Category:"+this.category+ "Ingredients: "+ingredients.get(0));
     }
 
-    public void writeRecipe(String dir) throws JsonGenerationException, JsonMappingException, IOException{
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(new File(dir),this);
-    }
     public String writeAsString() throws IOException{
         ObjectMapper mapper = new ObjectMapper();
         return mapper.writeValueAsString(this);

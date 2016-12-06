@@ -18,7 +18,6 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.Toast;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -84,11 +83,14 @@ public class Add extends ActionBarActivity {
     public void start(){
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);
         //getting variables
-        ArrayList<String> ingedients = new ArrayList<String>();
-
-        ingedients.add("works");
-        ingedients.add("works2");
-        ingedients.add("works3");
+        IngredientList ing = new IngredientList();
+        ArrayList<String> ingedients = new ArrayList<>();
+        ingedients.add("no ingredient");
+        try {
+            ingedients = ing.readRecipe(this);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         checkid = new int[ingedients.size()];
 
         //stepid

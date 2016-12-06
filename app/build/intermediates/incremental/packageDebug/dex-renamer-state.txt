@@ -1,4 +1,4 @@
-#Mon Dec 05 16:39:50 EST 2016
+#Mon Dec 05 20:34:45 EST 2016
 base.0=C\:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d49ada4f178363f16726c76e31e0809a0b2f3df0
 renamed.1=classes.dex
 renamed.0=classes2.dex

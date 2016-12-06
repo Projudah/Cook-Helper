@@ -51,19 +51,19 @@ public class RecipeSingleton {
 
         if (type == 0){
             for (Recipe rec : arrayOfRecipe){
-                if (rec.name.equals("searchString")){
+                if (rec.name.equals(searchString)){
                     return rec;
                 }
             }
         } else if (type == 1){
             for (Recipe rec : arrayOfRecipe){
-                if (rec.category.equals("searchString")){
+                if (rec.category.equals(searchString)){
                     return rec;
                 }
             }
         } else if (type == 2){
             for (Recipe rec : arrayOfRecipe){
-                if (rec.type.equals("searchString")){
+                if (rec.type.equals(searchString)){
                     return rec;
                 }
             }
@@ -76,9 +76,9 @@ public class RecipeSingleton {
     }
 
     public static void addRecipeToSearchMap(
-            ArrayList<Recipe> arrayOfRecipe, String name, String category, String type
+            ArrayList<Recipe> arrayOfRecipe, String name, String category, String type, String steps
     ) throws IOException{
-        arrayOfRecipe.add(new Recipe(name, category, type));
+        arrayOfRecipe.add(new Recipe(name, category, type, steps));
     }
 
     public static ArrayList<Recipe> getRecipesThatSatisfyString(

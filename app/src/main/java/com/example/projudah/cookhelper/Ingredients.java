@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Ingredients extends ActionBarActivity {
-    IngredientList<String> ingslist;
+    IngredientList ing;
     PopupWindow window;
 
 
@@ -30,16 +30,15 @@ public class Ingredients extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ingredients);
-        ingslist = new IngredientList();
+        ing = new IngredientList();
         start();
     }
 
     public void start(){
-        ingslist.add("i am an ingredient");
+        ArrayList<String> ingslist = new ArrayList<>();
         try {
-            ingslist.readRecipe();
+            ingslist = ing.readRecipe(this);
         } catch (IOException e){}
-        Log.i("heeey", ingslist.size()+"");
         ArrayAdapter my = new ArrayAdapter(this, android.R.layout.simple_list_item_1, ingslist);
         ListView list = (ListView) findViewById(R.id.ings);
         list.setAdapter(my);
@@ -64,7 +63,9 @@ public class Ingredients extends ActionBarActivity {
             }
         });
         Ok.setText("Ok");
+        Ok.setTextSize(18);
         cancel.setText("Cancel");
+        cancel.setTextSize(18);
         ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         ViewGroup.LayoutParams params2 = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         LinearLayout popup = new LinearLayout(this);
@@ -81,7 +82,9 @@ public class Ingredients extends ActionBarActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                curname[0]="";
                 window.showAtLocation(findViewById(R.id.relativeLayout), 0, 500, 500);
+
             }
         });
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -94,18 +97,19 @@ public class Ingredients extends ActionBarActivity {
                 curname[0] = ingname;
             }
         });
+        final Activity thiss =this;
         Ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!(curname[0].equals("")))
-                    ingslist.delete(curname[0]); curname[0]="";
+                if (!(curname[0].equals(""))) {
+                    ing.delete(curname[0]);
+                    curname[0] = "";
+                }
                 if (!(name.getText().toString().equals(""))) {
-                    ingslist.store(name.getText().toString());
+                    ing.store(name.getText().toString());
                     try {
-                        ingslist.writeRecipe();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                        ing.writeRecipe(thiss);
+                    } catch (IOException e) {}
                     window.dismiss();
                 }else {
                     Toast.makeText(thishome, "Blank name field", Toast.LENGTH_SHORT).show();

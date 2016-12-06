@@ -5,7 +5,7 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="14858963332724"
+    timestamp="26502948200577"
     token="8697320072316957303"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -22,30 +22,22 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\r3xas\AndroidProjects\CookHelper\SEG-term-project\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-
     <build
-        timestamp="9685156249040"
+        timestamp="23779210872140"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\r3xas\AndroidProjects\CookHelper\SEG-term-project\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="14598487397557"
+        timestamp="26300441514289"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\r3xas\AndroidProjects\CookHelper\SEG-term-project\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="14858963332724"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\r3xas\AndroidProjects\CookHelper\SEG-term-project\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
+        timestamp="26502948200577"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

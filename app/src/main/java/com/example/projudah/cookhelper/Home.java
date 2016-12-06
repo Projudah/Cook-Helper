@@ -103,9 +103,19 @@ public class Home extends ActionBarActivity {
         for(int i = 0; i < recipes.size();i++){
             hello2[i] = recipes.get(i).getName();
         }
+
         Myadapter my = new Myadapter(this, R.layout.customlist, hello2);
         ListView list = (ListView) findViewById(R.id.listView);
-        list.setAdapter(my);
+        if (!searched) {
+            list.setAdapter(my);
+        }else{
+            String[] Hello3 = new String[name.size()];
+            for (int i =0; i< Hello3.length; i++)
+                Hello3[i]= name.get(i).name;
+            my = new Myadapter(this, R.layout.customlist, Hello3);
+            list.setAdapter(my);
+            searched=false;
+        }
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
@@ -127,8 +137,23 @@ public class Home extends ActionBarActivity {
     public void search(View v){
         EditText search = (EditText) findViewById(R.id.searchtext);
         String x = search.getText().toString();
-        Recipe recipeSearch = RecipeSingleton.getRecipeFromSearchMap(recipes,x, 0);
+
+        if (!(x.equals(""))) {
+
+            ArrayList<Recipe> recipeSearch = null;
+
+            try {
+                recipeSearch = RecipeSingleton.getRecipesThatSatisfyString(recipes, x, 0);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            searched = true;
+            name = recipeSearch;
+            home();
+        }
     }
+    boolean searched = false;
+    ArrayList<Recipe> name;
 
     public void recipe(View v){
         TextView x =(TextView) ((RelativeLayout) v).getChildAt(0);
