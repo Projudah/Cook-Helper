@@ -4,13 +4,27 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Home"
-    android:background="#ffffb540"
-    android:id="@+id/root">
+    android:id="@+id/root"
+    android:fitsSystemWindows="true"
+    android:background="#ffb540">
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/relativeLayout">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal"
+            android:hint="Search"
+            android:maxHeight="50dp"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false" />
 
         <Spinner
             android:layout_width="200dp"
@@ -38,37 +52,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/listView"
-            android:paddingLeft="10dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_below="@+id/spinner" />
-
-        <EditText
-            android:layout_weight="1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText"
-            android:layout_gravity="center_horizontal"
-            android:hint="Search"
-            android:maxHeight="50dp"
-            android:singleLine="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
 
         <Spinner
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:id="@+id/button"
-            android:layout_row="26"
-            android:layout_column="0"
             android:background="@drawable/add"
             android:entries="@array/add"
             android:dropDownWidth="200dp"
-            android:layout_alignWithParentIfMissing="false"
             android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/spinner"
-            android:layout_alignEnd="@+id/spinner" />
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 

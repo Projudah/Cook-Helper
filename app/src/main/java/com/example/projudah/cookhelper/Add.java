@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -30,6 +31,7 @@ public class Add extends ActionBarActivity {
     LinearLayout steps ;
     LinearLayout classi;
     LinearLayout name;
+    ScrollView scroll;
     boolean choosedone =false;
     boolean stepsdone =false;
     boolean classdone = false;
@@ -43,7 +45,8 @@ public class Add extends ActionBarActivity {
         Choose = (LinearLayout) findViewById(R.id.ing);
         steps = (LinearLayout) findViewById(R.id.step);
         classi = (LinearLayout) findViewById(R.id.Class);
-        name = (LinearLayout) findViewById((R.id.name));
+        name = (LinearLayout) findViewById(R.id.name);
+        scroll = (ScrollView) findViewById(R.id.scrollView);
         Choose.setVisibility(View.GONE);
         steps.setVisibility(View.GONE);
         classi.setVisibility(View.GONE);
@@ -82,11 +85,7 @@ public class Add extends ActionBarActivity {
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);
         //getting variables
         ArrayList<String> ingedients = new ArrayList<String>();
-        String Steps;
-        String Category;
-        String Type;
-        String Name;
-        //
+
         ingedients.add("works");
         ingedients.add("works2");
         ingedients.add("works3");
@@ -109,9 +108,9 @@ public class Add extends ActionBarActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        Trans.back(this,(RelativeLayout)findViewById(R.id.root));
     }
-
+    boolean done = false;
     public void check (View v){
         if (!namedone){
 
@@ -142,6 +141,7 @@ public class Add extends ActionBarActivity {
             }else if (!(((EditText) findViewById(R.id.stepone)).getText().toString().equals(""))) {
                 stepsdone = true;
                 Trans.fadein(classi);
+
             }else {
                 Toast.makeText(getBaseContext(), "at least one step", Toast.LENGTH_SHORT).show();
                 complete = false;
@@ -151,6 +151,7 @@ public class Add extends ActionBarActivity {
                 classdone =true;
                 ImageView done = (ImageView) findViewById(R.id.next);
                 done.setImageDrawable(getResources().getDrawable(R.drawable.done));
+                this.done=true;
             }else {
                 Toast.makeText(getBaseContext(), "No Category or Type", Toast.LENGTH_SHORT).show();
                 complete = false;
@@ -174,21 +175,24 @@ public class Add extends ActionBarActivity {
             }else {
 
                 String RecipeName = ((EditText) findViewById(R.id.nametext)).getText().toString();
-                String[] Ingredients = new String[checkid.length];
+                ArrayList<String> Ingredients = new ArrayList<>();
                 for (int i=0; i< checkid.length ; i++ ) {
                     if (((CheckBox) findViewById(checkid[i])).isChecked())
-                        Ingredients[i] = ((CheckBox) findViewById(checkid[i])).getText().toString();
+                        Ingredients.add(((CheckBox) findViewById(checkid[i])).getText().toString());
                 }
-                String Steps ="";
+                String Steps;
+                Steps = ((EditText) findViewById(R.id.stepone)).getText().toString();
                 for (int i = 0; i < stepidlist.size(); i++) {
                     Steps = Steps+" ;; "+((EditText) findViewById(stepidlist.get(i))).getText().toString();
                 }
                 String Type = ((AutoCompleteTextView) findViewById(R.id.type)).getText().toString();
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
-                Recipe rec = new Recipe(RecipeName,Category,Type);
+                Recipe rec = new Recipe(RecipeName,Category,Type,Steps);
+                for (int i = 0; i < Ingredients.size(); i++)
+                    rec.addIngredient(Ingredients.get(i));
 
-                String filename = rec.getName();
+                String filename = rec.getName()+".json";
                 String string = "";
                 try {
                     string = rec.writeAsString();
@@ -207,6 +211,16 @@ public class Add extends ActionBarActivity {
                 }
             }
         }
+        if (!done) {
+            android.os.Handler h = new android.os.Handler();
+            h.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    scroll.smoothScrollTo(0, (findViewById(R.id.scroll).getBottom()));
+                }
+            }, 500);
+        }
+
 
     }
     int stepid;

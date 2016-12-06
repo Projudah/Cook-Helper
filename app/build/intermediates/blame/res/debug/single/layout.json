@@ -1,15 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recipe.xml",
-        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\recipe.xml"
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -32,6 +28,10 @@
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\customlist.xml"
     },
     {
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit.xml",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\edit.xml"
+    },
+    {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -42,10 +42,6 @@
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\steps.xml",
-        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\steps.xml"
     },
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
@@ -88,16 +84,16 @@
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\launch.xml"
     },
     {
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewrecipe.xml",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\viewrecipe.xml"
+    },
+    {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_activity_chooser_view_include.xml"
     },
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cat.xml",
-        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\cat.xml"
     },
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\animation.xml",
@@ -122,6 +118,10 @@
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ingredients.xml",
+        "source": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\layout\\ingredients.xml"
     },
     {
         "merged": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",

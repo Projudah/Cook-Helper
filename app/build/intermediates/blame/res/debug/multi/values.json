@@ -14,12 +14,12 @@
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 464,
-                        "endLine": 17,
+                        "startOffset": 466,
+                        "endLine": 18,
                         "endColumn": 19,
-                        "endOffset": 601
+                        "endOffset": 603
                     }
                 }
             },
@@ -35,12 +35,12 @@
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 326,
-                        "endLine": 12,
+                        "startOffset": 328,
+                        "endLine": 13,
                         "endColumn": 19,
-                        "endOffset": 458
+                        "endOffset": 460
                     }
                 }
             },
@@ -2221,11 +2221,11 @@
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 607,
+                        "startOffset": 611,
                         "endColumn": 39,
-                        "endOffset": 642
+                        "endOffset": 646
                     }
                 }
             },
@@ -2614,8 +2614,46 @@
                     "startLine": 211,
                     "startColumn": 4,
                     "startOffset": 22975,
+                    "endColumn": 52,
+                    "endOffset": 23023
+                },
+                "from": {
+                    "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 718,
+                        "endColumn": 52,
+                        "endOffset": 766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 23028,
+                    "endColumn": 66,
+                    "endOffset": 23090
+                },
+                "from": {
+                    "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 66,
+                        "endOffset": 834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 23095,
                     "endColumn": 56,
-                    "endOffset": 23027
+                    "endOffset": 23147
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
@@ -2630,12 +2668,31 @@
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 214,
                     "startColumn": 4,
-                    "startOffset": 23032,
-                    "endLine": 214,
+                    "startOffset": 23152,
+                    "endColumn": 64,
+                    "endOffset": 23212
+                },
+                "from": {
+                    "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 652,
+                        "endColumn": 64,
+                        "endOffset": 712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 215,
+                    "startColumn": 4,
+                    "startOffset": 23217,
+                    "endLine": 217,
                     "endColumn": 12,
-                    "endOffset": 23157
+                    "endOffset": 23342
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\styles.xml",
@@ -2651,12 +2708,12 @@
             },
             {
                 "to": {
-                    "startLine": 215,
+                    "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 23162,
-                    "endLine": 221,
+                    "startOffset": 23347,
+                    "endLine": 224,
                     "endColumn": 12,
-                    "endOffset": 23634
+                    "endOffset": 23819
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2672,12 +2729,12 @@
             },
             {
                 "to": {
-                    "startLine": 222,
+                    "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 23639,
-                    "endLine": 225,
+                    "startOffset": 23824,
+                    "endLine": 228,
                     "endColumn": 12,
-                    "endOffset": 23856
+                    "endOffset": 24041
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2693,12 +2750,12 @@
             },
             {
                 "to": {
-                    "startLine": 226,
+                    "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 23861,
-                    "endLine": 229,
+                    "startOffset": 24046,
+                    "endLine": 232,
                     "endColumn": 12,
-                    "endOffset": 24078
+                    "endOffset": 24263
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2714,12 +2771,12 @@
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 233,
                     "startColumn": 4,
-                    "startOffset": 24083,
-                    "endLine": 234,
+                    "startOffset": 24268,
+                    "endLine": 237,
                     "endColumn": 12,
-                    "endOffset": 24346
+                    "endOffset": 24531
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2735,12 +2792,12 @@
             },
             {
                 "to": {
-                    "startLine": 235,
+                    "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 24351,
-                    "endLine": 238,
+                    "startOffset": 24536,
+                    "endLine": 241,
                     "endColumn": 12,
-                    "endOffset": 24573
+                    "endOffset": 24758
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2756,12 +2813,12 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 242,
                     "startColumn": 4,
-                    "startOffset": 24578,
-                    "endLine": 242,
+                    "startOffset": 24763,
+                    "endLine": 245,
                     "endColumn": 12,
-                    "endOffset": 24803
+                    "endOffset": 24988
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2777,12 +2834,12 @@
             },
             {
                 "to": {
-                    "startLine": 243,
+                    "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 24808,
-                    "endLine": 246,
+                    "startOffset": 24993,
+                    "endLine": 249,
                     "endColumn": 12,
-                    "endOffset": 25033
+                    "endOffset": 25218
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2798,12 +2855,12 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 25038,
-                    "endLine": 250,
+                    "startOffset": 25223,
+                    "endLine": 253,
                     "endColumn": 12,
-                    "endOffset": 25263
+                    "endOffset": 25448
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2819,12 +2876,12 @@
             },
             {
                 "to": {
-                    "startLine": 251,
+                    "startLine": 254,
                     "startColumn": 4,
-                    "startOffset": 25268,
-                    "endLine": 254,
+                    "startOffset": 25453,
+                    "endLine": 257,
                     "endColumn": 12,
-                    "endOffset": 25493
+                    "endOffset": 25678
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2840,12 +2897,12 @@
             },
             {
                 "to": {
-                    "startLine": 255,
+                    "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 25498,
-                    "endLine": 258,
+                    "startOffset": 25683,
+                    "endLine": 261,
                     "endColumn": 12,
-                    "endOffset": 25720
+                    "endOffset": 25905
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2861,12 +2918,12 @@
             },
             {
                 "to": {
-                    "startLine": 259,
+                    "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 25725,
-                    "endLine": 262,
+                    "startOffset": 25910,
+                    "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 25959
+                    "endOffset": 26144
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2882,12 +2939,12 @@
             },
             {
                 "to": {
-                    "startLine": 263,
+                    "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 25964,
-                    "endLine": 266,
+                    "startOffset": 26149,
+                    "endLine": 269,
                     "endColumn": 12,
-                    "endOffset": 26185
+                    "endOffset": 26370
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2903,12 +2960,12 @@
             },
             {
                 "to": {
-                    "startLine": 267,
+                    "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 26190,
-                    "endLine": 270,
+                    "startOffset": 26375,
+                    "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 26430
+                    "endOffset": 26615
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2924,11 +2981,11 @@
             },
             {
                 "to": {
-                    "startLine": 271,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 26435,
+                    "startOffset": 26620,
                     "endColumn": 117,
-                    "endOffset": 26548
+                    "endOffset": 26733
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2943,11 +3000,11 @@
             },
             {
                 "to": {
-                    "startLine": 272,
+                    "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 26553,
+                    "startOffset": 26738,
                     "endColumn": 117,
-                    "endOffset": 26666
+                    "endOffset": 26851
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2962,12 +3019,12 @@
             },
             {
                 "to": {
-                    "startLine": 273,
+                    "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 26671,
-                    "endLine": 276,
+                    "startOffset": 26856,
+                    "endLine": 279,
                     "endColumn": 12,
-                    "endOffset": 26896
+                    "endOffset": 27081
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -2983,12 +3040,12 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 26901,
-                    "endLine": 280,
+                    "startOffset": 27086,
+                    "endLine": 283,
                     "endColumn": 12,
-                    "endOffset": 27144
+                    "endOffset": 27329
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3004,12 +3061,12 @@
             },
             {
                 "to": {
-                    "startLine": 281,
+                    "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 27149,
-                    "endLine": 284,
+                    "startOffset": 27334,
+                    "endLine": 287,
                     "endColumn": 12,
-                    "endOffset": 27363
+                    "endOffset": 27548
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3025,12 +3082,12 @@
             },
             {
                 "to": {
-                    "startLine": 285,
+                    "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 27368,
-                    "endLine": 289,
+                    "startOffset": 27553,
+                    "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 27646
+                    "endOffset": 27831
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3046,12 +3103,12 @@
             },
             {
                 "to": {
-                    "startLine": 290,
+                    "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 27651,
-                    "endLine": 293,
+                    "startOffset": 27836,
+                    "endLine": 296,
                     "endColumn": 12,
-                    "endOffset": 27854
+                    "endOffset": 28039
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3067,12 +3124,12 @@
             },
             {
                 "to": {
-                    "startLine": 294,
+                    "startLine": 297,
                     "startColumn": 4,
-                    "startOffset": 27859,
-                    "endLine": 296,
+                    "startOffset": 28044,
+                    "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 27985
+                    "endOffset": 28170
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3088,12 +3145,12 @@
             },
             {
                 "to": {
-                    "startLine": 297,
+                    "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 27990,
-                    "endLine": 300,
+                    "startOffset": 28175,
+                    "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 28212
+                    "endOffset": 28397
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3109,12 +3166,12 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 28217,
-                    "endLine": 304,
+                    "startOffset": 28402,
+                    "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 28458
+                    "endOffset": 28643
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3130,12 +3187,12 @@
             },
             {
                 "to": {
-                    "startLine": 305,
+                    "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 28463,
-                    "endLine": 308,
+                    "startOffset": 28648,
+                    "endLine": 311,
                     "endColumn": 12,
-                    "endOffset": 28683
+                    "endOffset": 28868
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3151,12 +3208,12 @@
             },
             {
                 "to": {
-                    "startLine": 309,
+                    "startLine": 312,
                     "startColumn": 4,
-                    "startOffset": 28688,
-                    "endLine": 312,
+                    "startOffset": 28873,
+                    "endLine": 315,
                     "endColumn": 12,
-                    "endOffset": 28932
+                    "endOffset": 29117
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3172,12 +3229,12 @@
             },
             {
                 "to": {
-                    "startLine": 313,
+                    "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 28937,
-                    "endLine": 316,
+                    "startOffset": 29122,
+                    "endLine": 319,
                     "endColumn": 12,
-                    "endOffset": 29153
+                    "endOffset": 29338
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3193,12 +3250,12 @@
             },
             {
                 "to": {
-                    "startLine": 317,
+                    "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 29158,
-                    "endLine": 320,
+                    "startOffset": 29343,
+                    "endLine": 323,
                     "endColumn": 12,
-                    "endOffset": 29398
+                    "endOffset": 29583
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3214,12 +3271,12 @@
             },
             {
                 "to": {
-                    "startLine": 321,
+                    "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 29403,
-                    "endLine": 325,
+                    "startOffset": 29588,
+                    "endLine": 328,
                     "endColumn": 12,
-                    "endOffset": 29693
+                    "endOffset": 29878
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3235,12 +3292,12 @@
             },
             {
                 "to": {
-                    "startLine": 326,
+                    "startLine": 329,
                     "startColumn": 4,
-                    "startOffset": 29698,
-                    "endLine": 328,
+                    "startOffset": 29883,
+                    "endLine": 331,
                     "endColumn": 12,
-                    "endOffset": 29915
+                    "endOffset": 30100
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3256,12 +3313,12 @@
             },
             {
                 "to": {
-                    "startLine": 329,
+                    "startLine": 332,
                     "startColumn": 4,
-                    "startOffset": 29920,
-                    "endLine": 331,
+                    "startOffset": 30105,
+                    "endLine": 334,
                     "endColumn": 12,
-                    "endOffset": 30153
+                    "endOffset": 30338
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3277,12 +3334,12 @@
             },
             {
                 "to": {
-                    "startLine": 332,
+                    "startLine": 335,
                     "startColumn": 4,
-                    "startOffset": 30158,
-                    "endLine": 334,
+                    "startOffset": 30343,
+                    "endLine": 337,
                     "endColumn": 12,
-                    "endOffset": 30367
+                    "endOffset": 30552
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3298,12 +3355,12 @@
             },
             {
                 "to": {
-                    "startLine": 335,
+                    "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 30372,
-                    "endLine": 337,
+                    "startOffset": 30557,
+                    "endLine": 340,
                     "endColumn": 12,
-                    "endOffset": 30597
+                    "endOffset": 30782
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3319,12 +3376,12 @@
             },
             {
                 "to": {
-                    "startLine": 338,
+                    "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 30602,
-                    "endLine": 340,
+                    "startOffset": 30787,
+                    "endLine": 343,
                     "endColumn": 12,
-                    "endOffset": 30820
+                    "endOffset": 31005
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3340,12 +3397,12 @@
             },
             {
                 "to": {
-                    "startLine": 341,
+                    "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 30825,
-                    "endLine": 343,
+                    "startOffset": 31010,
+                    "endLine": 346,
                     "endColumn": 12,
-                    "endOffset": 31035
+                    "endOffset": 31220
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3361,12 +3418,12 @@
             },
             {
                 "to": {
-                    "startLine": 344,
+                    "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 31040,
-                    "endLine": 346,
+                    "startOffset": 31225,
+                    "endLine": 349,
                     "endColumn": 12,
-                    "endOffset": 31243
+                    "endOffset": 31428
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3382,11 +3439,11 @@
             },
             {
                 "to": {
-                    "startLine": 347,
+                    "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 31248,
+                    "startOffset": 31433,
                     "endColumn": 111,
-                    "endOffset": 31355
+                    "endOffset": 31540
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3401,11 +3458,11 @@
             },
             {
                 "to": {
-                    "startLine": 348,
+                    "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 31360,
+                    "startOffset": 31545,
                     "endColumn": 111,
-                    "endOffset": 31467
+                    "endOffset": 31652
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3420,11 +3477,11 @@
             },
             {
                 "to": {
-                    "startLine": 349,
+                    "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 31472,
+                    "startOffset": 31657,
                     "endColumn": 104,
-                    "endOffset": 31572
+                    "endOffset": 31757
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3439,12 +3496,12 @@
             },
             {
                 "to": {
-                    "startLine": 350,
+                    "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 31577,
-                    "endLine": 352,
+                    "startOffset": 31762,
+                    "endLine": 355,
                     "endColumn": 12,
-                    "endOffset": 31786
+                    "endOffset": 31971
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3460,11 +3517,11 @@
             },
             {
                 "to": {
-                    "startLine": 353,
+                    "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 31791,
+                    "startOffset": 31976,
                     "endColumn": 133,
-                    "endOffset": 31920
+                    "endOffset": 32105
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3479,11 +3536,11 @@
             },
             {
                 "to": {
-                    "startLine": 354,
+                    "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 31925,
+                    "startOffset": 32110,
                     "endColumn": 127,
-                    "endOffset": 32048
+                    "endOffset": 32233
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3498,11 +3555,11 @@
             },
             {
                 "to": {
-                    "startLine": 355,
+                    "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 32053,
+                    "startOffset": 32238,
                     "endColumn": 73,
-                    "endOffset": 32122
+                    "endOffset": 32307
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3517,12 +3574,12 @@
             },
             {
                 "to": {
-                    "startLine": 356,
+                    "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 32127,
-                    "endLine": 359,
+                    "startOffset": 32312,
+                    "endLine": 362,
                     "endColumn": 12,
-                    "endOffset": 32375
+                    "endOffset": 32560
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3538,11 +3595,11 @@
             },
             {
                 "to": {
-                    "startLine": 360,
+                    "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 32380,
+                    "startOffset": 32565,
                     "endColumn": 87,
-                    "endOffset": 32463
+                    "endOffset": 32648
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3557,12 +3614,12 @@
             },
             {
                 "to": {
-                    "startLine": 361,
+                    "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 32468,
-                    "endLine": 366,
+                    "startOffset": 32653,
+                    "endLine": 369,
                     "endColumn": 12,
-                    "endOffset": 32865
+                    "endOffset": 33050
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3578,11 +3635,11 @@
             },
             {
                 "to": {
-                    "startLine": 367,
+                    "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 32870,
+                    "startOffset": 33055,
                     "endColumn": 81,
-                    "endOffset": 32947
+                    "endOffset": 33132
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3597,11 +3654,11 @@
             },
             {
                 "to": {
-                    "startLine": 368,
+                    "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 32952,
+                    "startOffset": 33137,
                     "endColumn": 85,
-                    "endOffset": 33033
+                    "endOffset": 33218
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3616,12 +3673,12 @@
             },
             {
                 "to": {
-                    "startLine": 369,
+                    "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 33038,
-                    "endLine": 378,
+                    "startOffset": 33223,
+                    "endLine": 381,
                     "endColumn": 12,
-                    "endOffset": 33649
+                    "endOffset": 33834
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3637,11 +3694,11 @@
             },
             {
                 "to": {
-                    "startLine": 379,
+                    "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 33654,
+                    "startOffset": 33839,
                     "endColumn": 90,
-                    "endOffset": 33740
+                    "endOffset": 33925
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3656,12 +3713,12 @@
             },
             {
                 "to": {
-                    "startLine": 380,
+                    "startLine": 383,
                     "startColumn": 4,
-                    "startOffset": 33745,
-                    "endLine": 385,
+                    "startOffset": 33930,
+                    "endLine": 388,
                     "endColumn": 12,
-                    "endOffset": 34148
+                    "endOffset": 34333
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3677,11 +3734,11 @@
             },
             {
                 "to": {
-                    "startLine": 386,
+                    "startLine": 389,
                     "startColumn": 4,
-                    "startOffset": 34153,
+                    "startOffset": 34338,
                     "endColumn": 93,
-                    "endOffset": 34242
+                    "endOffset": 34427
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3696,11 +3753,11 @@
             },
             {
                 "to": {
-                    "startLine": 387,
+                    "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 34247,
+                    "startOffset": 34432,
                     "endColumn": 57,
-                    "endOffset": 34300
+                    "endOffset": 34485
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3715,12 +3772,12 @@
             },
             {
                 "to": {
-                    "startLine": 388,
+                    "startLine": 391,
                     "startColumn": 4,
-                    "startOffset": 34305,
-                    "endLine": 390,
+                    "startOffset": 34490,
+                    "endLine": 393,
                     "endColumn": 12,
-                    "endOffset": 34448
+                    "endOffset": 34633
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3736,12 +3793,12 @@
             },
             {
                 "to": {
-                    "startLine": 391,
+                    "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 34453,
-                    "endLine": 423,
+                    "startOffset": 34638,
+                    "endLine": 426,
                     "endColumn": 12,
-                    "endOffset": 36941
+                    "endOffset": 37126
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3757,12 +3814,12 @@
             },
             {
                 "to": {
-                    "startLine": 424,
+                    "startLine": 427,
                     "startColumn": 4,
-                    "startOffset": 36946,
-                    "endLine": 426,
+                    "startOffset": 37131,
+                    "endLine": 429,
                     "endColumn": 12,
-                    "endOffset": 37094
+                    "endOffset": 37279
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3778,12 +3835,12 @@
             },
             {
                 "to": {
-                    "startLine": 427,
+                    "startLine": 430,
                     "startColumn": 4,
-                    "startOffset": 37099,
-                    "endLine": 458,
+                    "startOffset": 37284,
+                    "endLine": 461,
                     "endColumn": 12,
-                    "endOffset": 39699
+                    "endOffset": 39884
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3799,12 +3856,12 @@
             },
             {
                 "to": {
-                    "startLine": 459,
+                    "startLine": 462,
                     "startColumn": 4,
-                    "startOffset": 39704,
-                    "endLine": 557,
+                    "startOffset": 39889,
+                    "endLine": 560,
                     "endColumn": 12,
-                    "endOffset": 46442
+                    "endOffset": 46627
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3820,12 +3877,12 @@
             },
             {
                 "to": {
-                    "startLine": 558,
+                    "startLine": 561,
                     "startColumn": 4,
-                    "startOffset": 46447,
-                    "endLine": 653,
+                    "startOffset": 46632,
+                    "endLine": 656,
                     "endColumn": 12,
-                    "endOffset": 53064
+                    "endOffset": 53249
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3841,12 +3898,12 @@
             },
             {
                 "to": {
-                    "startLine": 654,
+                    "startLine": 657,
                     "startColumn": 4,
-                    "startOffset": 53069,
-                    "endLine": 752,
+                    "startOffset": 53254,
+                    "endLine": 755,
                     "endColumn": 12,
-                    "endOffset": 59903
+                    "endOffset": 60088
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3862,12 +3919,12 @@
             },
             {
                 "to": {
-                    "startLine": 753,
+                    "startLine": 756,
                     "startColumn": 4,
-                    "startOffset": 59908,
-                    "endLine": 767,
+                    "startOffset": 60093,
+                    "endLine": 770,
                     "endColumn": 12,
-                    "endOffset": 60842
+                    "endOffset": 61027
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3883,12 +3940,12 @@
             },
             {
                 "to": {
-                    "startLine": 768,
+                    "startLine": 771,
                     "startColumn": 4,
-                    "startOffset": 60847,
-                    "endLine": 772,
+                    "startOffset": 61032,
+                    "endLine": 775,
                     "endColumn": 12,
-                    "endOffset": 61098
+                    "endOffset": 61283
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3904,12 +3961,12 @@
             },
             {
                 "to": {
-                    "startLine": 773,
+                    "startLine": 776,
                     "startColumn": 4,
-                    "startOffset": 61103,
-                    "endLine": 777,
+                    "startOffset": 61288,
+                    "endLine": 780,
                     "endColumn": 12,
-                    "endOffset": 61334
+                    "endOffset": 61519
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3925,12 +3982,12 @@
             },
             {
                 "to": {
-                    "startLine": 778,
+                    "startLine": 781,
                     "startColumn": 4,
-                    "startOffset": 61339,
-                    "endLine": 787,
+                    "startOffset": 61524,
+                    "endLine": 790,
                     "endColumn": 12,
-                    "endOffset": 61881
+                    "endOffset": 62066
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3946,12 +4003,12 @@
             },
             {
                 "to": {
-                    "startLine": 788,
+                    "startLine": 791,
                     "startColumn": 4,
-                    "startOffset": 61886,
-                    "endLine": 796,
+                    "startOffset": 62071,
+                    "endLine": 799,
                     "endColumn": 12,
-                    "endOffset": 62375
+                    "endOffset": 62560
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3967,12 +4024,12 @@
             },
             {
                 "to": {
-                    "startLine": 797,
+                    "startLine": 800,
                     "startColumn": 4,
-                    "startOffset": 62380,
-                    "endLine": 807,
+                    "startOffset": 62565,
+                    "endLine": 810,
                     "endColumn": 12,
-                    "endOffset": 63048
+                    "endOffset": 63233
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -3988,12 +4045,12 @@
             },
             {
                 "to": {
-                    "startLine": 808,
+                    "startLine": 811,
                     "startColumn": 4,
-                    "startOffset": 63053,
-                    "endLine": 810,
+                    "startOffset": 63238,
+                    "endLine": 813,
                     "endColumn": 12,
-                    "endOffset": 63213
+                    "endOffset": 63398
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4009,12 +4066,12 @@
             },
             {
                 "to": {
-                    "startLine": 811,
+                    "startLine": 814,
                     "startColumn": 4,
-                    "startOffset": 63218,
-                    "endLine": 817,
+                    "startOffset": 63403,
+                    "endLine": 820,
                     "endColumn": 12,
-                    "endOffset": 63741
+                    "endOffset": 63926
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4030,12 +4087,12 @@
             },
             {
                 "to": {
-                    "startLine": 818,
+                    "startLine": 821,
                     "startColumn": 4,
-                    "startOffset": 63746,
-                    "endLine": 825,
+                    "startOffset": 63931,
+                    "endLine": 828,
                     "endColumn": 12,
-                    "endOffset": 64305
+                    "endOffset": 64490
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4051,12 +4108,12 @@
             },
             {
                 "to": {
-                    "startLine": 826,
+                    "startLine": 829,
                     "startColumn": 4,
-                    "startOffset": 64310,
-                    "endLine": 832,
+                    "startOffset": 64495,
+                    "endLine": 835,
                     "endColumn": 12,
-                    "endOffset": 64679
+                    "endOffset": 64864
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4072,12 +4129,12 @@
             },
             {
                 "to": {
-                    "startLine": 833,
+                    "startLine": 836,
                     "startColumn": 4,
-                    "startOffset": 64684,
-                    "endLine": 837,
+                    "startOffset": 64869,
+                    "endLine": 840,
                     "endColumn": 12,
-                    "endOffset": 65049
+                    "endOffset": 65234
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4093,12 +4150,12 @@
             },
             {
                 "to": {
-                    "startLine": 838,
+                    "startLine": 841,
                     "startColumn": 4,
-                    "startOffset": 65054,
-                    "endLine": 844,
+                    "startOffset": 65239,
+                    "endLine": 847,
                     "endColumn": 12,
-                    "endOffset": 65540
+                    "endOffset": 65725
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4114,12 +4171,12 @@
             },
             {
                 "to": {
-                    "startLine": 845,
+                    "startLine": 848,
                     "startColumn": 4,
-                    "startOffset": 65545,
-                    "endLine": 854,
+                    "startOffset": 65730,
+                    "endLine": 857,
                     "endColumn": 12,
-                    "endOffset": 66017
+                    "endOffset": 66202
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4135,12 +4192,12 @@
             },
             {
                 "to": {
-                    "startLine": 855,
+                    "startLine": 858,
                     "startColumn": 4,
-                    "startOffset": 66022,
-                    "endLine": 860,
+                    "startOffset": 66207,
+                    "endLine": 863,
                     "endColumn": 12,
-                    "endOffset": 66370
+                    "endOffset": 66555
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4156,12 +4213,12 @@
             },
             {
                 "to": {
-                    "startLine": 861,
+                    "startLine": 864,
                     "startColumn": 4,
-                    "startOffset": 66375,
-                    "endLine": 865,
+                    "startOffset": 66560,
+                    "endLine": 868,
                     "endColumn": 12,
-                    "endOffset": 66697
+                    "endOffset": 66882
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4177,12 +4234,12 @@
             },
             {
                 "to": {
-                    "startLine": 866,
+                    "startLine": 869,
                     "startColumn": 4,
-                    "startOffset": 66702,
-                    "endLine": 869,
+                    "startOffset": 66887,
+                    "endLine": 872,
                     "endColumn": 12,
-                    "endOffset": 67003
+                    "endOffset": 67188
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4198,12 +4255,12 @@
             },
             {
                 "to": {
-                    "startLine": 870,
+                    "startLine": 873,
                     "startColumn": 4,
-                    "startOffset": 67008,
-                    "endLine": 874,
+                    "startOffset": 67193,
+                    "endLine": 877,
                     "endColumn": 12,
-                    "endOffset": 67265
+                    "endOffset": 67450
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4219,11 +4276,11 @@
             },
             {
                 "to": {
-                    "startLine": 875,
+                    "startLine": 878,
                     "startColumn": 4,
-                    "startOffset": 67270,
+                    "startOffset": 67455,
                     "endColumn": 112,
-                    "endOffset": 67378
+                    "endOffset": 67563
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4238,11 +4295,11 @@
             },
             {
                 "to": {
-                    "startLine": 876,
+                    "startLine": 879,
                     "startColumn": 4,
-                    "startOffset": 67383,
+                    "startOffset": 67568,
                     "endColumn": 114,
-                    "endOffset": 67493
+                    "endOffset": 67678
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4257,12 +4314,12 @@
             },
             {
                 "to": {
-                    "startLine": 877,
+                    "startLine": 880,
                     "startColumn": 4,
-                    "startOffset": 67498,
-                    "endLine": 879,
+                    "startOffset": 67683,
+                    "endLine": 882,
                     "endColumn": 12,
-                    "endOffset": 67732
+                    "endOffset": 67917
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4278,12 +4335,12 @@
             },
             {
                 "to": {
-                    "startLine": 880,
+                    "startLine": 883,
                     "startColumn": 4,
-                    "startOffset": 67737,
-                    "endLine": 882,
+                    "startOffset": 67922,
+                    "endLine": 885,
                     "endColumn": 12,
-                    "endOffset": 67943
+                    "endOffset": 68128
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4299,12 +4356,12 @@
             },
             {
                 "to": {
-                    "startLine": 883,
+                    "startLine": 886,
                     "startColumn": 4,
-                    "startOffset": 67948,
-                    "endLine": 885,
+                    "startOffset": 68133,
+                    "endLine": 888,
                     "endColumn": 12,
-                    "endOffset": 68160
+                    "endOffset": 68345
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4320,12 +4377,12 @@
             },
             {
                 "to": {
-                    "startLine": 886,
+                    "startLine": 889,
                     "startColumn": 4,
-                    "startOffset": 68165,
-                    "endLine": 888,
+                    "startOffset": 68350,
+                    "endLine": 891,
                     "endColumn": 12,
-                    "endOffset": 68378
+                    "endOffset": 68563
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4341,11 +4398,11 @@
             },
             {
                 "to": {
-                    "startLine": 889,
+                    "startLine": 892,
                     "startColumn": 4,
-                    "startOffset": 68383,
+                    "startOffset": 68568,
                     "endColumn": 106,
-                    "endOffset": 68485
+                    "endOffset": 68670
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4360,12 +4417,12 @@
             },
             {
                 "to": {
-                    "startLine": 890,
+                    "startLine": 893,
                     "startColumn": 4,
-                    "startOffset": 68490,
-                    "endLine": 893,
+                    "startOffset": 68675,
+                    "endLine": 896,
                     "endColumn": 12,
-                    "endOffset": 68678
+                    "endOffset": 68863
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4381,12 +4438,12 @@
             },
             {
                 "to": {
-                    "startLine": 894,
+                    "startLine": 897,
                     "startColumn": 4,
-                    "startOffset": 68683,
-                    "endLine": 900,
+                    "startOffset": 68868,
+                    "endLine": 903,
                     "endColumn": 12,
-                    "endOffset": 69133
+                    "endOffset": 69318
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4402,12 +4459,12 @@
             },
             {
                 "to": {
-                    "startLine": 901,
+                    "startLine": 904,
                     "startColumn": 4,
-                    "startOffset": 69138,
-                    "endLine": 904,
+                    "startOffset": 69323,
+                    "endLine": 907,
                     "endColumn": 12,
-                    "endOffset": 69373
+                    "endOffset": 69558
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4423,12 +4480,12 @@
             },
             {
                 "to": {
-                    "startLine": 905,
+                    "startLine": 908,
                     "startColumn": 4,
-                    "startOffset": 69378,
-                    "endLine": 908,
+                    "startOffset": 69563,
+                    "endLine": 911,
                     "endColumn": 12,
-                    "endOffset": 69632
+                    "endOffset": 69817
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4444,11 +4501,11 @@
             },
             {
                 "to": {
-                    "startLine": 909,
+                    "startLine": 912,
                     "startColumn": 4,
-                    "startOffset": 69637,
+                    "startOffset": 69822,
                     "endColumn": 100,
-                    "endOffset": 69733
+                    "endOffset": 69918
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4463,12 +4520,12 @@
             },
             {
                 "to": {
-                    "startLine": 910,
+                    "startLine": 913,
                     "startColumn": 4,
-                    "startOffset": 69738,
-                    "endLine": 913,
+                    "startOffset": 69923,
+                    "endLine": 916,
                     "endColumn": 12,
-                    "endOffset": 69920
+                    "endOffset": 70105
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4484,11 +4541,11 @@
             },
             {
                 "to": {
-                    "startLine": 914,
+                    "startLine": 917,
                     "startColumn": 4,
-                    "startOffset": 69925,
+                    "startOffset": 70110,
                     "endColumn": 89,
-                    "endOffset": 70010
+                    "endOffset": 70195
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4503,12 +4560,12 @@
             },
             {
                 "to": {
-                    "startLine": 915,
+                    "startLine": 918,
                     "startColumn": 4,
-                    "startOffset": 70015,
-                    "endLine": 920,
+                    "startOffset": 70200,
+                    "endLine": 923,
                     "endColumn": 12,
-                    "endOffset": 70454
+                    "endOffset": 70639
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4524,11 +4581,11 @@
             },
             {
                 "to": {
-                    "startLine": 921,
+                    "startLine": 924,
                     "startColumn": 4,
-                    "startOffset": 70459,
+                    "startOffset": 70644,
                     "endColumn": 111,
-                    "endOffset": 70566
+                    "endOffset": 70751
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4543,12 +4600,12 @@
             },
             {
                 "to": {
-                    "startLine": 922,
+                    "startLine": 925,
                     "startColumn": 4,
-                    "startOffset": 70571,
-                    "endLine": 932,
+                    "startOffset": 70756,
+                    "endLine": 935,
                     "endColumn": 12,
-                    "endOffset": 71371
+                    "endOffset": 71556
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4564,12 +4621,12 @@
             },
             {
                 "to": {
-                    "startLine": 933,
+                    "startLine": 936,
                     "startColumn": 4,
-                    "startOffset": 71376,
-                    "endLine": 937,
+                    "startOffset": 71561,
+                    "endLine": 940,
                     "endColumn": 12,
-                    "endOffset": 71701
+                    "endOffset": 71886
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4585,12 +4642,12 @@
             },
             {
                 "to": {
-                    "startLine": 938,
+                    "startLine": 941,
                     "startColumn": 4,
-                    "startOffset": 71706,
-                    "endLine": 951,
+                    "startOffset": 71891,
+                    "endLine": 954,
                     "endColumn": 12,
-                    "endOffset": 72620
+                    "endOffset": 72805
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4606,12 +4663,12 @@
             },
             {
                 "to": {
-                    "startLine": 952,
+                    "startLine": 955,
                     "startColumn": 4,
-                    "startOffset": 72625,
-                    "endLine": 961,
+                    "startOffset": 72810,
+                    "endLine": 964,
                     "endColumn": 12,
-                    "endOffset": 73286
+                    "endOffset": 73471
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4627,12 +4684,12 @@
             },
             {
                 "to": {
-                    "startLine": 962,
+                    "startLine": 965,
                     "startColumn": 4,
-                    "startOffset": 73291,
-                    "endLine": 966,
+                    "startOffset": 73476,
+                    "endLine": 969,
                     "endColumn": 12,
-                    "endOffset": 73571
+                    "endOffset": 73756
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4648,12 +4705,12 @@
             },
             {
                 "to": {
-                    "startLine": 967,
+                    "startLine": 970,
                     "startColumn": 4,
-                    "startOffset": 73576,
-                    "endLine": 1007,
+                    "startOffset": 73761,
+                    "endLine": 1010,
                     "endColumn": 12,
-                    "endOffset": 76750
+                    "endOffset": 76935
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4669,12 +4726,12 @@
             },
             {
                 "to": {
-                    "startLine": 1008,
+                    "startLine": 1011,
                     "startColumn": 4,
-                    "startOffset": 76755,
-                    "endLine": 1048,
+                    "startOffset": 76940,
+                    "endLine": 1051,
                     "endColumn": 12,
-                    "endOffset": 79943
+                    "endOffset": 80128
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4690,12 +4747,12 @@
             },
             {
                 "to": {
-                    "startLine": 1049,
+                    "startLine": 1052,
                     "startColumn": 4,
-                    "startOffset": 79948,
-                    "endLine": 1090,
+                    "startOffset": 80133,
+                    "endLine": 1093,
                     "endColumn": 12,
-                    "endOffset": 83262
+                    "endOffset": 83447
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4711,11 +4768,11 @@
             },
             {
                 "to": {
-                    "startLine": 1091,
+                    "startLine": 1094,
                     "startColumn": 4,
-                    "startOffset": 83267,
+                    "startOffset": 83452,
                     "endColumn": 86,
-                    "endOffset": 83349
+                    "endOffset": 83534
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4730,12 +4787,12 @@
             },
             {
                 "to": {
-                    "startLine": 1092,
+                    "startLine": 1095,
                     "startColumn": 4,
-                    "startOffset": 83354,
-                    "endLine": 1095,
+                    "startOffset": 83539,
+                    "endLine": 1098,
                     "endColumn": 12,
-                    "endOffset": 83578
+                    "endOffset": 83763
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4751,12 +4808,12 @@
             },
             {
                 "to": {
-                    "startLine": 1096,
+                    "startLine": 1099,
                     "startColumn": 4,
-                    "startOffset": 83583,
-                    "endLine": 1099,
+                    "startOffset": 83768,
+                    "endLine": 1102,
                     "endColumn": 12,
-                    "endOffset": 83827
+                    "endOffset": 84012
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4772,12 +4829,12 @@
             },
             {
                 "to": {
-                    "startLine": 1100,
+                    "startLine": 1103,
                     "startColumn": 4,
-                    "startOffset": 83832,
-                    "endLine": 1103,
+                    "startOffset": 84017,
+                    "endLine": 1106,
                     "endColumn": 12,
-                    "endOffset": 84068
+                    "endOffset": 84253
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4793,12 +4850,12 @@
             },
             {
                 "to": {
-                    "startLine": 1104,
+                    "startLine": 1107,
                     "startColumn": 4,
-                    "startOffset": 84073,
-                    "endLine": 1106,
+                    "startOffset": 84258,
+                    "endLine": 1109,
                     "endColumn": 12,
-                    "endOffset": 84220
+                    "endOffset": 84405
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4814,12 +4871,12 @@
             },
             {
                 "to": {
-                    "startLine": 1107,
+                    "startLine": 1110,
                     "startColumn": 4,
-                    "startOffset": 84225,
-                    "endLine": 1109,
+                    "startOffset": 84410,
+                    "endLine": 1112,
                     "endColumn": 12,
-                    "endOffset": 84391
+                    "endOffset": 84576
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4835,12 +4892,12 @@
             },
             {
                 "to": {
-                    "startLine": 1110,
+                    "startLine": 1113,
                     "startColumn": 4,
-                    "startOffset": 84396,
-                    "endLine": 1112,
+                    "startOffset": 84581,
+                    "endLine": 1115,
                     "endColumn": 12,
-                    "endOffset": 84558
+                    "endOffset": 84743
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4856,12 +4913,12 @@
             },
             {
                 "to": {
-                    "startLine": 1113,
+                    "startLine": 1116,
                     "startColumn": 4,
-                    "startOffset": 84563,
-                    "endLine": 1116,
+                    "startOffset": 84748,
+                    "endLine": 1119,
                     "endColumn": 12,
-                    "endOffset": 84801
+                    "endOffset": 84986
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4877,12 +4934,12 @@
             },
             {
                 "to": {
-                    "startLine": 1117,
+                    "startLine": 1120,
                     "startColumn": 4,
-                    "startOffset": 84806,
-                    "endLine": 1119,
+                    "startOffset": 84991,
+                    "endLine": 1122,
                     "endColumn": 12,
-                    "endOffset": 84971
+                    "endOffset": 85156
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4898,12 +4955,12 @@
             },
             {
                 "to": {
-                    "startLine": 1120,
+                    "startLine": 1123,
                     "startColumn": 4,
-                    "startOffset": 84976,
-                    "endLine": 1122,
+                    "startOffset": 85161,
+                    "endLine": 1125,
                     "endColumn": 12,
-                    "endOffset": 85144
+                    "endOffset": 85329
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4919,12 +4976,12 @@
             },
             {
                 "to": {
-                    "startLine": 1123,
+                    "startLine": 1126,
                     "startColumn": 4,
-                    "startOffset": 85149,
-                    "endLine": 1125,
+                    "startOffset": 85334,
+                    "endLine": 1128,
                     "endColumn": 12,
-                    "endOffset": 85315
+                    "endOffset": 85500
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4940,12 +4997,12 @@
             },
             {
                 "to": {
-                    "startLine": 1126,
+                    "startLine": 1129,
                     "startColumn": 4,
-                    "startOffset": 85320,
-                    "endLine": 1129,
+                    "startOffset": 85505,
+                    "endLine": 1132,
                     "endColumn": 12,
-                    "endOffset": 85589
+                    "endOffset": 85774
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4961,12 +5018,12 @@
             },
             {
                 "to": {
-                    "startLine": 1130,
+                    "startLine": 1133,
                     "startColumn": 4,
-                    "startOffset": 85594,
-                    "endLine": 1132,
+                    "startOffset": 85779,
+                    "endLine": 1135,
                     "endColumn": 12,
-                    "endOffset": 85788
+                    "endOffset": 85973
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -4982,11 +5039,11 @@
             },
             {
                 "to": {
-                    "startLine": 1133,
+                    "startLine": 1136,
                     "startColumn": 4,
-                    "startOffset": 85793,
+                    "startOffset": 85978,
                     "endColumn": 83,
-                    "endOffset": 85872
+                    "endOffset": 86057
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5001,11 +5058,11 @@
             },
             {
                 "to": {
-                    "startLine": 1134,
+                    "startLine": 1137,
                     "startColumn": 4,
-                    "startOffset": 85877,
+                    "startOffset": 86062,
                     "endColumn": 95,
-                    "endOffset": 85968
+                    "endOffset": 86153
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5020,11 +5077,11 @@
             },
             {
                 "to": {
-                    "startLine": 1135,
+                    "startLine": 1138,
                     "startColumn": 4,
-                    "startOffset": 85973,
+                    "startOffset": 86158,
                     "endColumn": 95,
-                    "endOffset": 86064
+                    "endOffset": 86249
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5039,11 +5096,11 @@
             },
             {
                 "to": {
-                    "startLine": 1136,
+                    "startLine": 1139,
                     "startColumn": 4,
-                    "startOffset": 86069,
+                    "startOffset": 86254,
                     "endColumn": 97,
-                    "endOffset": 86162
+                    "endOffset": 86347
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5058,11 +5115,11 @@
             },
             {
                 "to": {
-                    "startLine": 1137,
+                    "startLine": 1140,
                     "startColumn": 4,
-                    "startOffset": 86167,
+                    "startOffset": 86352,
                     "endColumn": 99,
-                    "endOffset": 86262
+                    "endOffset": 86447
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5077,11 +5134,11 @@
             },
             {
                 "to": {
-                    "startLine": 1138,
+                    "startLine": 1141,
                     "startColumn": 4,
-                    "startOffset": 86267,
+                    "startOffset": 86452,
                     "endColumn": 101,
-                    "endOffset": 86364
+                    "endOffset": 86549
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5096,11 +5153,11 @@
             },
             {
                 "to": {
-                    "startLine": 1139,
+                    "startLine": 1142,
                     "startColumn": 4,
-                    "startOffset": 86369,
+                    "startOffset": 86554,
                     "endColumn": 101,
-                    "endOffset": 86466
+                    "endOffset": 86651
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5115,11 +5172,11 @@
             },
             {
                 "to": {
-                    "startLine": 1140,
+                    "startLine": 1143,
                     "startColumn": 4,
-                    "startOffset": 86471,
+                    "startOffset": 86656,
                     "endColumn": 101,
-                    "endOffset": 86568
+                    "endOffset": 86753
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5134,11 +5191,11 @@
             },
             {
                 "to": {
-                    "startLine": 1141,
+                    "startLine": 1144,
                     "startColumn": 4,
-                    "startOffset": 86573,
+                    "startOffset": 86758,
                     "endColumn": 101,
-                    "endOffset": 86670
+                    "endOffset": 86855
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5153,11 +5210,11 @@
             },
             {
                 "to": {
-                    "startLine": 1142,
+                    "startLine": 1145,
                     "startColumn": 4,
-                    "startOffset": 86675,
+                    "startOffset": 86860,
                     "endColumn": 101,
-                    "endOffset": 86772
+                    "endOffset": 86957
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5172,11 +5229,11 @@
             },
             {
                 "to": {
-                    "startLine": 1143,
+                    "startLine": 1146,
                     "startColumn": 4,
-                    "startOffset": 86777,
+                    "startOffset": 86962,
                     "endColumn": 99,
-                    "endOffset": 86872
+                    "endOffset": 87057
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5191,11 +5248,11 @@
             },
             {
                 "to": {
-                    "startLine": 1144,
+                    "startLine": 1147,
                     "startColumn": 4,
-                    "startOffset": 86877,
+                    "startOffset": 87062,
                     "endColumn": 95,
-                    "endOffset": 86968
+                    "endOffset": 87153
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5210,11 +5267,11 @@
             },
             {
                 "to": {
-                    "startLine": 1145,
+                    "startLine": 1148,
                     "startColumn": 4,
-                    "startOffset": 86973,
+                    "startOffset": 87158,
                     "endColumn": 111,
-                    "endOffset": 87080
+                    "endOffset": 87265
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5229,11 +5286,11 @@
             },
             {
                 "to": {
-                    "startLine": 1146,
+                    "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 87085,
+                    "startOffset": 87270,
                     "endColumn": 128,
-                    "endOffset": 87209
+                    "endOffset": 87394
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5248,11 +5305,11 @@
             },
             {
                 "to": {
-                    "startLine": 1147,
+                    "startLine": 1150,
                     "startColumn": 4,
-                    "startOffset": 87214,
+                    "startOffset": 87399,
                     "endColumn": 122,
-                    "endOffset": 87332
+                    "endOffset": 87517
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5267,11 +5324,11 @@
             },
             {
                 "to": {
-                    "startLine": 1148,
+                    "startLine": 1151,
                     "startColumn": 4,
-                    "startOffset": 87337,
+                    "startOffset": 87522,
                     "endColumn": 141,
-                    "endOffset": 87474
+                    "endOffset": 87659
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5286,11 +5343,11 @@
             },
             {
                 "to": {
-                    "startLine": 1149,
+                    "startLine": 1152,
                     "startColumn": 4,
-                    "startOffset": 87479,
+                    "startOffset": 87664,
                     "endColumn": 141,
-                    "endOffset": 87616
+                    "endOffset": 87801
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5305,11 +5362,11 @@
             },
             {
                 "to": {
-                    "startLine": 1150,
+                    "startLine": 1153,
                     "startColumn": 4,
-                    "startOffset": 87621,
+                    "startOffset": 87806,
                     "endColumn": 97,
-                    "endOffset": 87714
+                    "endOffset": 87899
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5324,11 +5381,11 @@
             },
             {
                 "to": {
-                    "startLine": 1151,
+                    "startLine": 1154,
                     "startColumn": 4,
-                    "startOffset": 87719,
+                    "startOffset": 87904,
                     "endColumn": 113,
-                    "endOffset": 87828
+                    "endOffset": 88013
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5343,11 +5400,11 @@
             },
             {
                 "to": {
-                    "startLine": 1152,
+                    "startLine": 1155,
                     "startColumn": 4,
-                    "startOffset": 87833,
+                    "startOffset": 88018,
                     "endColumn": 93,
-                    "endOffset": 87922
+                    "endOffset": 88107
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5362,11 +5419,11 @@
             },
             {
                 "to": {
-                    "startLine": 1153,
+                    "startLine": 1156,
                     "startColumn": 4,
-                    "startOffset": 87927,
+                    "startOffset": 88112,
                     "endColumn": 127,
-                    "endOffset": 88050
+                    "endOffset": 88235
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5381,11 +5438,11 @@
             },
             {
                 "to": {
-                    "startLine": 1154,
+                    "startLine": 1157,
                     "startColumn": 4,
-                    "startOffset": 88055,
+                    "startOffset": 88240,
                     "endColumn": 121,
-                    "endOffset": 88172
+                    "endOffset": 88357
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5400,11 +5457,11 @@
             },
             {
                 "to": {
-                    "startLine": 1155,
+                    "startLine": 1158,
                     "startColumn": 4,
-                    "startOffset": 88177,
+                    "startOffset": 88362,
                     "endColumn": 95,
-                    "endOffset": 88268
+                    "endOffset": 88453
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5419,11 +5476,11 @@
             },
             {
                 "to": {
-                    "startLine": 1156,
+                    "startLine": 1159,
                     "startColumn": 4,
-                    "startOffset": 88273,
+                    "startOffset": 88458,
                     "endColumn": 111,
-                    "endOffset": 88380
+                    "endOffset": 88565
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5438,11 +5495,11 @@
             },
             {
                 "to": {
-                    "startLine": 1157,
+                    "startLine": 1160,
                     "startColumn": 4,
-                    "startOffset": 88385,
+                    "startOffset": 88570,
                     "endColumn": 99,
-                    "endOffset": 88480
+                    "endOffset": 88665
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5457,11 +5514,11 @@
             },
             {
                 "to": {
-                    "startLine": 1158,
+                    "startLine": 1161,
                     "startColumn": 4,
-                    "startOffset": 88485,
+                    "startOffset": 88670,
                     "endColumn": 115,
-                    "endOffset": 88596
+                    "endOffset": 88781
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5476,11 +5533,11 @@
             },
             {
                 "to": {
-                    "startLine": 1159,
+                    "startLine": 1162,
                     "startColumn": 4,
-                    "startOffset": 88601,
+                    "startOffset": 88786,
                     "endColumn": 95,
-                    "endOffset": 88692
+                    "endOffset": 88877
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5495,11 +5552,11 @@
             },
             {
                 "to": {
-                    "startLine": 1160,
+                    "startLine": 1163,
                     "startColumn": 4,
-                    "startOffset": 88697,
+                    "startOffset": 88882,
                     "endColumn": 111,
-                    "endOffset": 88804
+                    "endOffset": 88989
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5514,11 +5571,11 @@
             },
             {
                 "to": {
-                    "startLine": 1161,
+                    "startLine": 1164,
                     "startColumn": 4,
-                    "startOffset": 88809,
+                    "startOffset": 88994,
                     "endColumn": 127,
-                    "endOffset": 88932
+                    "endOffset": 89117
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5533,11 +5590,11 @@
             },
             {
                 "to": {
-                    "startLine": 1162,
+                    "startLine": 1165,
                     "startColumn": 4,
-                    "startOffset": 88937,
+                    "startOffset": 89122,
                     "endColumn": 135,
-                    "endOffset": 89068
+                    "endOffset": 89253
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5552,11 +5609,11 @@
             },
             {
                 "to": {
-                    "startLine": 1163,
+                    "startLine": 1166,
                     "startColumn": 4,
-                    "startOffset": 89073,
+                    "startOffset": 89258,
                     "endColumn": 151,
-                    "endOffset": 89220
+                    "endOffset": 89405
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5571,11 +5628,11 @@
             },
             {
                 "to": {
-                    "startLine": 1164,
+                    "startLine": 1167,
                     "startColumn": 4,
-                    "startOffset": 89225,
+                    "startOffset": 89410,
                     "endColumn": 129,
-                    "endOffset": 89350
+                    "endOffset": 89535
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5590,11 +5647,11 @@
             },
             {
                 "to": {
-                    "startLine": 1165,
+                    "startLine": 1168,
                     "startColumn": 4,
-                    "startOffset": 89355,
+                    "startOffset": 89540,
                     "endColumn": 145,
-                    "endOffset": 89496
+                    "endOffset": 89681
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5609,11 +5666,11 @@
             },
             {
                 "to": {
-                    "startLine": 1166,
+                    "startLine": 1169,
                     "startColumn": 4,
-                    "startOffset": 89501,
+                    "startOffset": 89686,
                     "endColumn": 137,
-                    "endOffset": 89634
+                    "endOffset": 89819
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5628,11 +5685,11 @@
             },
             {
                 "to": {
-                    "startLine": 1167,
+                    "startLine": 1170,
                     "startColumn": 4,
-                    "startOffset": 89639,
+                    "startOffset": 89824,
                     "endColumn": 140,
-                    "endOffset": 89775
+                    "endOffset": 89960
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5647,11 +5704,11 @@
             },
             {
                 "to": {
-                    "startLine": 1168,
+                    "startLine": 1171,
                     "startColumn": 4,
-                    "startOffset": 89780,
+                    "startOffset": 89965,
                     "endColumn": 131,
-                    "endOffset": 89907
+                    "endOffset": 90092
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5666,11 +5723,11 @@
             },
             {
                 "to": {
-                    "startLine": 1169,
+                    "startLine": 1172,
                     "startColumn": 4,
-                    "startOffset": 89912,
+                    "startOffset": 90097,
                     "endColumn": 134,
-                    "endOffset": 90042
+                    "endOffset": 90227
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5685,11 +5742,11 @@
             },
             {
                 "to": {
-                    "startLine": 1170,
+                    "startLine": 1173,
                     "startColumn": 4,
-                    "startOffset": 90047,
+                    "startOffset": 90232,
                     "endColumn": 123,
-                    "endOffset": 90166
+                    "endOffset": 90351
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5704,11 +5761,11 @@
             },
             {
                 "to": {
-                    "startLine": 1171,
+                    "startLine": 1174,
                     "startColumn": 4,
-                    "startOffset": 90171,
+                    "startOffset": 90356,
                     "endColumn": 129,
-                    "endOffset": 90296
+                    "endOffset": 90481
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5723,11 +5780,11 @@
             },
             {
                 "to": {
-                    "startLine": 1172,
+                    "startLine": 1175,
                     "startColumn": 4,
-                    "startOffset": 90301,
+                    "startOffset": 90486,
                     "endColumn": 129,
-                    "endOffset": 90426
+                    "endOffset": 90611
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5742,11 +5799,11 @@
             },
             {
                 "to": {
-                    "startLine": 1173,
+                    "startLine": 1176,
                     "startColumn": 4,
-                    "startOffset": 90431,
+                    "startOffset": 90616,
                     "endColumn": 111,
-                    "endOffset": 90538
+                    "endOffset": 90723
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5761,11 +5818,11 @@
             },
             {
                 "to": {
-                    "startLine": 1174,
+                    "startLine": 1177,
                     "startColumn": 4,
-                    "startOffset": 90543,
+                    "startOffset": 90728,
                     "endColumn": 133,
-                    "endOffset": 90672
+                    "endOffset": 90857
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5780,11 +5837,11 @@
             },
             {
                 "to": {
-                    "startLine": 1175,
+                    "startLine": 1178,
                     "startColumn": 4,
-                    "startOffset": 90677,
+                    "startOffset": 90862,
                     "endColumn": 131,
-                    "endOffset": 90804
+                    "endOffset": 90989
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5799,11 +5856,11 @@
             },
             {
                 "to": {
-                    "startLine": 1176,
+                    "startLine": 1179,
                     "startColumn": 4,
-                    "startOffset": 90809,
+                    "startOffset": 90994,
                     "endColumn": 125,
-                    "endOffset": 90930
+                    "endOffset": 91115
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5818,11 +5875,11 @@
             },
             {
                 "to": {
-                    "startLine": 1177,
+                    "startLine": 1180,
                     "startColumn": 4,
-                    "startOffset": 90935,
+                    "startOffset": 91120,
                     "endColumn": 65,
-                    "endOffset": 90996
+                    "endOffset": 91181
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5837,11 +5894,11 @@
             },
             {
                 "to": {
-                    "startLine": 1178,
+                    "startLine": 1181,
                     "startColumn": 4,
-                    "startOffset": 91001,
+                    "startOffset": 91186,
                     "endColumn": 89,
-                    "endOffset": 91086
+                    "endOffset": 91271
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5856,11 +5913,11 @@
             },
             {
                 "to": {
-                    "startLine": 1179,
+                    "startLine": 1182,
                     "startColumn": 4,
-                    "startOffset": 91091,
+                    "startOffset": 91276,
                     "endColumn": 79,
-                    "endOffset": 91166
+                    "endOffset": 91351
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5875,11 +5932,11 @@
             },
             {
                 "to": {
-                    "startLine": 1180,
+                    "startLine": 1183,
                     "startColumn": 4,
-                    "startOffset": 91171,
+                    "startOffset": 91356,
                     "endColumn": 97,
-                    "endOffset": 91264
+                    "endOffset": 91449
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5894,11 +5951,11 @@
             },
             {
                 "to": {
-                    "startLine": 1181,
+                    "startLine": 1184,
                     "startColumn": 4,
-                    "startOffset": 91269,
+                    "startOffset": 91454,
                     "endColumn": 77,
-                    "endOffset": 91342
+                    "endOffset": 91527
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5913,11 +5970,11 @@
             },
             {
                 "to": {
-                    "startLine": 1182,
+                    "startLine": 1185,
                     "startColumn": 4,
-                    "startOffset": 91347,
+                    "startOffset": 91532,
                     "endColumn": 105,
-                    "endOffset": 91448
+                    "endOffset": 91633
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5932,11 +5989,11 @@
             },
             {
                 "to": {
-                    "startLine": 1183,
+                    "startLine": 1186,
                     "startColumn": 4,
-                    "startOffset": 91453,
+                    "startOffset": 91638,
                     "endColumn": 91,
-                    "endOffset": 91540
+                    "endOffset": 91725
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5951,11 +6008,11 @@
             },
             {
                 "to": {
-                    "startLine": 1184,
+                    "startLine": 1187,
                     "startColumn": 4,
-                    "startOffset": 91545,
+                    "startOffset": 91730,
                     "endColumn": 109,
-                    "endOffset": 91650
+                    "endOffset": 91835
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5970,12 +6027,12 @@
             },
             {
                 "to": {
-                    "startLine": 1185,
+                    "startLine": 1188,
                     "startColumn": 4,
-                    "startOffset": 91655,
-                    "endLine": 1188,
+                    "startOffset": 91840,
+                    "endLine": 1191,
                     "endColumn": 12,
-                    "endOffset": 91821
+                    "endOffset": 92006
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -5991,12 +6048,12 @@
             },
             {
                 "to": {
-                    "startLine": 1189,
+                    "startLine": 1192,
                     "startColumn": 4,
-                    "startOffset": 91826,
-                    "endLine": 1192,
+                    "startOffset": 92011,
+                    "endLine": 1195,
                     "endColumn": 12,
-                    "endOffset": 91986
+                    "endOffset": 92171
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6012,12 +6069,12 @@
             },
             {
                 "to": {
-                    "startLine": 1193,
+                    "startLine": 1196,
                     "startColumn": 4,
-                    "startOffset": 91991,
-                    "endLine": 1199,
+                    "startOffset": 92176,
+                    "endLine": 1202,
                     "endColumn": 12,
-                    "endOffset": 92375
+                    "endOffset": 92560
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\src\\main\\res\\values\\styles.xml",
@@ -6033,11 +6090,11 @@
             },
             {
                 "to": {
-                    "startLine": 1200,
+                    "startLine": 1203,
                     "startColumn": 4,
-                    "startOffset": 92380,
+                    "startOffset": 92565,
                     "endColumn": 79,
-                    "endOffset": 92455
+                    "endOffset": 92640
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6052,11 +6109,11 @@
             },
             {
                 "to": {
-                    "startLine": 1201,
+                    "startLine": 1204,
                     "startColumn": 4,
-                    "startOffset": 92460,
+                    "startOffset": 92645,
                     "endColumn": 99,
-                    "endOffset": 92555
+                    "endOffset": 92740
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6071,11 +6128,11 @@
             },
             {
                 "to": {
-                    "startLine": 1202,
+                    "startLine": 1205,
                     "startColumn": 4,
-                    "startOffset": 92560,
+                    "startOffset": 92745,
                     "endColumn": 89,
-                    "endOffset": 92645
+                    "endOffset": 92830
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6090,11 +6147,11 @@
             },
             {
                 "to": {
-                    "startLine": 1203,
+                    "startLine": 1206,
                     "startColumn": 4,
-                    "startOffset": 92650,
+                    "startOffset": 92835,
                     "endColumn": 109,
-                    "endOffset": 92755
+                    "endOffset": 92940
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6109,11 +6166,11 @@
             },
             {
                 "to": {
-                    "startLine": 1204,
+                    "startLine": 1207,
                     "startColumn": 4,
-                    "startOffset": 92760,
+                    "startOffset": 92945,
                     "endColumn": 91,
-                    "endOffset": 92847
+                    "endOffset": 93032
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6128,11 +6185,11 @@
             },
             {
                 "to": {
-                    "startLine": 1205,
+                    "startLine": 1208,
                     "startColumn": 4,
-                    "startOffset": 92852,
+                    "startOffset": 93037,
                     "endColumn": 87,
-                    "endOffset": 92935
+                    "endOffset": 93120
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6147,11 +6204,11 @@
             },
             {
                 "to": {
-                    "startLine": 1206,
+                    "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 92940,
+                    "startOffset": 93125,
                     "endColumn": 99,
-                    "endOffset": 93035
+                    "endOffset": 93220
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6166,11 +6223,11 @@
             },
             {
                 "to": {
-                    "startLine": 1207,
+                    "startLine": 1210,
                     "startColumn": 4,
-                    "startOffset": 93040,
+                    "startOffset": 93225,
                     "endColumn": 101,
-                    "endOffset": 93137
+                    "endOffset": 93322
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6185,11 +6242,11 @@
             },
             {
                 "to": {
-                    "startLine": 1208,
+                    "startLine": 1211,
                     "startColumn": 4,
-                    "startOffset": 93142,
+                    "startOffset": 93327,
                     "endColumn": 103,
-                    "endOffset": 93241
+                    "endOffset": 93426
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6204,11 +6261,11 @@
             },
             {
                 "to": {
-                    "startLine": 1209,
+                    "startLine": 1212,
                     "startColumn": 4,
-                    "startOffset": 93246,
+                    "startOffset": 93431,
                     "endColumn": 103,
-                    "endOffset": 93345
+                    "endOffset": 93530
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6223,11 +6280,11 @@
             },
             {
                 "to": {
-                    "startLine": 1210,
+                    "startLine": 1213,
                     "startColumn": 4,
-                    "startOffset": 93350,
+                    "startOffset": 93535,
                     "endColumn": 93,
-                    "endOffset": 93439
+                    "endOffset": 93624
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6242,11 +6299,11 @@
             },
             {
                 "to": {
-                    "startLine": 1211,
+                    "startLine": 1214,
                     "startColumn": 4,
-                    "startOffset": 93444,
+                    "startOffset": 93629,
                     "endColumn": 119,
-                    "endOffset": 93559
+                    "endOffset": 93744
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6261,11 +6318,11 @@
             },
             {
                 "to": {
-                    "startLine": 1212,
+                    "startLine": 1215,
                     "startColumn": 4,
-                    "startOffset": 93564,
+                    "startOffset": 93749,
                     "endColumn": 117,
-                    "endOffset": 93677
+                    "endOffset": 93862
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6280,11 +6337,11 @@
             },
             {
                 "to": {
-                    "startLine": 1213,
+                    "startLine": 1216,
                     "startColumn": 4,
-                    "startOffset": 93682,
+                    "startOffset": 93867,
                     "endColumn": 89,
-                    "endOffset": 93767
+                    "endOffset": 93952
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6299,11 +6356,11 @@
             },
             {
                 "to": {
-                    "startLine": 1214,
+                    "startLine": 1217,
                     "startColumn": 4,
-                    "startOffset": 93772,
+                    "startOffset": 93957,
                     "endColumn": 107,
-                    "endOffset": 93875
+                    "endOffset": 94060
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6318,11 +6375,11 @@
             },
             {
                 "to": {
-                    "startLine": 1215,
+                    "startLine": 1218,
                     "startColumn": 4,
-                    "startOffset": 93880,
+                    "startOffset": 94065,
                     "endColumn": 109,
-                    "endOffset": 93985
+                    "endOffset": 94170
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6337,11 +6394,11 @@
             },
             {
                 "to": {
-                    "startLine": 1216,
+                    "startLine": 1219,
                     "startColumn": 4,
-                    "startOffset": 93990,
+                    "startOffset": 94175,
                     "endColumn": 111,
-                    "endOffset": 94097
+                    "endOffset": 94282
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6356,12 +6413,12 @@
             },
             {
                 "to": {
-                    "startLine": 1217,
+                    "startLine": 1220,
                     "startColumn": 4,
-                    "startOffset": 94102,
-                    "endLine": 1219,
+                    "startOffset": 94287,
+                    "endLine": 1222,
                     "endColumn": 12,
-                    "endOffset": 94272
+                    "endOffset": 94457
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6377,11 +6434,11 @@
             },
             {
                 "to": {
-                    "startLine": 1220,
+                    "startLine": 1223,
                     "startColumn": 4,
-                    "startOffset": 94277,
+                    "startOffset": 94462,
                     "endColumn": 115,
-                    "endOffset": 94388
+                    "endOffset": 94573
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6396,11 +6453,11 @@
             },
             {
                 "to": {
-                    "startLine": 1221,
+                    "startLine": 1224,
                     "startColumn": 4,
-                    "startOffset": 94393,
+                    "startOffset": 94578,
                     "endColumn": 85,
-                    "endOffset": 94474
+                    "endOffset": 94659
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6415,11 +6472,11 @@
             },
             {
                 "to": {
-                    "startLine": 1222,
+                    "startLine": 1225,
                     "startColumn": 4,
-                    "startOffset": 94479,
+                    "startOffset": 94664,
                     "endColumn": 99,
-                    "endOffset": 94574
+                    "endOffset": 94759
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6434,11 +6491,11 @@
             },
             {
                 "to": {
-                    "startLine": 1223,
+                    "startLine": 1226,
                     "startColumn": 4,
-                    "startOffset": 94579,
+                    "startOffset": 94764,
                     "endColumn": 111,
-                    "endOffset": 94686
+                    "endOffset": 94871
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6453,11 +6510,11 @@
             },
             {
                 "to": {
-                    "startLine": 1224,
+                    "startLine": 1227,
                     "startColumn": 4,
-                    "startOffset": 94691,
+                    "startOffset": 94876,
                     "endColumn": 66,
-                    "endOffset": 94753
+                    "endOffset": 94938
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6472,11 +6529,11 @@
             },
             {
                 "to": {
-                    "startLine": 1225,
+                    "startLine": 1228,
                     "startColumn": 4,
-                    "startOffset": 94758,
+                    "startOffset": 94943,
                     "endColumn": 113,
-                    "endOffset": 94867
+                    "endOffset": 95052
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6491,11 +6548,11 @@
             },
             {
                 "to": {
-                    "startLine": 1226,
+                    "startLine": 1229,
                     "startColumn": 4,
-                    "startOffset": 94872,
+                    "startOffset": 95057,
                     "endColumn": 67,
-                    "endOffset": 94935
+                    "endOffset": 95120
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6510,11 +6567,11 @@
             },
             {
                 "to": {
-                    "startLine": 1227,
+                    "startLine": 1230,
                     "startColumn": 4,
-                    "startOffset": 94940,
+                    "startOffset": 95125,
                     "endColumn": 115,
-                    "endOffset": 95051
+                    "endOffset": 95236
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6529,11 +6586,11 @@
             },
             {
                 "to": {
-                    "startLine": 1228,
+                    "startLine": 1231,
                     "startColumn": 4,
-                    "startOffset": 95056,
+                    "startOffset": 95241,
                     "endColumn": 131,
-                    "endOffset": 95183
+                    "endOffset": 95368
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6548,11 +6605,11 @@
             },
             {
                 "to": {
-                    "startLine": 1229,
+                    "startLine": 1232,
                     "startColumn": 4,
-                    "startOffset": 95188,
+                    "startOffset": 95373,
                     "endColumn": 115,
-                    "endOffset": 95299
+                    "endOffset": 95484
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6567,11 +6624,11 @@
             },
             {
                 "to": {
-                    "startLine": 1230,
+                    "startLine": 1233,
                     "startColumn": 4,
-                    "startOffset": 95304,
+                    "startOffset": 95489,
                     "endColumn": 68,
-                    "endOffset": 95368
+                    "endOffset": 95553
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6586,11 +6643,11 @@
             },
             {
                 "to": {
-                    "startLine": 1231,
+                    "startLine": 1234,
                     "startColumn": 4,
-                    "startOffset": 95373,
+                    "startOffset": 95558,
                     "endColumn": 94,
-                    "endOffset": 95463
+                    "endOffset": 95648
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6605,11 +6662,11 @@
             },
             {
                 "to": {
-                    "startLine": 1232,
+                    "startLine": 1235,
                     "startColumn": 4,
-                    "startOffset": 95468,
+                    "startOffset": 95653,
                     "endColumn": 114,
-                    "endOffset": 95578
+                    "endOffset": 95763
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6624,11 +6681,11 @@
             },
             {
                 "to": {
-                    "startLine": 1233,
+                    "startLine": 1236,
                     "startColumn": 4,
-                    "startOffset": 95583,
+                    "startOffset": 95768,
                     "endColumn": 112,
-                    "endOffset": 95691
+                    "endOffset": 95876
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6643,11 +6700,11 @@
             },
             {
                 "to": {
-                    "startLine": 1234,
+                    "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 95696,
+                    "startOffset": 95881,
                     "endColumn": 98,
-                    "endOffset": 95790
+                    "endOffset": 95975
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6662,11 +6719,11 @@
             },
             {
                 "to": {
-                    "startLine": 1235,
+                    "startLine": 1238,
                     "startColumn": 4,
-                    "startOffset": 95795,
+                    "startOffset": 95980,
                     "endColumn": 119,
-                    "endOffset": 95910
+                    "endOffset": 96095
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6681,11 +6738,11 @@
             },
             {
                 "to": {
-                    "startLine": 1236,
+                    "startLine": 1239,
                     "startColumn": 4,
-                    "startOffset": 95915,
+                    "startOffset": 96100,
                     "endColumn": 121,
-                    "endOffset": 96032
+                    "endOffset": 96217
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6700,11 +6757,11 @@
             },
             {
                 "to": {
-                    "startLine": 1237,
+                    "startLine": 1240,
                     "startColumn": 4,
-                    "startOffset": 96037,
+                    "startOffset": 96222,
                     "endColumn": 110,
-                    "endOffset": 96143
+                    "endOffset": 96328
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6719,11 +6776,11 @@
             },
             {
                 "to": {
-                    "startLine": 1238,
+                    "startLine": 1241,
                     "startColumn": 4,
-                    "startOffset": 96148,
+                    "startOffset": 96333,
                     "endColumn": 100,
-                    "endOffset": 96244
+                    "endOffset": 96429
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6738,11 +6795,11 @@
             },
             {
                 "to": {
-                    "startLine": 1239,
+                    "startLine": 1242,
                     "startColumn": 4,
-                    "startOffset": 96249,
+                    "startOffset": 96434,
                     "endColumn": 104,
-                    "endOffset": 96349
+                    "endOffset": 96534
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6757,11 +6814,11 @@
             },
             {
                 "to": {
-                    "startLine": 1240,
+                    "startLine": 1243,
                     "startColumn": 4,
-                    "startOffset": 96354,
+                    "startOffset": 96539,
                     "endColumn": 99,
-                    "endOffset": 96449
+                    "endOffset": 96634
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6776,11 +6833,11 @@
             },
             {
                 "to": {
-                    "startLine": 1241,
+                    "startLine": 1244,
                     "startColumn": 4,
-                    "startOffset": 96454,
+                    "startOffset": 96639,
                     "endColumn": 117,
-                    "endOffset": 96567
+                    "endOffset": 96752
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6795,11 +6852,11 @@
             },
             {
                 "to": {
-                    "startLine": 1242,
+                    "startLine": 1245,
                     "startColumn": 4,
-                    "startOffset": 96572,
+                    "startOffset": 96757,
                     "endColumn": 90,
-                    "endOffset": 96658
+                    "endOffset": 96843
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6814,11 +6871,11 @@
             },
             {
                 "to": {
-                    "startLine": 1243,
+                    "startLine": 1246,
                     "startColumn": 4,
-                    "startOffset": 96663,
+                    "startOffset": 96848,
                     "endColumn": 122,
-                    "endOffset": 96781
+                    "endOffset": 96966
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6833,11 +6890,11 @@
             },
             {
                 "to": {
-                    "startLine": 1244,
+                    "startLine": 1247,
                     "startColumn": 4,
-                    "startOffset": 96786,
+                    "startOffset": 96971,
                     "endColumn": 99,
-                    "endOffset": 96881
+                    "endOffset": 97066
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6852,11 +6909,11 @@
             },
             {
                 "to": {
-                    "startLine": 1245,
+                    "startLine": 1248,
                     "startColumn": 4,
-                    "startOffset": 96886,
+                    "startOffset": 97071,
                     "endColumn": 103,
-                    "endOffset": 96985
+                    "endOffset": 97170
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6871,11 +6928,11 @@
             },
             {
                 "to": {
-                    "startLine": 1246,
+                    "startLine": 1249,
                     "startColumn": 4,
-                    "startOffset": 96990,
+                    "startOffset": 97175,
                     "endColumn": 95,
-                    "endOffset": 97081
+                    "endOffset": 97266
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6890,11 +6947,11 @@
             },
             {
                 "to": {
-                    "startLine": 1247,
+                    "startLine": 1250,
                     "startColumn": 4,
-                    "startOffset": 97086,
+                    "startOffset": 97271,
                     "endColumn": 87,
-                    "endOffset": 97169
+                    "endOffset": 97354
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6909,11 +6966,11 @@
             },
             {
                 "to": {
-                    "startLine": 1248,
+                    "startLine": 1251,
                     "startColumn": 4,
-                    "startOffset": 97174,
+                    "startOffset": 97359,
                     "endColumn": 105,
-                    "endOffset": 97275
+                    "endOffset": 97460
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6928,11 +6985,11 @@
             },
             {
                 "to": {
-                    "startLine": 1249,
+                    "startLine": 1252,
                     "startColumn": 4,
-                    "startOffset": 97280,
+                    "startOffset": 97465,
                     "endColumn": 91,
-                    "endOffset": 97367
+                    "endOffset": 97552
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6947,11 +7004,11 @@
             },
             {
                 "to": {
-                    "startLine": 1250,
+                    "startLine": 1253,
                     "startColumn": 4,
-                    "startOffset": 97372,
+                    "startOffset": 97557,
                     "endColumn": 91,
-                    "endOffset": 97459
+                    "endOffset": 97644
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6966,11 +7023,11 @@
             },
             {
                 "to": {
-                    "startLine": 1251,
+                    "startLine": 1254,
                     "startColumn": 4,
-                    "startOffset": 97464,
+                    "startOffset": 97649,
                     "endColumn": 113,
-                    "endOffset": 97573
+                    "endOffset": 97758
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -6985,11 +7042,11 @@
             },
             {
                 "to": {
-                    "startLine": 1252,
+                    "startLine": 1255,
                     "startColumn": 4,
-                    "startOffset": 97578,
+                    "startOffset": 97763,
                     "endColumn": 89,
-                    "endOffset": 97663
+                    "endOffset": 97848
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7004,11 +7061,11 @@
             },
             {
                 "to": {
-                    "startLine": 1253,
+                    "startLine": 1256,
                     "startColumn": 4,
-                    "startOffset": 97668,
+                    "startOffset": 97853,
                     "endColumn": 83,
-                    "endOffset": 97747
+                    "endOffset": 97932
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7023,11 +7080,11 @@
             },
             {
                 "to": {
-                    "startLine": 1254,
+                    "startLine": 1257,
                     "startColumn": 4,
-                    "startOffset": 97752,
+                    "startOffset": 97937,
                     "endColumn": 53,
-                    "endOffset": 97801
+                    "endOffset": 97986
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7042,11 +7099,11 @@
             },
             {
                 "to": {
-                    "startLine": 1255,
+                    "startLine": 1258,
                     "startColumn": 4,
-                    "startOffset": 97806,
+                    "startOffset": 97991,
                     "endColumn": 121,
-                    "endOffset": 97923
+                    "endOffset": 98108
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7061,11 +7118,11 @@
             },
             {
                 "to": {
-                    "startLine": 1256,
+                    "startLine": 1259,
                     "startColumn": 4,
-                    "startOffset": 97928,
+                    "startOffset": 98113,
                     "endColumn": 83,
-                    "endOffset": 98007
+                    "endOffset": 98192
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",
@@ -7080,11 +7137,11 @@
             },
             {
                 "to": {
-                    "startLine": 1257,
+                    "startLine": 1260,
                     "startColumn": 4,
-                    "startOffset": 98012,
+                    "startOffset": 98197,
                     "endColumn": 119,
-                    "endOffset": 98127
+                    "endOffset": 98312
                 },
                 "from": {
                     "file": "C:\\Users\\r3xas\\AndroidProjects\\CookHelper\\SEG-term-project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values\\values.xml",

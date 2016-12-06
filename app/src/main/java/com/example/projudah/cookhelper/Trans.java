@@ -50,28 +50,60 @@ public class Trans{
             public void run() {
                 thiss.startActivity(home);
                 thiss.overridePendingTransition(0, 0);
-                v.clearAnimation();
+
 
             }
         },500);
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                v.clearAnimation();
+
+            }
+        },2000);
     }
 
-    public static void back(RelativeLayout v,final Activity thiss){
+    public static void outpassback(final RelativeLayout v,final Activity thiss,final Intent pass){
         android.os.Handler h = new android.os.Handler();
         AlphaAnimation start = new AlphaAnimation(1.0f,0.0f);
-        start.setDuration(1000);
-        start.setFillAfter(false);
+        start.setDuration(500);
+        start.setFillAfter(true);
         v.startAnimation(start);
 
         h.postDelayed(new Runnable() {
             @Override
             public void run() {
-                thiss.setContentView(R.layout.animation);
-                LinearLayout page = (LinearLayout) thiss.findViewById(R.id.lay);
-                AnimationDrawable animation = (AnimationDrawable) page.getBackground();
-                animation.start();
+                thiss.startActivity(pass);
+                thiss.overridePendingTransition(0, 0);
             }
-        },1000);
+        },500);
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                v.clearAnimation();
+
+            }
+        },2000);
+    }
+
+    public static void back(final Activity thiss,final RelativeLayout Root){
+        final RelativeLayout transition = new RelativeLayout(thiss);
+        transition.setBackground(thiss.getDrawable(drawable.animateout));
+        Root.addView(transition);
+        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
+                ViewGroup.LayoutParams.FILL_PARENT,
+                ViewGroup.LayoutParams.FILL_PARENT);
+        transition.setLayoutParams(params);
+        Root.bringChildToFront(transition);
+        AnimationDrawable animation = (AnimationDrawable) transition.getBackground();
+        animation.start();
+        android.os.Handler h = new android.os.Handler();
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                thiss.finish();
+            }
+        },540);
     }
 
     public static void animatein(final Activity thiss,final RelativeLayout Root){
@@ -94,12 +126,19 @@ public class Trans{
         },540);
     }
 
-    public static void fadein(LinearLayout Root){
+    public static void fadein(ViewGroup Root) {
         Root.setVisibility(View.VISIBLE);
-        //Root.setAlpha(0);
-        AlphaAnimation start = new AlphaAnimation(0.0f,1.0f);
+        AlphaAnimation start = new AlphaAnimation(0.0f, 1.0f);
         start.setDuration(500);
         start.setFillAfter(true);
         Root.startAnimation(start);
     }
+
+    public static void refresh(final Activity thiss, Class next){
+        final Intent home = new Intent(thiss, next);
+        thiss.startActivity(home);
+        thiss.overridePendingTransition(0, 0);
+        thiss.finish();
+    }
+
 }
