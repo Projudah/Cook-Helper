@@ -85,47 +85,36 @@ public class RecipeSingleton {
             ArrayList<Recipe> arrayOfRecipe, String searchString, int type
     ) throws IOException{
 
+        if (type < 0 || type > 2){
+            throw new IOException("type must be 1, 2 or 3.");
+        }
         ArrayList<Recipe> newArray = new ArrayList<Recipe>();
+
         for (int a = 0; a < arrayOfRecipe.size(); a++){
-            boolean match = true;
-            if (type == 0) {
-                if (arrayOfRecipe.get(a).name.length() > searchString.length()) {
-                    for (int b = 0; b < searchString.length(); b++) {
-                        if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
-                            match = false;
-                        }
+            if (arrayOfRecipe.get(a).name.length() >= searchString.length()){
+                boolean match = true;
+                for (int b = 0; b < searchString.length(); b++){
+                    if (
+                            (type == 0) &&
+                                    (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b))
+                            ){
+                        match = false;
+                    } else if (
+                            (type == 1) &&
+                                    (searchString.charAt(b) != arrayOfRecipe.get(a).category.charAt(b))
+                            ){
+                        match = false;
+                    } else if (
+                            (type == 2) &&
+                                    (searchString.charAt(b) != arrayOfRecipe.get(a).type.charAt(b))
+                            ){
+                        match = false;
                     }
 
-                    if (match) {
-                        newArray.add(arrayOfRecipe.get(a));
-                    }
                 }
-            } else if (type == 1){
-                if (arrayOfRecipe.get(a).name.length() > searchString.length()) {
-                    for (int b = 0; b < searchString.length(); b++) {
-                        if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
-                            match = false;
-                        }
-                    }
-
-                    if (match) {
-                        newArray.add(arrayOfRecipe.get(a));
-                    }
+                if (match){
+                    newArray.add(arrayOfRecipe.get(a));
                 }
-            } else if (type == 2){
-                if (arrayOfRecipe.get(a).name.length() > searchString.length()) {
-                    for (int b = 0; b < searchString.length(); b++) {
-                        if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
-                            match = false;
-                        }
-                    }
-
-                    if (match) {
-                        newArray.add(arrayOfRecipe.get(a));
-                    }
-                }
-            } else {
-                throw new IOException("type must be 1, 2, or 3.");
             }
         }
         return newArray;
