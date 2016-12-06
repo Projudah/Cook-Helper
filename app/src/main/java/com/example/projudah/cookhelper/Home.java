@@ -125,8 +125,16 @@ public class Home extends ActionBarActivity {
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         Spinner spinner2 = (Spinner) findViewById(R.id.spinner2);
 
-        ArrayAdapter<String> spin1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, new String[]{"Category"});
-        ArrayAdapter<String> spin2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, new String[]{"Type"});
+        ArrayList<String> cats =new ArrayList<>(), types = new ArrayList<>();
+        cats.add("-None-");
+        types.add("-None-");
+        for (Recipe each: recipes){
+            cats.add(each.category);
+            types.add(each.type);
+        }
+
+        ArrayAdapter<String> spin1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, cats);
+        ArrayAdapter<String> spin2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,types);
         spinner.setAdapter(spin1);
         spinner2.setAdapter(spin2);
 
