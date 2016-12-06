@@ -88,28 +88,30 @@ public class Search {
             ArrayList<Recipe> arrayOfRecipe, String searchString, int type
     ) throws IOException{
 
+        //Check search type
         if (type < 0 || type > 2){
             throw new IOException("type must be 1, 2 or 3.");
         }
         ArrayList<Recipe> newArray = new ArrayList<Recipe>();
 
+        //Iterate through the given array to find the matching Recipe then append it to newArray if it does
         for (int a = 0; a < arrayOfRecipe.size(); a++){
             if (arrayOfRecipe.get(a).name.length() >= searchString.length()){
                 boolean match = true;
                 for (int b = 0; b < searchString.length(); b++){
                     if (
                             (type == 0) &&
-                                    (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b))
+                                    (searchString.toLowerCase().charAt(b) != arrayOfRecipe.get(a).name.toLowerCase().charAt(b))
                             ){
                         match = false;
                     } else if (
                             (type == 1) &&
-                                    (searchString.charAt(b) != arrayOfRecipe.get(a).category.charAt(b))
+                                    (searchString.toLowerCase().charAt(b) != arrayOfRecipe.get(a).category.toLowerCase().charAt(b))
                             ){
                         match = false;
                     } else if (
                             (type == 2) &&
-                                    (searchString.charAt(b) != arrayOfRecipe.get(a).type.charAt(b))
+                                    (searchString.toLowerCase().charAt(b) != arrayOfRecipe.get(a).type.toLowerCase().charAt(b))
                             ){
                         match = false;
                     }
@@ -134,7 +136,7 @@ public class Search {
             if (list.get(a).length() >= searchString.length()){
                 boolean match = true;
                 for (int b = 0; b < searchString.length(); b++){
-                    if (searchString.charAt(b) != list.get(a).charAt(b)){
+                    if (searchString.toLowerCase().charAt(b) != list.get(a).toLowerCase().charAt(b)){
                         match = false;
                     }
                 }
