@@ -137,6 +137,24 @@ public class Home extends ActionBarActivity {
         ArrayAdapter<String> spin2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,types);
         spinner.setAdapter(spin1);
         spinner2.setAdapter(spin2);
+        spinner.setOnItemClickListener( new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // search and return a an array called name for CATEGORY
+
+                home();
+            }
+        });
+
+        spinner2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // search and return an array called for TYPE
+
+
+                home();
+            }
+        });
 
 
 
