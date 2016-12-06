@@ -1357,7 +1357,7 @@ containing a value of this type.
         public static final int dialog=0x7f0c001b;
         public static final int disableHome=0x7f0c000c;
         public static final int dropdown=0x7f0c001c;
-        public static final int editText=0x7f0c0042;
+        public static final int searchtext =0x7f0c0042;
         public static final int editText2=0x7f0c0048;
         public static final int editText3=0x7f0c0049;
         public static final int editText4=0x7f0c0066;

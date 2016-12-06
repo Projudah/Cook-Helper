@@ -4,10 +4,40 @@ package com.example.projudah.cookhelper;
  * Created by r3xas on 12/5/2016.
  */
 
+import org.codehaus.jackson.map.ObjectMapper;
+
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class RecipeSingleton {
+
+    /**
+    static File file;
+    static ArrayList<Recipe> array = null;
+    private RecipeSingleton(){
+        //Exist to defeat construction;
+    }
+
+    public ArrayList<Recipe> getInstance() throws IOException{
+        if (array == null){
+            file = new File("recipes.json");
+
+            if(!file.exists()){
+                try{
+                    file.createNewFile();
+                }catch(IOException e){}
+            }
+
+            //Populate the array here from the json;
+            ObjectMapper mapper = new ObjectMapper();
+            array = mapper.readValue(file, ArrayList.class);
+        }
+
+        return array;
+    }
+
+    **/
 
     /**
      *

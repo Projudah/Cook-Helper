@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -131,6 +132,14 @@ public class Home extends ActionBarActivity {
         spinner.setAdapter(spin1);
         spinner2.setAdapter(spin2);
 
+
+
+    }
+
+    public void search(View v){
+        EditText search = (EditText) findViewById(R.id.searchtext);
+        String x = search.getText().toString();
+        Recipe recipeSearch = RecipeSingleton.getRecipeFromSearchMap(recipes,x, 0);
     }
     public void recipe(View v){
         TextView x =(TextView) ((RelativeLayout) v).getChildAt(0);
