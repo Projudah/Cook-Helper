@@ -89,7 +89,7 @@ public class RecipeSingleton {
         for (int a = 0; a < arrayOfRecipe.size(); a++){
             boolean match = true;
             if (type == 0) {
-                if (arrayOfRecipe.get(a).name.length() <= searchString.length()) {
+                if (arrayOfRecipe.get(a).name.length() > searchString.length()) {
                     for (int b = 0; b < searchString.length(); b++) {
                         if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
                             match = false;
@@ -101,7 +101,7 @@ public class RecipeSingleton {
                     }
                 }
             } else if (type == 1){
-                if (arrayOfRecipe.get(a).name.length() <= searchString.length()) {
+                if (arrayOfRecipe.get(a).name.length() > searchString.length()) {
                     for (int b = 0; b < searchString.length(); b++) {
                         if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
                             match = false;
@@ -113,7 +113,7 @@ public class RecipeSingleton {
                     }
                 }
             } else if (type == 2){
-                if (arrayOfRecipe.get(a).name.length() <= searchString.length()) {
+                if (arrayOfRecipe.get(a).name.length() > searchString.length()) {
                     for (int b = 0; b < searchString.length(); b++) {
                         if (searchString.charAt(b) != arrayOfRecipe.get(a).name.charAt(b)) {
                             match = false;
@@ -128,7 +128,6 @@ public class RecipeSingleton {
                 throw new IOException("type must be 1, 2, or 3.");
             }
         }
-
         return newArray;
     }
 }
