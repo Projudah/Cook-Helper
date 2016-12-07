@@ -40,12 +40,18 @@ import java.util.ArrayList;
 
 public class Home extends ActionBarActivity {
 
+    Spinner add;
+    Spinner spinner;
+    Spinner spinner2;
+    ArrayAdapter<String> spin1 ;
+    ArrayAdapter<String> spin2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Trans.animatein(this,(RelativeLayout)findViewById(R.id.root));
-        home();
+        initialize();
     }
 
 
@@ -74,32 +80,11 @@ public class Home extends ActionBarActivity {
 
     static ArrayList<Recipe> recipes = new ArrayList<Recipe>();
     boolean cattype = false;
+
     public void home(){
         recipes.clear();
-        final Activity thiss =this;
-        Spinner add = (Spinner) findViewById(R.id.button);
-        add.setSelection(0);
-        add.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                ((TextView) view).setText(null);
-                String choice = (String) (parent.getItemAtPosition(position));
-                RelativeLayout bg = (RelativeLayout) findViewById(R.id.relativeLayout);
-                if (choice.equals("Recipe")) {
-                    Trans.outback(bg, thiss, Add.class);
-                }
-                if (choice.equals("Ingredient")) {
-                    Trans.outback(bg, thiss, Ingredients.class);
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-            }
-        });
-
+        setlisteners();
         refreshrecipe(this);
-
         String[] hello2 = new String[recipes.size()];
         for(int i = 0; i < recipes.size();i++){
             hello2[i] = recipes.get(i).getName();
@@ -123,71 +108,14 @@ public class Home extends ActionBarActivity {
                 recipe(view);
             }
         });
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        Spinner spinner2 = (Spinner) findViewById(R.id.spinner2);
 
-        ArrayList<String> cats =new ArrayList<>(), types = new ArrayList<>();
-        cats.add("-None-");
-        types.add("-None-");
-        for (Recipe each: recipes){
-            cats.add(each.category);
-            types.add(each.type);
-        }
 
-        ArrayAdapter<String> spin1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, cats);
-        ArrayAdapter<String> spin2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,types);
-        spinner.setAdapter(spin1);
-        spinner2.setAdapter(spin2);
-        spinner.setSelection(0);
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-              @Override
-              public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                  // search and return a an array called name for CATEGOR
-                  String choice = (String) (parent.getItemAtPosition(position));
-                  if (!(choice.equals("-None-"))) {
-                      try {
-                          name = Search.getRecipesThatSatisfyString(recipes, choice, 1);
-                          searched = true;
-                      } catch (IOException e) {
-                          e.printStackTrace();
-                      }
-                      home();
 
-                  }else if( cattype) {
-                      cattype = false;
-                      home();
-                  }
 
-              }
 
-              @Override
-              public void onNothingSelected(AdapterView<?> parent){}
-      });
-        spinner2.setSelection(0);
-        spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                // search and return an array called for TYPE
-                String choice = (String) (parent.getItemAtPosition(position));
-                if (!(choice.equals("-None-"))) {
-                    try {
-                        name = Search.getRecipesThatSatisfyString(recipes, choice, 2);
-                        searched = true;
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    cattype =true;
-                    home();
-                }else if( cattype) {
-                    cattype = false;
-                    home();
-                }
 
-            }
 
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {}
-        });
+
 
 
 
@@ -253,7 +181,7 @@ public class Home extends ActionBarActivity {
 
     @Override
     protected void onResume() {
-        home();
+        initialize();
         super.onResume();
     }
 
@@ -309,5 +237,106 @@ public class Home extends ActionBarActivity {
             }
         }catch(NullPointerException e){Toast.makeText(thiss, "Unable to find directory "+thiss.getFilesDir().getAbsolutePath(),
                 Toast.LENGTH_LONG).show();}
+    }
+
+    public void initialize(){
+        refreshrecipe(this);
+        add = (Spinner) findViewById(R.id.button);
+        spinner = (Spinner) findViewById(R.id.spinner);
+        spinner2 = (Spinner) findViewById(R.id.spinner2);
+
+        ArrayList<String> cats =new ArrayList<>(), types = new ArrayList<>();
+        cats.add("Category: all");
+        types.add("Type: all");
+        for (Recipe each: recipes){
+            if (!(cats.contains(each.category)))
+                cats.add(each.category);
+            if (!(types.contains(each.type)))
+                types.add(each.type);
+        }
+        spin1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, cats);
+        spin2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,types);
+        spinner.setAdapter(spin1);
+        spinner2.setAdapter(spin2);
+        home();
+    }
+
+    public void setlisteners(){
+        //Add
+        final Activity thiss =this;
+        add.setSelection(0);
+        add.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                ((TextView) view).setText(null);
+                String choice = (String) (parent.getItemAtPosition(position));
+                RelativeLayout bg = (RelativeLayout) findViewById(R.id.relativeLayout);
+                if (choice.equals("Recipe")) {
+                    Trans.outback(bg, thiss, Add.class);
+                }
+                if (choice.equals("Ingredient")) {
+                    Trans.outback(bg, thiss, Ingredients.class);
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+
+        // category
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                // search and return a an array called name for CATEGOR
+                String choice = (String) (parent.getItemAtPosition(position));
+                if (!(choice.equals("Category: all"))) {
+                    try {
+                        name = Search.getRecipesThatSatisfyString(recipes, choice, 1);
+                        searched = true;
+                        cattype = true;
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    home();
+
+                }else if( cattype) {
+                    cattype = false;
+                    home();
+                }
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent){}
+        });
+
+        //type
+        //spinner2.setSelection(0);
+        spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                // search and return an array called for TYPE
+                String choice = (String) (parent.getItemAtPosition(position));
+                if (!(choice.equals("Type: all"))) {
+                    try {
+                        name = Search.getRecipesThatSatisfyString(recipes, choice, 2);
+                        searched = true;
+                        cattype = true;
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    cattype =true;
+                    home();
+                }else if( cattype) {
+                    cattype = false;
+                    home();
+                }
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {}
+        });
     }
 }

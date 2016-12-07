@@ -39,6 +39,9 @@ public class Edit extends ActionBarActivity {
     boolean classdone = false;
     boolean namedone = true;
     boolean complete = false;
+    String oldname;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -163,6 +166,18 @@ public class Edit extends ActionBarActivity {
                 String Category = ((AutoCompleteTextView) findViewById(R.id.category)).getText().toString();
 
 
+                // delete previous version
+                File file = new File(this.getFilesDir().getAbsolutePath()+"/"+oldname+".json");
+                boolean worked1 = false;
+                if(file.exists()) {
+                    worked1 = file.delete();
+                }
+                if(!worked1) {
+                    File file2 = new File(this.getFilesDir().getAbsolutePath()+"/"+name);
+                    file2.delete();
+                }
+
+                // end delete
                 //saving the recipe
                 Viewrecipe.setname(RecipeName);
                 Recipe rec = new Recipe(RecipeName,Category,Type,Steps);
@@ -295,31 +310,24 @@ public class Edit extends ActionBarActivity {
 
         Intent home = getIntent();
         String name = home.getStringExtra("recipename");
-        String type = home.getStringExtra("recipetype");
-        String cat = home.getStringExtra("recipecat");
-        String steps = home.getStringExtra("recipesteps");
+        oldname = name;
+        Recipe rec = Home.findrecipe(name, Home.recipes);
+        String type = rec.type;
+        String cat = rec.category;
+        String steps = rec.steps;
 
-        // delete previous version
-        File file = new File(this.getFilesDir().getAbsolutePath()+"/"+name+".json");
-        boolean worked1 = false;
-        if(file.exists()) {
-            worked1 = file.delete();
-        }
-        if(!worked1) {
-            File file2 = new File(this.getFilesDir().getAbsolutePath()+"/"+name);
-            file2.delete();
-        }
 
-        // end delete
 
         ArrayList<String> checkedings = home.getStringArrayListExtra("ing"); // from recipe
 
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);
         ArrayList<String> allings = new ArrayList<String>(); //from storage
-
-        allings.add("works"); // for testing purposes
-        allings.add("works2");
-        allings.add("works3");
+        IngredientList ings = new IngredientList();
+        try {
+            allings = ings.readRecipe(this);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
         checkid = new int[allings.size()];

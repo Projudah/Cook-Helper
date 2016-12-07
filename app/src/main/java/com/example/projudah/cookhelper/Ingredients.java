@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,6 +31,7 @@ public class Ingredients extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ingredients);
+        Trans.animatein(this,(RelativeLayout)findViewById(R.id.root));
         ing = new IngredientList();
         start();
     }
@@ -120,4 +122,8 @@ public class Ingredients extends ActionBarActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        Trans.back(this,(RelativeLayout)findViewById(R.id.root));
+    }
 }
