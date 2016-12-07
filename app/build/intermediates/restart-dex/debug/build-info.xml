@@ -5,39 +5,40 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="26502948200577"
+    timestamp="34883149152961"
     token="8697320072316957303"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="286" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="73" />
     <task
         name="verifier"
-        duration="0" />
+        duration="24" />
+
+    <artifact
+        location="C:\Users\r3xas\AndroidProjects\CookHelper\SEG-term-project\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="23779210872140"
+        timestamp="33030631278013"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\r3xas\AndroidProjects\CookHelper\SEG-term-project\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="26300441514289"
+        timestamp="34883149152961"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\r3xas\AndroidProjects\CookHelper\SEG-term-project\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="26502948200577"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -73,6 +73,7 @@ public class Home extends ActionBarActivity {
 
 
     static ArrayList<Recipe> recipes = new ArrayList<Recipe>();
+    boolean cattype = false;
     public void home(){
         recipes.clear();
         final Activity thiss =this;
@@ -137,23 +138,55 @@ public class Home extends ActionBarActivity {
         ArrayAdapter<String> spin2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,types);
         spinner.setAdapter(spin1);
         spinner2.setAdapter(spin2);
-        spinner.setOnItemClickListener( new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // search and return a an array called name for CATEGORY
+        spinner.setSelection(0);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+              @Override
+              public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                  // search and return a an array called name for CATEGOR
+                  String choice = (String) (parent.getItemAtPosition(position));
+                  if (!(choice.equals("-None-"))) {
+                      try {
+                          name = Search.getRecipesThatSatisfyString(recipes, choice, 1);
+                          searched = true;
+                      } catch (IOException e) {
+                          e.printStackTrace();
+                      }
+                      home();
 
-                home();
-            }
-        });
+                  }else if( cattype) {
+                      cattype = false;
+                      home();
+                  }
 
-        spinner2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+              }
+
+              @Override
+              public void onNothingSelected(AdapterView<?> parent){}
+      });
+        spinner2.setSelection(0);
+        spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 // search and return an array called for TYPE
+                String choice = (String) (parent.getItemAtPosition(position));
+                if (!(choice.equals("-None-"))) {
+                    try {
+                        name = Search.getRecipesThatSatisfyString(recipes, choice, 2);
+                        searched = true;
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    cattype =true;
+                    home();
+                }else if( cattype) {
+                    cattype = false;
+                    home();
+                }
 
-
-                home();
             }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {}
         });
 
 
