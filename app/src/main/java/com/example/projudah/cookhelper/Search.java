@@ -96,7 +96,18 @@ public class Search {
 
         //Iterate through the given array to find the matching Recipe then append it to newArray if it does
         for (int a = 0; a < arrayOfRecipe.size(); a++){
-            if (arrayOfRecipe.get(a).name.length() >= searchString.length()){
+
+            boolean check = false;
+            if (type ==0){
+                check = arrayOfRecipe.get(a).name.length() >= searchString.length();
+            } else if (type == 1){
+                check = arrayOfRecipe.get(a).category.length() >= searchString.length();
+            } else if (type == 2){
+                check = arrayOfRecipe.get(a).type.length() >= searchString.length();
+            } else {
+                throw new IOException("type must be 1, 2 or 3");
+            }
+            if (check){
                 boolean match = true;
                 for (int b = 0; b < searchString.length(); b++){
                     if (

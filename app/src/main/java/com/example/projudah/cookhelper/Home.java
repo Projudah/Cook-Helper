@@ -122,6 +122,8 @@ public class Home extends ActionBarActivity {
     }
 
     boolean searched = false;
+    boolean category = false;
+    boolean type =false;
     ArrayList<Recipe> name;
 
     public void search(View v){
@@ -292,15 +294,21 @@ public class Home extends ActionBarActivity {
                 String choice = (String) (parent.getItemAtPosition(position));
                 if (!(choice.equals("Category: all"))) {
                     try {
-                        name = Search.getRecipesThatSatisfyString(recipes, choice, 1);
+                        if (type){
+                            name = Search.getRecipesThatSatisfyString(name, choice, 1);
+                        }else {
+                            name = Search.getRecipesThatSatisfyString(recipes, choice, 1);
+                        }
                         searched = true;
                         cattype = true;
+                        category =true;
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
                     home();
 
                 }else if( cattype) {
+                    category =false;
                     cattype = false;
                     home();
                 }
@@ -320,7 +328,12 @@ public class Home extends ActionBarActivity {
                 String choice = (String) (parent.getItemAtPosition(position));
                 if (!(choice.equals("Type: all"))) {
                     try {
-                        name = Search.getRecipesThatSatisfyString(recipes, choice, 2);
+                        if (category){
+                            name = Search.getRecipesThatSatisfyString(name, choice, 2);
+                        }else {
+                            name = Search.getRecipesThatSatisfyString(recipes, choice, 2);
+                        }
+                        type = true;
                         searched = true;
                         cattype = true;
                     } catch (IOException e) {
@@ -329,6 +342,7 @@ public class Home extends ActionBarActivity {
                     cattype =true;
                     home();
                 }else if( cattype) {
+                    type = false;
                     cattype = false;
                     home();
                 }
