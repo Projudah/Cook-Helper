@@ -301,7 +301,12 @@ public class Home extends ActionBarActivity {
                         }
                         searched = true;
                         cattype = true;
-                        category =true;
+                        if (type && category) {
+
+                            category = false; type =false;
+                        }else{
+                            category = true;
+                        }
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -333,7 +338,11 @@ public class Home extends ActionBarActivity {
                         }else {
                             name = Search.getRecipesThatSatisfyString(recipes, choice, 2);
                         }
-                        type = true;
+                        if (type && category) {
+                            category = false; type =false;
+                        }else{
+                            type = true;
+                        }
                         searched = true;
                         cattype = true;
                     } catch (IOException e) {
