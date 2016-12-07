@@ -25,6 +25,7 @@ import java.util.StringTokenizer;
 public class Ingredients extends ActionBarActivity {
     IngredientList ing;
     PopupWindow window;
+    PopupWindow window2;
 
 
     @Override
@@ -45,16 +46,25 @@ public class Ingredients extends ActionBarActivity {
         ListView list = (ListView) findViewById(R.id.ings);
         list.setAdapter(my);
         final EditText name = new EditText(this);
+        final EditText name2 = new EditText(this);
         window = new PopupWindow(this);
         window.setOutsideTouchable(false);
         window.setHeight(500);
         window.setWidth(500);
         window.setFocusable(true);
+        window2 = new PopupWindow(this);
+        window2.setOutsideTouchable(false);
+        window2.setHeight(500);
+        window2.setWidth(500);
+        window2.setFocusable(true);
         final String[] curname = {""};
 
-        TextView Ok = new TextView(this), cancel = new TextView(this);
+        TextView Ok = new TextView(this), cancel = new TextView(this) , Delete = new TextView(this), Ok2 = new TextView(this), cancel2 = new TextView(this);
         Ok.setClickable(true);
         cancel.setClickable(true);
+        Ok2.setClickable(true);
+        cancel2.setClickable(true);
+        Delete.setClickable(true);
         final Activity thishome = this;
 
 
@@ -64,10 +74,23 @@ public class Ingredients extends ActionBarActivity {
                 window.dismiss();
             }
         });
+        cancel2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                window2.dismiss();
+            }
+        });
+
         Ok.setText("Ok");
         Ok.setTextSize(18);
         cancel.setText("Cancel");
         cancel.setTextSize(18);
+        Ok2.setText("Ok");
+        Ok2.setTextSize(18);
+        cancel2.setText("Cancel");
+        cancel2.setTextSize(18);
+        Delete.setText("Delete");
+        Delete.setTextSize(18);
         ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         ViewGroup.LayoutParams params2 = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         LinearLayout popup = new LinearLayout(this);
@@ -76,7 +99,16 @@ public class Ingredients extends ActionBarActivity {
         popup.addView(Ok,params);
         popup.addView(cancel,params);
         popup.setBackgroundColor(getResources().getColor(R.color.themecolor));
+
+        LinearLayout popup2 = new LinearLayout(this);
+        popup2.setOrientation(LinearLayout.VERTICAL);
+        popup2.addView(name2, params2);
+        popup2.addView(Ok2,params);
+        popup2.addView(cancel2,params);
+        popup2.addView(Delete, params);
+        popup2.setBackgroundColor(getResources().getColor(R.color.themecolor));
         window.setContentView(popup);
+        window2.setContentView(popup2);
 
 
         ImageView add = (ImageView) findViewById(R.id.adding);
@@ -85,6 +117,7 @@ public class Ingredients extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 curname[0]="";
+                name.setText("");
                 window.showAtLocation(findViewById(R.id.relativeLayout), 0, 500, 500);
 
             }
@@ -92,15 +125,47 @@ public class Ingredients extends ActionBarActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                window.showAtLocation(findViewById(R.id.relativeLayout), 0,
+                window2.showAtLocation(findViewById(R.id.relativeLayout), 0,
                         500, 500);
                 String ingname = ((TextView) view).getText().toString();
-                name.setText(ingname);
+                name2.setText(ingname);
                 curname[0] = ingname;
             }
         });
         final Activity thiss =this;
         Ok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!(curname[0].equals(""))) {
+                    ing.delete(curname[0]);
+                    curname[0] = "";
+                }
+                if (!(name.getText().toString().equals(""))) {
+                    ing.store(name.getText().toString());
+                    try {
+                        ing.writeRecipe(thiss);
+                    } catch (IOException e) {}
+                    window.dismiss();
+                }else {
+                    Toast.makeText(thishome, "Blank name field", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
+
+        Delete.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ing.delete(curname[0]);
+                try {
+                    ing.writeRecipe(thiss);
+                } catch (IOException e) {}
+                window.dismiss();
+                Trans.out((RelativeLayout)findViewById(R.id.relativeLayout), thiss, Ingredients.class);
+            }
+        });
+
+        Ok2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (!(curname[0].equals(""))) {
