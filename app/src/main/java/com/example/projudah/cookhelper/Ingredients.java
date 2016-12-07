@@ -55,11 +55,11 @@ public class Ingredients extends ActionBarActivity {
         final EditText unit  = new EditText(this);
         final EditText amount2 = new EditText(this);
         final EditText unit2  = new EditText(this);
-        name.setHint("Recipe Name");
-        name2.setHint("Recipe Name");
-        amount.setHint("Recipe Amount");
+        name.setHint("Ingredient Name");
+        name2.setHint("Ingredient Name");
+        amount.setHint("Ingredient Amount");
         unit.setHint("Amount unit");
-        amount2.setHint("Recipe Amount");
+        amount2.setHint("Ingredient Amount");
         unit2.setHint("Amount unit");
 
         window = new PopupWindow(this);

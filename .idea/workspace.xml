@@ -25,9 +25,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.projudah.cookhelper" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78826b5a-fa6a-47df-a195-0373bdb74454" name="Default" comment="stuff work now i guess">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java" />
+    <list default="true" id="78826b5a-fa6a-47df-a195-0373bdb74454" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Ingredients.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Ingredients.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -123,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edit.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Edit.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23613596" vertical-offset="990" max-vertical-offset="2108">
+            <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2108">
               <caret line="327" column="23" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
               <folding>
                 <element signature="method#onCreate#0;class#Edit#0" expanded="false" />
@@ -202,19 +200,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ingredients.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Ingredients.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Ingredients.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3213">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.8443223" vertical-offset="321" max-vertical-offset="3213">
+              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
               <folding>
                 <element signature="method#onCreate#0;class#Ingredients#0" expanded="false" />
-                <element signature="e#4782#5121#0" expanded="true" />
-                <element signature="e#5110#5111#0" expanded="true" />
-                <element signature="e#5162#5828#0" expanded="true" />
-                <element signature="e#5817#5818#0" expanded="true" />
-                <element signature="e#6687#7090#0" expanded="true" />
-                <element signature="e#7079#7080#0" expanded="true" />
+                <element signature="e#4798#5137#0" expanded="true" />
+                <element signature="e#5126#5127#0" expanded="true" />
+                <element signature="e#5178#5844#0" expanded="true" />
+                <element signature="e#5833#5834#0" expanded="true" />
+                <element signature="e#6703#7106#0" expanded="true" />
+                <element signature="e#7095#7096#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1185,9 +1183,9 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Search.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Home.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Ingredients.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Ingredients.java" />
       </list>
     </option>
   </component>
@@ -1809,7 +1807,11 @@
       <created>1481083166894</created>
       <updated>1481083166894</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="stuff work now i guess">
+      <created>1481086196168</created>
+      <updated>1481086196168</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1923,12 +1925,12 @@
           <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="method#onCreate#0;class#Ingredients#0" expanded="false" />
-            <element signature="e#4782#5121#0" expanded="true" />
-            <element signature="e#5110#5111#0" expanded="true" />
-            <element signature="e#5162#5828#0" expanded="true" />
-            <element signature="e#5817#5818#0" expanded="true" />
-            <element signature="e#6687#7090#0" expanded="true" />
-            <element signature="e#7079#7080#0" expanded="true" />
+            <element signature="e#4798#5137#0" expanded="true" />
+            <element signature="e#5126#5127#0" expanded="true" />
+            <element signature="e#5178#5844#0" expanded="true" />
+            <element signature="e#5833#5834#0" expanded="true" />
+            <element signature="e#6703#7106#0" expanded="true" />
+            <element signature="e#7095#7096#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2301,22 +2303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Ingredients.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3213">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-          <folding>
-            <element signature="method#onCreate#0;class#Ingredients#0" expanded="false" />
-            <element signature="e#4782#5121#0" expanded="true" />
-            <element signature="e#5110#5111#0" expanded="true" />
-            <element signature="e#5162#5828#0" expanded="true" />
-            <element signature="e#5817#5818#0" expanded="true" />
-            <element signature="e#6687#7090#0" expanded="true" />
-            <element signature="e#7079#7080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Add.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="3196">
@@ -2334,7 +2320,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Edit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23613596" vertical-offset="990" max-vertical-offset="2108">
+        <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2108">
           <caret line="327" column="23" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
           <folding>
             <element signature="method#onCreate#0;class#Edit#0" expanded="false" />
@@ -2344,6 +2330,22 @@
             <element signature="method#addstep#0;class#Edit#0" expanded="false" />
             <element signature="method#deletestep#0;class#Edit#0" expanded="false" />
             <element signature="method#emptystep#0;class#Edit#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/projudah/cookhelper/Ingredients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8443223" vertical-offset="321" max-vertical-offset="3213">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding>
+            <element signature="method#onCreate#0;class#Ingredients#0" expanded="false" />
+            <element signature="e#4798#5137#0" expanded="true" />
+            <element signature="e#5126#5127#0" expanded="true" />
+            <element signature="e#5178#5844#0" expanded="true" />
+            <element signature="e#5833#5834#0" expanded="true" />
+            <element signature="e#6703#7106#0" expanded="true" />
+            <element signature="e#7095#7096#0" expanded="true" />
           </folding>
         </state>
       </provider>
