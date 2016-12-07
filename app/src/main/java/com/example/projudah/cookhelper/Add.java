@@ -84,12 +84,16 @@ public class Add extends ActionBarActivity {
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);
         //getting variables
         IngredientList ing = new IngredientList();
+        ArrayList<String> ingedientsa = new ArrayList<>();
         ArrayList<String> ingedients = new ArrayList<>();
-        ingedients.add("no ingredient");
         try {
-            ingedients = ing.readRecipe(this);
+            ingedientsa = ing.readRecipe(this);
         } catch (IOException e) {
             e.printStackTrace();
+        }
+        for (String x: ingedientsa){
+            String[] split = x.split(" ;; ");
+            ingedients.add(split[0]+" amount: "+split[1]+" "+split[2]);
         }
         checkid = new int[ingedients.size()];
 

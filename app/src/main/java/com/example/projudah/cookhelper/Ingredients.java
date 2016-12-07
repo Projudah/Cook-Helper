@@ -42,22 +42,37 @@ public class Ingredients extends ActionBarActivity {
         try {
             ingslist = ing.readRecipe(this);
         } catch (IOException e){}
+
+
         ArrayAdapter my = new ArrayAdapter(this, android.R.layout.simple_list_item_1, ingslist);
+
         ListView list = (ListView) findViewById(R.id.ings);
         list.setAdapter(my);
+
         final EditText name = new EditText(this);
         final EditText name2 = new EditText(this);
+        final EditText amount = new EditText(this);
+        final EditText unit  = new EditText(this);
+        final EditText amount2 = new EditText(this);
+        final EditText unit2  = new EditText(this);
+        name.setHint("Recipe Name");
+        name2.setHint("Recipe Name");
+        amount.setHint("Recipe Amount");
+        unit.setHint("Amount unit");
+        amount2.setHint("Recipe Amount");
+        unit2.setHint("Amount unit");
+
         window = new PopupWindow(this);
         window.setOutsideTouchable(false);
-        window.setHeight(500);
-        window.setWidth(500);
+        window.setHeight(800);
+        window.setWidth(800);
         window.setFocusable(true);
         window2 = new PopupWindow(this);
         window2.setOutsideTouchable(false);
-        window2.setHeight(500);
-        window2.setWidth(500);
+        window2.setHeight(800);
+        window2.setWidth(800);
         window2.setFocusable(true);
-        final String[] curname = {""};
+        final String[] curname = {"","",""};
 
         TextView Ok = new TextView(this), cancel = new TextView(this) , Delete = new TextView(this), Ok2 = new TextView(this), cancel2 = new TextView(this);
         Ok.setClickable(true);
@@ -94,8 +109,11 @@ public class Ingredients extends ActionBarActivity {
         ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         ViewGroup.LayoutParams params2 = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         LinearLayout popup = new LinearLayout(this);
+
         popup.setOrientation(LinearLayout.VERTICAL);
         popup.addView(name, params2);
+        popup.addView(amount, params2);
+        popup.addView(unit, params2);
         popup.addView(Ok,params);
         popup.addView(cancel,params);
         popup.setBackgroundColor(getResources().getColor(R.color.themecolor));
@@ -103,6 +121,8 @@ public class Ingredients extends ActionBarActivity {
         LinearLayout popup2 = new LinearLayout(this);
         popup2.setOrientation(LinearLayout.VERTICAL);
         popup2.addView(name2, params2);
+        popup2.addView(amount2, params2);
+        popup2.addView(unit2, params2);
         popup2.addView(Ok2,params);
         popup2.addView(cancel2,params);
         popup2.addView(Delete, params);
@@ -113,25 +133,37 @@ public class Ingredients extends ActionBarActivity {
 
         ImageView add = (ImageView) findViewById(R.id.adding);
         add.setClickable(true);
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 curname[0]="";
                 name.setText("");
+                amount.setText("");
+                unit.setText("");
                 window.showAtLocation(findViewById(R.id.relativeLayout), 0, 500, 500);
 
             }
         });
+
+
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 window2.showAtLocation(findViewById(R.id.relativeLayout), 0,
                         500, 500);
                 String ingname = ((TextView) view).getText().toString();
-                name2.setText(ingname);
+                String n = ingname.split(" ;; ")[0];
+                String a = ingname.split(" ;; ")[1];
+                String u = ingname.split(" ;; ")[2];
+                name2.setText(n);
+                amount2.setText(a);
+                unit2.setText(u);
                 curname[0] = ingname;
             }
         });
+
+
         final Activity thiss =this;
         Ok.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -141,7 +173,7 @@ public class Ingredients extends ActionBarActivity {
                     curname[0] = "";
                 }
                 if (!(name.getText().toString().equals(""))) {
-                    ing.store(name.getText().toString());
+                    ing.store(name.getText().toString()+" ;; "+ amount.getText().toString()+" ;; "+ unit.getText().toString());
                     try {
                         ing.writeRecipe(thiss);
                     } catch (IOException e) {}
@@ -173,7 +205,7 @@ public class Ingredients extends ActionBarActivity {
                     curname[0] = "";
                 }
                 if (!(name.getText().toString().equals(""))) {
-                    ing.store(name.getText().toString());
+                    ing.store(name2.getText().toString()+" ;; "+ amount2.getText().toString()+" ;; "+ unit2.getText().toString());
                     try {
                         ing.writeRecipe(thiss);
                     } catch (IOException e) {}
@@ -191,4 +223,5 @@ public class Ingredients extends ActionBarActivity {
     public void onBackPressed() {
         Trans.back(this,(RelativeLayout)findViewById(R.id.root));
     }
+
 }

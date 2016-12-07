@@ -323,12 +323,17 @@ public class Edit extends ActionBarActivity {
         LinearLayout inglayout = (LinearLayout) findViewById(R.id.ing);
         ArrayList<String> allings = new ArrayList<String>(); //from storage
         IngredientList ings = new IngredientList();
+        ArrayList<String> ingedientsa = new ArrayList<>();
         try {
-            allings = ings.readRecipe(this);
+            ingedientsa = ings.readRecipe(this);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
+        for (String x: ingedientsa){
+            String[] split = x.split(" ;; ");
+            allings.add(split[0]+" amount: "+split[1]+" "+split[2]);
+        }
 
         checkid = new int[allings.size()];
 
