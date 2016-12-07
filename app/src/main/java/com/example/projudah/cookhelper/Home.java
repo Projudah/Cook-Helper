@@ -302,19 +302,30 @@ public class Home extends ActionBarActivity {
                         searched = true;
                         cattype = true;
                         if (type && category) {
-
-                            category = false; type =false;
-                        }else{
-                            category = true;
+                            Spinner x = (Spinner) thiss.findViewById(R.id.spinner2);
+                            String prechoice = x.getSelectedItem().toString();
+                            name = Search.getRecipesThatSatisfyString(recipes, prechoice, 2);
+                            name = Search.getRecipesThatSatisfyString(name, choice, 1);
                         }
+                        category = true;
+
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
                     home();
 
                 }else if( cattype) {
-                    category =false;
-                    cattype = false;
+                    if (type){
+                        Spinner x = (Spinner) thiss.findViewById(R.id.spinner2);
+                        String prechoice = x.getSelectedItem().toString();
+                        try {
+                            name = Search.getRecipesThatSatisfyString(recipes, prechoice, 2);
+                            searched = true;
+                        } catch (IOException e) {}
+                    }else{
+                        cattype = false;
+                    }
+                    category = false;
                     home();
                 }
 
@@ -339,11 +350,13 @@ public class Home extends ActionBarActivity {
                             name = Search.getRecipesThatSatisfyString(recipes, choice, 2);
                         }
                         if (type && category) {
-                            category = false; type =false;
-                        }else{
-                            type = true;
+                            Spinner x = (Spinner) thiss.findViewById(R.id.spinner);
+                            String prechoice = x.getSelectedItem().toString();
+                            name = Search.getRecipesThatSatisfyString(recipes, prechoice, 1);
+                            name = Search.getRecipesThatSatisfyString(name, choice, 2);
                         }
                         searched = true;
+                        type = true;
                         cattype = true;
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -351,8 +364,19 @@ public class Home extends ActionBarActivity {
                     cattype =true;
                     home();
                 }else if( cattype) {
+                    if (category){
+                        Spinner x = (Spinner) thiss.findViewById(R.id.spinner);
+                        String prechoice = x.getSelectedItem().toString();
+                        try {
+                            name = Search.getRecipesThatSatisfyString(recipes, prechoice, 1);
+                            searched = true;
+                        } catch (IOException e) {}
+                    }else{
+                        cattype = false;
+                    }
+
                     type = false;
-                    cattype = false;
+
                     home();
                 }
 
